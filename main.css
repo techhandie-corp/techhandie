@@ -193,46 +193,6 @@ li {
 /* Show the dropdown menu on hover */
 .h-menu:hover .hidden {display: block;}
 
-
-
-/*-- Original --*/
-
-/* header {
-  background-color: #000000; /* black */
-  padding: 20px 0;
-}
-header .navbar {
-  color: #ffffff; /* = white */
-  margin-bottom: 0px;
-  border: 0px;
-}
-header .navbar-brand { /* masthead */
-  color: #ffffff !important;
-  padding-top: 25px;
-  font-family: "Handel Gothic", "Geneva", sans-serif !important;
-  font-size: 1.7em;
-  font-weight: bold;
-}
-header .navbar-default {
-  background-color: #000000;
-  border: 0px;
-}
-header .navbar-default .navbar-nav {
-  padding-top: 10px;
-}
-header .navbar-default .navbar-nav li a {
-  color: white; /* #333333 */
-  padding: 10px 26px;
-  font-size: 15px;
-}
-header .navbar-default .navbar-nav li a:hover {
-  color: #428bca;
-}
-font header .navbar-default .navbar-nav li a:hover {
-  color: #c2d1f0;/* #000 */
-}
- */
-
 /*--	Header End --*/
 
 /*-- Slider Start --*/ /* in Index */
