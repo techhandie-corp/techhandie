@@ -5,27 +5,27 @@
 
 /*-- Font Sourcing --*/
 
-@import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans:400,300,600|Roboto:400,100,300,500,700|Volkhov:400italic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov&display=swap');
 
 @font-face {
   font-family: 'Belleza';
-  src: url("Belleza.ttf") format('ttf');
+  src: url("fonts/Belleza.ttf") format('ttf');
 }
 @font-face {
   font-family: 'Bitter';
-  src: url("Bitter.ttf") format('ttf');
+  src: url("fonts/Bitter.ttf") format('ttf');
 }
 @font-face {
   font-family: 'fontawesome-webfont';
-  src: url("fontawesome-webfont.woff") format('woff');
+  src: url("fonts/fontawesome-webfont.woff") format('woff');
 }
 @font-face {
   font-family: 'Handel Gothic';
-  src: url("Handel-Gothic.ttf") format('ttf');
+  src: url("fonts/Handel-Gothic.ttf") format('ttf');
 }
 @font-face {
   font-family: 'Milkshake';
-  src: url("Milkshake.ttf") format('ttf');
+  src: url("fonts/Milkshake.ttf") format('ttf');
 }
 
 /*-- Font sourcing End --*/
@@ -77,6 +77,7 @@ ul {
   margin: 0;
   list-style: none;
 }
+  
 a, a:active, a:focus, a:active {
   text-decoration: none !important;
 }
@@ -84,11 +85,13 @@ a, a:active, a:focus, a:active {
 .section-title {
   margin-bottom: 30px; /* 70px */
 }
+  
 .section-title h2 {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
 }
+  
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
@@ -115,15 +118,15 @@ a, a:active, a:focus, a:active {
 }
 
 #brand {
-  color: #ffffff !important;
-  padding-top: 25px;
+  color: ivory !important;/* white */
+/*   padding-top: 25px; */
   font-family: "Handel Gothic", "Geneva", sans-serif !important;
   font-size: 1.75em;
   font-weight: bold;
   padding-left: 50px;
 }
 
-a {
+#head-container a {
   text-decoration: none !important;
   color: ivory;
 }
