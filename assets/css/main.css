@@ -21,11 +21,11 @@
 }
 @font-face {
   font-family: 'Handel Gothic';
-  src: url("fonts/Handel-Gothic.ttf") format('ttf');
+  src: url("../fonts/Handel-Gothic.ttf") format('ttf');
 }
 @font-face {
   font-family: 'Milkshake';
-  src: url("fonts/Milkshake.ttf") format('ttf');
+  src: url("../fonts/Milkshake.ttf") format('ttf');
 }
 
 /*-- Font sourcing End --*/
@@ -47,6 +47,11 @@
 .just {text-align: justify;}
 
 /**********************/
+
+#site-container {
+  width: 100vw;
+  margin: 0 auto;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -75,7 +80,7 @@ p {
 ul {
   padding: 0;
   margin: 0;
-  list-style: none;
+  list-style-type: none;
 }
   
 a, a:active, a:focus, a:active {
@@ -198,7 +203,7 @@ li {
 
 /*--	Header End --*/
 
-/*-- Slider Start --*/ /* in Index */
+/*-- content Start --*/ /* in Index */
 
 h1.weighty {
   font-family: 'Bitter', serif;
@@ -206,7 +211,7 @@ h1.weighty {
   color: #120337;
 }
 
-#slider {
+#content {
   background: url("img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -214,7 +219,7 @@ h1.weighty {
   padding: 200px 0 280px 0;
   position: relative;
 }
-#slider:before {
+#content:before {
   content: "";
   position: absolute;
   left: 0;
@@ -226,10 +231,10 @@ h1.weighty {
   background-color: #f2f2f2; /* linear-gradient(to left, #8b86a3, #322e40); */
   opacity: 0.5;
 }
-#slider .block {
+#content .block {
   color: #222222;
 }
-#slider .block h1 {
+#content .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
@@ -237,7 +242,7 @@ h1.weighty {
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
-#slider .block p {
+#content .block p {
   color: #222222;
   font-size: 23px;
   line-height: 40px;
@@ -368,7 +373,7 @@ h1.weighty {
 
 /*-- Global-Header --*/
 #global-header {
-  background: url("../img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background: url("img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
   background-size: cover;
   padding-top: 65px; /* 150px */
   padding-bottom: 25px; /* 107px */

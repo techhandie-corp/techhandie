@@ -1,0 +1,59 @@
+exclude:
+  - "/vendor/"
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - LICENSE
+  - README.md
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - backups
+  - next_steps.md
+  - next_steps.css
+  - _site.zip
+
+exclude: [Rakefile]
+
+Keep files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+#Site Settings
+title: TechHandie Corporation
+owner: TechHandie Corporation
+email: admin@techhandie.com
+description: TechHandie Corporation is a technology company providing web design, web development, computer programming, and consulting services to small and medium size businesses
+
+url: "https://techhandie-corp.github.io/techhandie/"
+# Use actual Github site url not CNAME, if one used;
+# CNAME - "https://www.cdccornerstone.org/"  https://localhost:63342/Cornerstone/Cornerstone/ https://kens-coding-kayceejjay.c9users.io/ in development
+baseurl: ""
+webmaster: TechHandie Corporation
+webmaster_email: admin@techhandie.com
+webmaster_url: "https://www.techhandie.com"
+
+#Build Settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+
+#Key Paths
+assets:
+  #load_paths:
+  - attachments
+  - css
+  - fonts
+  - images
+  - videos
+
+#sass:
+#  sass_dir: _sass
+#  load_paths:
+#    - _sass
+#    - node_modules
