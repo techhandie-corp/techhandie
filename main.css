@@ -1,5 +1,5 @@
 /****************/
-/*    General   */	 
+/*    General   */
 /****************/
 
 
@@ -21,11 +21,11 @@
 }
 @font-face {
   font-family: 'Handel Gothic';
-  src: url("../fonts/Handel-Gothic.ttf") format('ttf');
+  src: url("fonts/Handel-Gothic.ttf") format('ttf');
 }
 @font-face {
   font-family: 'Milkshake';
-  src: url("../fonts/Milkshake.ttf") format('ttf');
+  src: url("fonts/Milkshake.ttf") format('ttf');
 }
 
 /*-- Font sourcing End --*/
@@ -82,7 +82,7 @@ ul {
   margin: 0;
   list-style-type: none;
 }
-  
+
 a, a:active, a:focus, a:active {
   text-decoration: none !important;
 }
@@ -90,13 +90,13 @@ a, a:active, a:focus, a:active {
 .section-title {
   margin-bottom: 30px; /* 70px */
 }
-  
+
 .section-title h2 {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
 }
-  
+
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
@@ -105,12 +105,12 @@ a, a:active, a:focus, a:active {
 
 /*--	Common CSS End --*/
 
-  
+
 /***********************/
 /*** * General End * ***/
-/***********************/  
-  
-  
+/***********************/
+
+
  /*-- Header Start --*/
 
 #head-container {
@@ -212,7 +212,7 @@ h1.weighty {
 }
 
 #content {
-  background: url("img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background: url("images/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -340,7 +340,7 @@ h1.weighty {
   text-align: center;
   width: 100%;
   height: 350px;
-  padding: 20px 0;  
+  padding: 20px 0;
 }
 #news .block {
   text-transform: none;
@@ -358,7 +358,7 @@ h1.weighty {
   font-weight: bold;
   text-align: justify;
   font-style: normal;
-} 
+}
 #news ul {
   color: #1D1D1D;
   font-family: 'Roboto', sans-serif;
@@ -373,7 +373,7 @@ h1.weighty {
 
 /*-- Global-Header --*/
 #global-header {
-  background: url("img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background: url("images/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
   background-size: cover;
   padding-top: 65px; /* 150px */
   padding-bottom: 25px; /* 107px */
@@ -420,7 +420,7 @@ h1.weighty {
 }
 #global-header .block p a:hover {
   color: #426bca;
-  font-style: italic; 
+  font-style: italic;
 }
 /*-- Global-Header End --*/
 
