@@ -45,7 +45,7 @@ plugins:
 
 #Key Paths
 assets:
-  #load_paths:
+  load_paths:
   - attachments
   - css
   - fonts

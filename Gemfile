@@ -3,7 +3,8 @@ ruby '2.4.2'
 
 # We'll need rake to build our site in TravisCI
 gem 'rake', '>=12'
-gem 'jekyll', '>= 3.8.6'
+gem 'jekyll', '>= 3.8.5'
+gem 'github-pages'
 gem 'nokogiri', '>= 1.10.4'
 
 group :development do
