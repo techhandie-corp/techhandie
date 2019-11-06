@@ -21,11 +21,11 @@
 }
 @font-face {
   font-family: 'Handel Gothic';
-  src: url("../fonts/Handel-Gothic.ttf") format('ttf');
+  src: url("fonts/Handel-Gothic.ttf") format('ttf');
 }
 @font-face {
   font-family: 'Milkshake';
-  src: url("../fonts/Milkshake.ttf") format('ttf');
+  src: url("fonts/Milkshake.ttf") format('ttf');
 }
 
 /*-- Font sourcing End --*/
@@ -212,7 +212,7 @@ h1.weighty {
 }
 
 #content {
-  background: url("img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background: url("images/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -373,7 +373,7 @@ h1.weighty {
 
 /*-- Global-Header --*/
 #global-header {
-  background: url("img/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background: url("images/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
   background-size: cover;
   padding-top: 65px; /* 150px */
   padding-bottom: 25px; /* 107px */
