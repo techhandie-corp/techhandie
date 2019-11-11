@@ -1,58 +1,53 @@
 /****************/
 /*    General   */
 /****************/
+/* https://techhandie-corp.github.io/techhandie/ */
+
 /*-- Font Sourcing --*/
+
 @import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov&display=swap');
 
 @font-face {
   font-family: 'Belleza';
   src: url("fonts/Belleza.ttf") format('ttf');
 }
-
 @font-face {
   font-family: 'Bitter';
   src: url("fonts/Bitter.ttf") format('ttf');
 }
-
 @font-face {
   font-family: 'fontawesome-webfont';
   src: url("fonts/fontawesome-webfont.woff") format('woff');
 }
-
 @font-face {
   font-family: 'Handel Gothic';
   src: url("fonts/Handel-Gothic.ttf") format('ttf');
 }
-
 @font-face {
   font-family: 'Milkshake';
   src: url("fonts/Milkshake.ttf") format('ttf');
 }
 
 /*-- Font sourcing End --*/
+
+
 /*--	Common Css --*/
+
+
 /****** Featured ******/
-.shine {
-  filter: brightness(120%);
-}
 
-.matte {
-  filter: contrast(50%);
-}
+.shine {filter: brightness(120%);}
 
-.weighty {
-  font-weight: 700;
-}
+.matte {filter: contrast(50%);}
 
-.center {
-  text-align: center;
-}
+.weighty {font-weight: 700;}
 
-.just {
-  text-align: justify;
-}
+.center {text-align: center;}
+
+.just {text-align: justify;}
 
 /**********************/
+
 #site-container {
   width: 100vw;
   margin: 0 auto;
@@ -82,7 +77,6 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
-
 ul {
   padding: 0;
   margin: 0;
@@ -94,8 +88,7 @@ a, a:active, a:focus, a:active {
 }
 
 .section-title {
-  margin-bottom: 30px;
-  /* 70px */
+  margin-bottom: 30px; /* 70px */
 }
 
 .section-title h2 {
@@ -111,25 +104,27 @@ a, a:active, a:focus, a:active {
 }
 
 /*--	Common CSS End --*/
+
+
 /***********************/
 /*** * General End * ***/
 /***********************/
-/*-- Header Start --*/
+
+
+ /*-- Header Start --*/
+
 #head-container {
   display: flex;
   flex-direction: row;
   background-color: black;
   border: 3px dotted gold;
-  align-items: center;
-  /*center vertically*/
-  justify-content: space-between;
-  /*horizontal positioning*/
+  align-items: center;/*center vertically*/
+  justify-content: space-between;/*horizontal positioning*/
 }
 
 #brand {
-  color: ivory !important;
-  /* white */
-  /*   padding-top: 25px; */
+  color: ivory !important;/* white */
+/*   padding-top: 25px; */
   font-family: "Handel Gothic", "Geneva", sans-serif !important;
   font-size: 1.75em;
   font-weight: bold;
@@ -170,8 +165,8 @@ li {
   max-height: 150px;
   position: absolute;
   background-color: #f1f1f1;
-  /*   min-width: 160px; */
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+/*   min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: justify;
   padding: 0;
@@ -197,20 +192,19 @@ li {
 .hidden a:hover {
   background-color: #ddd;
   height: 40px;
-  /*   line-height: 40px; */
+/*   line-height: 40px; */
   text-align: justify;
   z-index: 4;
   text-decoration: none;
 }
 
 /* Show the dropdown menu on hover */
-.h-menu:hover .hidden {
-  display: block;
-}
+.h-menu:hover .hidden {display: block;}
 
 /*--	Header End --*/
-/*-- content Start --*/
-/* in Index */
+
+/*-- content Start --*/ /* in Index */
+
 h1.weighty {
   font-family: 'Bitter', serif;
   margin: 50px 0;
@@ -218,14 +212,13 @@ h1.weighty {
 }
 
 #content {
-  background: url("images/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background-image: url("images/Brooklyn-Bridge-Under-Construction-1883.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
 }
-
 #content:before {
   content: "";
   position: absolute;
@@ -235,15 +228,12 @@ h1.weighty {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #f2f2f2;
-  /* linear-gradient(to left, #8b86a3, #322e40); */
+  background-color: #f2f2f2; /* linear-gradient(to left, #8b86a3, #322e40); */
   opacity: 0.5;
 }
-
 #content .block {
   color: #222222;
 }
-
 #content .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -252,7 +242,6 @@ h1.weighty {
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
-
 #content .block p {
   color: #222222;
   font-size: 23px;
@@ -264,39 +253,31 @@ h1.weighty {
 
 /*-- History Start --*/
 #history {
-  padding: 30px 0;
-  /* 50 */
+  padding: 30px 0; /* 50 */
   background: #f2f2f2;
 }
-
 #history .block h2 {
   text-transform: none;
   font-family: 'Milkshake', cursive;
   font-size: 1.75em;
-  padding-top: 20px;
-  /* 35px */
+  padding-top: 20px; /* 35px */
   line-height: 27px;
   margin: 0;
 }
-
 #history .block p {
-  color: #1D1D1D;
-  /* #7B7B7B */
+  color: #1D1D1D; /* #7B7B7B */
   padding-top: 20px;
   font-family: 'Bitter', serif;
   font-size: 1.2em;
   text-align: justify;
   font-style: normal;
 }
-
 #history .section-title {
   margin-bottom: 0px;
 }
-
 #history .section-title p {
   padding-top: 20px;
 }
-
 #history ul {
   color: #1D1D1D;
   font-family: 'Belleza', serif;
@@ -304,47 +285,40 @@ h1.weighty {
   padding-top: 15px;
   list-style-type: disc;
 }
-
 #history .signoff p {
   font-family: 'Milkshake', cursive;
   font-size: 1.5em;
   padding: 20px 10px 15px 0;
   text-align: right;
 }
-
 #history .signoff p span {
   font-family: 'Roboto', sans-serif;
   font-size: 0.75em;
   padding: 20px 0px 15px 0;
   text-align: right;
 }
-
 /*-- History End --*/
+
 /*-- Service Start --*/
 #service {
   background: #f2f2f2;
   text-align: center;
   padding: 50px 0;
 }
-
 #service .service-item {
   padding-bottom: 30px;
 }
-
 #service .service-item i {
   font-size: 60px;
   color: #4A4656;
 }
-
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
   color: #666;
 }
-
 #service .service-item p {
-  color: #1D1D1D;
-  /* #888; */
+  color: #1D1D1D; /* #888; */
   padding-top: 10px;
   padding-right: 20px;
   margin: 0;
@@ -353,14 +327,13 @@ h1.weighty {
   text-align: justify;
   /* font-style: italic; */
 }
-
 #service .sectitle {
   color: #1D1D1D;
   font-size: 1.2em;
   font-style: normal !important;
 }
-
 /*-- Service End --*/
+
 /*-- News Start --*/
 #news {
   background: #f2f2f2;
@@ -369,7 +342,6 @@ h1.weighty {
   height: 350px;
   padding: 20px 0;
 }
-
 #news .block {
   text-transform: none;
   color: #1D1D1D;
@@ -378,10 +350,8 @@ h1.weighty {
   line-height: 27px;
   margin: 50px 0 40px 0;
 }
-
 #news .block h3 a {
-  color: #1D1D1D;
-  /* #7B7B7B */
+  color: #1D1D1D; /* #7B7B7B */
   margin-top: 40px;
   font-family: 'Volkhov', cursive;
   font-size: 0.8em;
@@ -389,7 +359,6 @@ h1.weighty {
   text-align: justify;
   font-style: normal;
 }
-
 #news ul {
   color: #1D1D1D;
   font-family: 'Roboto', sans-serif;
@@ -400,22 +369,18 @@ h1.weighty {
   list-style: square;
   margin: 0 25% 0 20%;
 }
-
 /*-- News End --*/
+
 /*-- Global-Header --*/
 #global-header {
-  background: url("images/Brooklyn-Bridge-Under-Construction-1883.png") no-repeat;
+  background-image: url("images/Brooklyn-Bridge-Under-Construction-1883.png");
   background-size: cover;
-  padding-top: 65px;
-  /* 150px */
-  padding-bottom: 25px;
-  /* 107px */
+  padding-top: 65px; /* 150px */
+  padding-bottom: 25px; /* 107px */
   position: relative;
   background-attachment: fixed;
-  border-bottom: none;
-  /* 1px solid #222222; */
+  border-bottom: none; /* 1px solid #222222; */
 }
-
 #global-header:before {
   content: "";
   position: absolute;
@@ -425,19 +390,15 @@ h1.weighty {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #f2f2f2;
-  /* linear-gradient(to left, #928dab, #1f1c2c 70%); */
+  background: #f2f2f2; /* linear-gradient(to left, #928dab, #1f1c2c 70%); */
   opacity: 0.5;
 }
-
 #global-header .block {
-  color: #1D1D1D;
-  /* #E3E3E4 */
+  color: #1D1D1D; /* #E3E3E4 */
   margin: 0 auto;
   padding-left: 90px;
   text-align: center;
 }
-
 #global-header .block h1 {
   font-weight: 300;
   font-size: 45px;
@@ -446,7 +407,6 @@ h1.weighty {
   margin-top: 0;
   text-transform: capitalize;
 }
-
 #global-header .block p {
   color: black;
   font-size: 1.5em;
@@ -454,31 +414,26 @@ h1.weighty {
   letter-spacing: 1px;
   word-spacing: 2px;
 }
-
 #global-header .block p a {
   color: black;
   text-decoration: underline;
 }
-
 #global-header .block p a:hover {
   color: #426bca;
   font-style: italic;
 }
-
 /*-- Global-Header End --*/
+
 /*-- Contact-form Start --*/
 #contact-form {
-  background: #A3A3A3;
-  /* #f2f2f2 */
+  background: #A3A3A3; /* #f2f2f2 */
   padding-top: 35px;
   padding-bottom: 35px;
 }
-
-#contact-form p {
+#contact-form p{
   color: white;
   font-style: italic;
 }
-
 #contact-form .block form .form-group {
   color: white;
   padding-top: 40px;
@@ -486,34 +441,27 @@ h1.weighty {
   margin: 0px;
   width: 100%;
 }
-
 #contact-form .block form .form-group .form-control {
   color: black;
-  background: #ffffff;
-  /* #F6F8FA */
+  background: #ffffff; /* #F6F8FA */
   height: 60px;
-  border: 1px solid #EBF0FA;
-  /* #EEF2F6 */
+  border: 1px solid #EBF0FA; /* #EEF2F6 */
   box-shadow: none;
   width: 100%;
 }
-
 #contact-form .block form .form-group-2 {
   padding-bottom: 15px;
-}
 
+}
 #contact-form .block .form-group-2 textarea {
   color: black;
-  background: #ffffff;
-  /* #F6F8FA */
+  background: #ffffff; /* #F6F8FA */
   height: 135px;
-  border: 1px solid #EBF0FA;
-  /* #EEF2F6 */
+  border: 1px solid #EBF0FA; /* #EEF2F6 */
   box-shadow: none;
   width: 100%;
   margin: 40px 0 20px 0;
 }
-
 #contact-form .block button {
   width: 100%;
   height: 60px;
@@ -523,7 +471,6 @@ h1.weighty {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
-
 #contact-form .block form .field-block {
   color: white;
   margin-top: 20px;
@@ -531,14 +478,12 @@ h1.weighty {
   display: block;
   text-align: justify;
 }
-
 #contact-form .block form .field {
   color: white;
   font-size: 1.1em;
   padding-top: 40px;
   padding-bottom: 35px;
 }
-
 #contact-form .block form .btn {
   background: #f2f2f2;
   border: none;
@@ -547,55 +492,46 @@ h1.weighty {
   width: 150px;
   height: 50px;
 }
-
 #contact-form .block form .btn:hover {
   background: #428bca;
   color: white;
 }
-
 #contact-form .info-title h2 {
   font-family: 'Bitter', serif;
   font-size: 1.5em;
   color: white;
   text-decoration: underline;
 }
-
 #contact-form .info-title h3 {
   font-family: 'Handel Gothic', sans-serif;
   font-size: 1.125em;
   color: white;
   margin-top: 0px;
 }
-
 #contact-form .info-title a {
   color: white;
 }
-
 #contact-form .info-title a:hover {
   text-decoration: underline;
   color: #426bca;
 }
-
 #contact-form img {
   padding-right: 10px;
 }
-
 /*-- Contact-form End --*/
+
 /*--  Thank You --*/
 #thank-you .container {
   width: 100%;
-  height: 400px;
-  /* 375px; */
+  height: 400px; /* 375px; */
   background: #BFBFBF;
   opacity: 0.6;
   background-size: cover;
   margin: 0;
 }
-
 #thank-you .row .no-gutters {
   height: auto;
 }
-
 #thank-you .block {
   color: white;
   padding-top: 100px;
@@ -603,45 +539,40 @@ h1.weighty {
   height: 400px;
   width: 100%;
 }
-
 #thank-you .block h2 {
   /* padding-top: 20px; */
 }
-
 #thank-you .block p {
   text-align: center;
   font-size: 1.25em;
   /*padding-top: 20px; */
   line-height: 28px;
 }
-
 #thank-you .section-title {
   text-align: center;
   margin-bottom: 0px;
 }
-
 /*-- Thank You End --*/
+
 /*--------- Heading Start ------------*/
 .heading {
   padding-bottom: 60px;
   text-align: center;
 }
-
 .heading h2 {
   color: #000;
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
 }
-
 .heading p {
   font-size: 18px;
   line-height: 40px;
   color: #292929;
   font-weight: 300;
 }
-
 /*------------ Heading End -----------*/
+
 /*--	Footer Start --*/
 footer {
   background: #000000;
@@ -649,41 +580,30 @@ footer {
   padding-top: 40px;
   padding-bottom: 15px;
 }
-
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #ffffff;
-  /* 919191 */
+  color: #ffffff; /* 919191 */
 }
-
 footer a {
-  color: #ffffff;
-  /* #595959; */
+  color: #ffffff;/* #595959; */
 }
-
 footer .footer-manu {
   padding-bottom: 25px;
 }
-
 footer .footer-manu ul {
   margin: 0px;
   padding: 0px;
 }
-
 footer .footer-manu ul li {
   display: inline-block;
   padding: 0px 20px;
 }
-
 footer .footer-manu ul li a {
   display: inline-block;
-  color: #f2f2f2;
-  /* #494949; */
+  color: #f2f2f2; /* #494949; */
 }
-
 footer .footer-manu ul li a:hover {
   color: #428bca;
 }
-
 /*-- Footer End --*/
