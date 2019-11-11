@@ -48,6 +48,18 @@
 
 /**********************/
 
+
+@root: {
+--charcoal: #222222;
+--grey: #555555;
+--light-grey: #eaeaea;
+--medium-light-grey: #e6e6e6;
+--obsidian: #0d0d26;
+--shale: #c2c2c2;
+--water: #f2f2f2;
+}
+
+
 #site-container {
   width: 100vw;
   margin: 0 auto;
@@ -165,14 +177,14 @@ li {
   max-width: 185px;
   max-height: 150px;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: var(--water);/*f1f1f1*/
 /*   min-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: justify;
   padding: 0;
   margin: 0 0 0 15px;
-  border: 1px dotted cadetblue;
+  border: 1px dotted var(--medium-light-grey);/*cadetblue*/
 }
 
 .hidden li {
