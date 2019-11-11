@@ -63,7 +63,7 @@
 #site-container {
   width: 100vw;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
 }
 
 body {
@@ -157,7 +157,6 @@ a, a:active, a:focus, a:active {
   font-family: 'Volkhov';
   font-size: 1em;
   padding: 10px;
-  color: var(--charcoal);
 }
 
 .dropdown {
@@ -170,7 +169,6 @@ a, a:active, a:focus, a:active {
   float: left;
   margin-right: 0px;
   padding-left: 5px;
-  color: var(--charcoal) !important;
 }
 
 .hidden {
@@ -274,7 +272,7 @@ div.col-md-10.col-md-offset-2 {
 /*-- History Start --*/
 #history {
   padding: 30px 0; /* 50 */
-  background: #f2f2f2;
+  background: var(--water);
 }
 #history .block h2 {
   text-transform: none;
