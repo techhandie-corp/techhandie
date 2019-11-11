@@ -149,7 +149,7 @@ a, a:active, a:focus, a:active {
   color: ivory;
 }
 
-li {
+#head-container li {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
@@ -199,7 +199,7 @@ li {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: steelblue;
+  color: var(--charcoal) !important;
 }
 
 /* Change color of dropdown links on hover */
@@ -242,7 +242,7 @@ h1.weighty {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #f2f2f2; /* linear-gradient(to left, #8b86a3, #322e40); */
+  background-color: var(--water); /* linear-gradient(to left, #8b86a3, #322e40); */
   opacity: 0.5;
 }
 #content .block {
