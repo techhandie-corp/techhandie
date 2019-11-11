@@ -160,7 +160,7 @@ a, a:active, a:focus, a:active {
 }
 
 .dropdown {
-  position: relative;
+  /* position: relative; */
   padding: 20px 150px 0 0;
 }
 

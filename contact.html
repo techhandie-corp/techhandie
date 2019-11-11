@@ -1,0 +1,68 @@
+
+
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Drop Us A Note</h1>
+          <p>We want to hear from you. However, if you need to learn more about our services, please use the information requisition form <a href="{{ site.baseurl }}/reqinfo">here</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact form start -->
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <form accept-charset="UTF-8" action="https://formspree.io/admin@techhandie.com" method="POST">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <!-- <input type='hidden' name='redirect_to' value="{{ site.baseurl }}/thankyou/" /> -->
+            <div class="form-group">
+              <input type="hidden" class="form-control" name="Source" value="Contact Info" >
+              <input type="text" class="form-control" name="Your Name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="Email Address" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="Subject" placeholder="Subject">
+            </div>
+        </div><!-- block -->
+      </div><!-- colmd6 -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+            <div class="form-group-2">
+              <textarea class="form-control" name="Message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+        </div><!-- block -->
+      <button class="btn btn-default" type="submit">Send Message</button>
+          </form>
+        <div class="info-title">
+
+            <h2 class="info-title">Contact Information</h2>
+            <h3 class="info-title">TechHandie Corporation</h3>
+
+            <div class="info-title">
+                <img src="{{ site.baseurl }}/img/phone.svg" alt="Phone" width="30" height="30">
+                <a href="#">(201) 817-9826</a> <!--tel:1-201-817-9826-->
+                <br>
+                <br>
+                <img src="{{ site.baseurl }}/img/printer.svg" alt="Fax" width="30" height="30">
+                <a href="#">(201) 603-6967</a> <!--fax:1-201-603-6967-->
+                <br>
+                <br>
+                <img src="{{ site.baseurl }}/img/email.svg" alt="Email" width="30" height="30">
+                <a href="#">Customer Service [info@techhandie.com]</a> <!--"mailto:info@techhandie.com?Subject=Info%20Message" target="_top"-->
+            </div>
+
+        </div><!-- info-title -->
+
+      </div><!-- colmd6-sm12 -->
+    </div><!-- row -->
+  </div><!-- container -->
+</section>

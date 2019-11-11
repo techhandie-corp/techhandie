@@ -1,0 +1,67 @@
+---
+layout: page
+title: Information Requisition
+permalink: /reqinfo/
+---
+
+<!-- Header Start -->
+<section id="global-header">
+  <div class="container">
+    <div class"row">
+        <div class="col-md-12">
+            <div class="block">
+                <h1>{{ page.title }}</h1>
+                <p class="instruct">Please complete and send.</p>
+            </div><!-- block -->
+        </div><!-- col-md12 -->
+    </div><!-- row -->
+  </div><!-- container -->
+</section><!-- global header -->
+<!-- Contact form start -->
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+        <p class="require">* required fields</p>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <form accept-charset="UTF-8" action="https://formspree.io/admin@techhandie.com" method="POST">
+            <div class="form-group">
+              <input type='hidden' class="form-control" name="Source" value="Req Info" >
+              <label for="firstname-input" class="form-label">* First Name: </label>
+              <input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="First Name" required="true">
+
+              <label for="lastname-input" class="form-label">* Last Name: </label>
+              <input type="text"  pattern="[A-Za-z]{1..50}" class="form-control" name="Last Name" required="true">
+
+              <label for="phone-input" class="form-label">* Phone Number   <i>(10 digits; no hyphens)</i> :</label>
+              <input type="text"  pattern="[0-9]{10}" class="form-control" name="Phone" require="true">
+
+              <label for="email-input" class="form-label">* Email Address: </label>
+              <input type="text" pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i" class="form-control" name="Email" required="true">
+
+              <div class="field-block">
+                I am interested in having a:<br>
+                <input type="checkbox" class="field" name="interest2" value="Consult">   free consultation<br>
+                <input type="checkbox" class="field" name="interest3" value="Design">    website designed<br>
+                <input type="checkbox" class="field" name="interest4" value="Develop">   web application developed
+              </div><!-- field-block -->
+              <button type="submit" class="btn btn-info btn-lg">Send</button>
+            </div><!-- form-group --
+          </form><!-- action -->
+
+<!--          </form>-->
+<!--        </div><!-- block -->
+<!--      </div><!-- md6sm12 -->
+<!--      <div class="col-md-6 col-sm-12">-->
+<!--        <div class="block">-->
+<!--          <form>-->
+<!--            <div class="form-group-2">-->
+<!--              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>-->
+<!--            </div>-->
+<!--            <button class="btn btn-default" type="submit">Send Message</button>-->
+<!--          </form>-->
+        </div><!-- block -->
+      </div><!-- md6sm12 -->
+    </div><!-- row -->
+  </div><!-- container -->
+</section><!-- contact -->
