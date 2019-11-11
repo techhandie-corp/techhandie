@@ -256,6 +256,8 @@ div.col-md-10.col-md-offset-2 {
   margin: auto 0% auto 25%;
 }
 
+#content .block h2 {font-weight: 600;}
+
 /*-- History Start --*/
 #history {
   padding: 30px 0; /* 50 */
