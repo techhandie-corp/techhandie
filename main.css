@@ -173,7 +173,7 @@ a, a:active, a:focus, a:active {
 
 .hidden {
   display: none;
-  max-width: 200px;
+  max-width: 300px;
   max-height: 150px;
   position: absolute;
   background-color: var(--water);/*f1f1f1*/
@@ -244,18 +244,18 @@ h1.weighty {
   opacity: 0.5;
 }
 #content .block {
-  color: #222222;
+  color: var(--obsidian);
 }
-#content .block h1 {
+/* #content .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
-}
+} */
 #content .block p {
-  color: #222222;
+  color: vaar(--obsidian);
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
@@ -267,7 +267,7 @@ div.col-md-10.col-md-offset-2 {
   margin: auto 0% auto 25%;
 }
 
-#content .block h2 {font-weight: 600;}
+#content .block h2 {font-weight: 600; color: var(--obsidian);}
 
 /*-- History Start --*/
 #history {
