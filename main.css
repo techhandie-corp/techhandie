@@ -182,7 +182,7 @@ a, a:active, a:focus, a:active {
   z-index: 1;
   text-align: justify;
   padding: 0;
-  margin: 150px 0 0 30px;
+  margin: 150px 0 0 100px;
   border: 1px dotted var(--medium-light-grey);/*cadetblue*/
 }
 
