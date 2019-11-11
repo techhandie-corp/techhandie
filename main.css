@@ -170,6 +170,7 @@ li {
   float: left;
   margin-right: 0px;
   padding-left: 5px;
+  color: var(--charcoal);
 }
 
 .hidden {
@@ -192,7 +193,6 @@ li {
   margin: 0px 0 0 0;
   padding: 0 0 0 0;
   border-bottom: 1px solid var(--light-grey);
-  color: var(--charcoal);
 }
 
 .hidden li a {
