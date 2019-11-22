@@ -166,7 +166,7 @@ a, a:active, a:focus, a:active {
 
 #head-container ul.menu {/*force menu bar to the far right*/
   margin-top: 20px;
-  margin-left: 750px;
+  margin-left: 800px;
   background: black;
 }
 
@@ -226,13 +226,14 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item:first-child {border-top: 0;}
 
 #head-container .dropdown-item {
-  background: var(--charcoal);/*antiquegray|water*/
+  background-color: var(--charcoal);/*antiquegray|water*/
   opacity: 0.7;
   border-bottom: 0.5px dotted gainsboro;/*fuchsia|gainsboro*/
+  color: var(--charcoal);
 }
 
 #head-container .dropdown-item:hover {
-  width: 160px;
+  width: 175px;
   padding-left: 10px;
 }
 
