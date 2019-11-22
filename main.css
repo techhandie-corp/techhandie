@@ -165,7 +165,7 @@ a, a:active, a:focus, a:active {
 
 #head-container ul.menu {/*force menu bar to the far right*/
   margin-top: 20px;
-  margin-left: 860px;
+  margin-left: 800px;
   background: black;
 }
 
