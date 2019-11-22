@@ -241,7 +241,7 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item a {
   font-size: 1em;
   text-decoration: none;
-  color: ivory;/*obsidian|fuchsia*/
+  color: var(--charcoal);/*ivory|obsidian|fuchsia*/
 }
 
 #head-container ul li ul li a:hover {color: var(--obsidian)};}
