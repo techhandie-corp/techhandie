@@ -239,7 +239,7 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item:nth-last-child {border: 0;}
 
 #head-container .dropdown-item a {
-  font-size: 1em;
+  font-size: 1.25em;
   text-decoration: none;
   color: var(--charcoal) !important;/*ivory|obsidian|fuchsia*/
 }
