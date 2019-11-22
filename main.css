@@ -33,6 +33,18 @@
 
 /*--	Common Css --*/
 
+@root: {
+--antiquegray: rgb(207,207,207);/*#cfcfcf*/
+--charcoal: #222222;
+--grey: #555555;
+--light-grey: #eaeaea;
+--medium-light-grey: #e6e6e6;
+--obsidian: #0d0d26;
+--ocean: #325c8f;/*#428bca*/
+--shale: #c2c2c2;
+--slate: #212529;
+--water: #f2f2f2;
+}
 
 /****** Featured ******/
 
@@ -48,19 +60,6 @@
 
 /**********************/
 
-
-@root: {
---antiquegray: rgba(207,207,207,0.2);/*#cfcfcf*/
---charcoal: #222222;
---grey: #555555;
---light-grey: #eaeaea;
---medium-light-grey: #e6e6e6;
---obsidian: #0d0d26;
---ocean: #325c8f;/*#428bca*/
---shale: #c2c2c2;
---slate: #212529;
---water: #f2f2f2;
-}
 
 * {/*remove default settings for site*/
   margin: 0;
@@ -166,7 +165,7 @@ a, a:active, a:focus, a:active {
 
 #head-container ul.menu {/*force menu bar to the far right*/
   margin-top: 20px;
-  margin-left: 900px;
+  margin-left: 860px;
   background: black;
 }
 
@@ -252,6 +251,7 @@ a, a:active, a:focus, a:active {
 }
 
 /*--	Header End --*/
+
 
 /*-- content Start --*/ /* in Index */
 
