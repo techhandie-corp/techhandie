@@ -50,15 +50,22 @@
 
 
 @root: {
+--antiquegray: rgba(207,207,207,0.2);/*#cfcfcf*/
 --charcoal: #222222;
 --grey: #555555;
 --light-grey: #eaeaea;
 --medium-light-grey: #e6e6e6;
 --obsidian: #0d0d26;
+--ocean: #325c8f;/*#428bca*/
 --shale: #c2c2c2;
+--slate: #212529;
 --water: #f2f2f2;
 }
 
+* {/*remove default settings for site*/
+  margin: 0;
+  padding: 0;
+}
 
 #site-container {
   width: 100vw;
@@ -127,93 +134,121 @@ a, a:active, a:focus, a:active {
  /*-- Header Start --*/
 
 #head-container {
-  display: flex;
-  flex-direction: row;
-  background-color: black;
-  border: 3px dotted gold;
-  align-items: center;/*center vertically*/
-  justify-content: space-between;/*horizontal positioning*/
+  width: 100%;
+  height: 90px;
+  display: table-row;
+  vertical-align: middle;
+  position: relative;
+  background: black;/*#4CAF50*/
 }
 
 #brand {
   color: ivory !important;/* white */
 /*   padding-top: 25px; */
   font-family: "Handel Gothic", "Geneva", sans-serif !important;
-  font-size: 1.75em;
-  font-weight: bold;
-  padding-left: 50px;
+  font-size: 1.75em;/*2em*/
+  font-weight: 700;
+  margin: 25px 0 0 100px;
+  position: absolute;
 }
 
 #head-container a {
-  text-decoration: none !important;
+  font-size: 1.125em;
+  text-decoration: none;
   color: ivory;
 }
 
-#head-container li {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Volkhov';
-  font-size: 1em;
-  padding: 10px;
+#head-container li:hover a {color: var--shale;}
+
+#head-container ul {
+  list-style: none;
 }
 
-.dropdown {/*navigation menu*/
+#head-container ul.menu {/*force menu bar to the far right*/
+  margin-top: 20px;
+  margin-left: 750px;
+  background: black;
+}
+
+#head-container li.menu-item:hover {
+  margin-top: 16px;
+}
+
+/*Primary Menu*/
+#head-container ul li {
+  width: 150px;
+  height: 50px;
+  line-height: 2.875; /*50px*/
+  border: none;
+  text-align: left;
+  float: left;
+  padding-left: 20px;
   position: relative;
-  padding: 20px 150px 0 0;
 }
 
-.dropdown li {
-  display: inline-block;
-  float: right;
-  margin-right: 0px;
-  padding-left: 5px;
+#head-container ul li:hover  {/*effects menu items*/
+  background-color: var(--antiquegray);/*peach*/
+  color: var(--shale);/*seaweed*/
 }
 
-.hidden {
-  display: none;
-  max-width: 300px;
-  max-height: 150px;
+#head-container ul li a:hover, #head-container ul li a:focus  {
+  font-size: 1.125em;
+  font-weight: 700;
+  color: skyblue;/*slate|ocean*/
   position: absolute;
-  background-color: #f1f1f1;/**/
-/*   min-width: 160px; */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  text-align: justify;
-  padding: 0;
-  top: 100px;
-  left: 50px;
-  border: 1px dotted var(--medium-light-grey);/*cadetblue*/
 }
 
-.hidden li {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px solid var(--light-grey);
-  /* background: ivory; */
+/*Dropdown Menu*/
+#head-container .dropdown-menu {
+  display: none;
 }
 
-.hidden li a {
+#head-container .arrow:after {
+  content: "\25BC";
+  margin: 5px 0 0 20px;
+  font-size: 0.65em;
+  color: ivory;
+}
+
+#head-container .arrow:hover:after {
+  font-size: 1em;
+  color: skyblue;/*obsidian*/
+}
+
+#head-container ul li:hover > ul {/*ul li*/
   display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: var(--charcoal) !important;
+  top: 50px;
+  margin-left: 30px;
+  position: absolute;
 }
 
-/* Change color of dropdown links on hover */
-.hidden a:hover {
-  background-color: #ddd;
-  height: 40px;
-/*   line-height: 40px; */
-  text-align: justify;
-  z-index: 4;
-  text-decoration: none;
+/*Dropdown-item: ul li ul li*/
+#head-container .dropdown-item:first-child {border-top: 0;}
+
+#head-container .dropdown-item {
+  background: var(--charcoal);/*antiquegray|water*/
+  opacity: 0.7;
+  border-bottom: 0.5px dotted gainsboro;/*fuchsia|gainsboro*/
 }
 
-/* Show the dropdown menu on hover */
-.h-menu:hover .hidden {display: block;}
+#head-container .dropdown-item:hover {
+  width: 160px;
+  padding-left: 10px;
+}
+
+#head-container .dropdown-item:nth-last-child {border: 0;}
+
+#head-container .dropdown-item a {
+  font-size: 1em;
+  text-decoration: none;
+  color: ivory;/*obsidian|fuchsia*/
+}
+
+#head-container ul li ul li a:hover {color: var(--obsidian)};
+
+#head-container .dropdown-item:hover {
+  color: var(--obsidian);
+}
 
 /*--	Header End --*/
 
