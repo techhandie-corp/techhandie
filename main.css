@@ -33,6 +33,12 @@
 
 /*--	Common Css --*/
 
+* {/*remove default settings for site*/
+  margin: 0;
+  padding: 0;
+}
+
+
 @root: {
 --antiquegray: rgb(207,207,207);/*#cfcfcf*/
 --charcoal: #222222;
@@ -59,12 +65,6 @@
 .just {text-align: justify;}
 
 /**********************/
-
-
-* {/*remove default settings for site*/
-  margin: 0;
-  padding: 0;
-}
 
 #site-container {
   width: 100vw;
