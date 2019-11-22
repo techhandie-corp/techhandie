@@ -172,7 +172,7 @@ a, a:active, a:focus, a:active {
   /* margin-top: 16px; */
 }
 
-/*Primary Menu*/
+/*Primary Level Menu*/
 #head-container ul li {
   width: 150px;
   height: 50px;
@@ -203,6 +203,14 @@ a, a:active, a:focus, a:active {
   display: none;
 }
 
+#head-container ul li:hover > ul {/*ul li*/
+  display: block;
+  top: 50px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+/*Dropdown Arrow*/
 #head-container .arrow:after {
   content: "\25BC";
   margin: 5px 0 0 20px;
@@ -215,19 +223,10 @@ a, a:active, a:focus, a:active {
   color: skyblue;/*obsidian*/
 }
 
-#head-container ul li:hover > ul {/*ul li*/
-  display: block;
-  top: 50px;
-  margin-left: 30px;
-  position: absolute;
-}
 
 /*Dropdown-item: ul li ul li*/
-#head-container .dropdown-item:first-child {border-top: 0;}
-
 #head-container .dropdown-item {
 /*  background-color: var(--charcoal) !important;/*antiquegray|water*/
-
   width: 200px;
   border-right: 0.5px dotted var(--charcoal);
   border-left: 0.5px dotted var(--charcoal);
@@ -238,8 +237,10 @@ a, a:active, a:focus, a:active {
 
 #head-container .dropdown-item:hover {
   padding-left: 10px;/*reducing padding shift left*/
-
+  color: var(--obsidian);
 }
+
+#head-container .dropdown-item:first-child {border-top: 0;}
 
 #head-container .dropdown-item:nth-last-child {border: 0;}
 
@@ -250,10 +251,6 @@ a, a:active, a:focus, a:active {
 }
 
 #head-container ul li ul li a:hover {color: var(--obsidian)};}
-
-#head-container .dropdown-item:hover {
-  color: var(--obsidian);
-}
 
 /*--	Header End --*/
 
