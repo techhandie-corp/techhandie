@@ -198,7 +198,6 @@ a, a:active, a:focus, a:active {
 
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
-  background-color: ivory;
   border: 0.5px dotted var(--charcoal);
   display: none;
 }
@@ -226,7 +225,8 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item:first-child {border-top: 0;}
 
 #head-container .dropdown-item {
-  background-color: var(--charcoal) !important;/*antiquegray|water*/
+/*  background-color: var(--charcoal) !important;/*antiquegray|water*/
+  background-color: ivory;
   width: 200px;
   border-right: 0.5px dotted var(--charcoal);
   border-left: 0.5px dotted var(--charcoal);
