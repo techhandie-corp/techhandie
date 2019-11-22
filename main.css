@@ -198,7 +198,7 @@ a, a:active, a:focus, a:active {
 
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
-  background-color: var(--charcoal);
+  background-color: ivory;
   border: 0.5px dotted var(--charcoal);
   display: none;
 }
