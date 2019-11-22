@@ -199,6 +199,7 @@ a, a:active, a:focus, a:active {
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
   background-color: var(--charcoal);
+  border: 0.5px dotted var(--charcoal);
   display: none;
 }
 
@@ -236,7 +237,7 @@ a, a:active, a:focus, a:active {
 
 #head-container .dropdown-item:hover {
   padding-left: 10px;/*reducing padding shift left*/
-  border: 0.5px dotted var(--charcoal);
+
 }
 
 #head-container .dropdown-item:nth-last-child {border: 0;}
