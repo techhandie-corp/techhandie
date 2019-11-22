@@ -198,7 +198,7 @@ a, a:active, a:focus, a:active {
 
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
-  background-color: var(--water);
+  background-color: #f2f2f2;/*var(--water);*/
   border: 0.5px dotted var(--charcoal);
   display: none;
 }
