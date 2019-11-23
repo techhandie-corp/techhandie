@@ -36,7 +36,7 @@
 :root {
 --antiquegray: rgb(207,207,207);/*#cfcfcf*/
 --charcoal: #222222;
---cottonbule: #d3edf8;
+--cottonbule: #e9f6fb;
 --grey: #555555;
 --light-grey: #eaeaea;
 --medium-light-grey: #e6e6e6;
@@ -214,10 +214,10 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item {
 /*  background-color: var(--charcoal) !important;/*antiquegray|water*/
   width: 200px;
-  border-right: 0.5px dotted #222222;/*var(--charcoal)*/
-  border-left: 0.5px dotted #222222;/*var(--charcoal)*/
-  border-bottom: 0.5px dotted #222222;/*var(--charcoal)*//*fuchsia|gainsboro*/
-  color: #222222;/*var(--charcoal)*/
+  border-right: 0.5px dotted var(--charcoal);/*#222222*/
+  border-left: 0.5px dotted var(--charcoal);/*#222222*/
+  border-bottom: 0.5px dotted var(--charcoal);/*#222222|fuchsia|gainsboro*/
+  color: var(--charcoal);/*#222222*/
   z-index: 9999;
 }
 
@@ -248,7 +248,7 @@ a, a:active, a:focus, a:active {
 
 #head-container .arrow:hover:after {
   font-size: 1em;
-  color: #d3edf8;/*skyblue|obsidian*/
+  color: var(--cottonblue);/*#d3edf8|skyblue|obsidian*/
 }
 
 /*--	Header End --*/
