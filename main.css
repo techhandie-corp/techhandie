@@ -599,9 +599,11 @@ div.col-md-10.col-md-offset-2 {
   /* background-size: cover; */
   position:absolute;
 }
-/* #thank-you .row .no-gutters {
+
+#thank-you .row .no-gutters {
   height: auto;
-} */
+}
+
 #thank-you .block {
   color: var(--obsidian);
   padding-top: 100px;
