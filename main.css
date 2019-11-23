@@ -199,8 +199,9 @@ a, a:active, a:focus, a:active {
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
   background-color: var(--charcoal);/*antiquegray|var(--water);*/
-  opacity: 0.5;
+  opacity: 0.3;
   border: 0.5px dotted var(--charcoal);
+  color: ivory;
   display: none;
 }
 
@@ -213,12 +214,12 @@ a, a:active, a:focus, a:active {
 
 /*Dropdown-item: ul li ul li*/
 #head-container .dropdown-item {
-  width: 200px;
+  width: 250px;
   border-right: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
   border-left: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
   border-bottom: 0.5px dotted gainsboro;/*var(--charcoal)|#222222|fuchsia|gainsboro*/
   color: ivory;/*var(--charcoal)|#222222*/
-  z-index: 9999;
+  /* z-index: 9999; */
 }
 
 #head-container .dropdown-item:hover {
