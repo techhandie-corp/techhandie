@@ -606,15 +606,15 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #thank-you .block {
-  color: var(--obsidian);
+  color: midnightblue;/*var(--obsidian)*/
   padding-top: 100px;
   padding-bottom: 40px;
   height: 400px;
   width: 100%;
-  margin: auto 0% auto 62.55%;
+  margin: auto 0% auto 63.55%;
 }
 #thank-you .block h2 {
-  color: var(--obsidian);
+  color: midnightblue;/*var(--obsidian)*/
 }
 #thank-you .block p {
   text-align: center;
