@@ -192,7 +192,7 @@ a, a:active, a:focus, a:active {
 #head-container ul li a:hover, #head-container ul li a:focus  {
   font-size: 1.125em;
   font-weight: 700;
-  color: skyblue;/*slate|ocean*/
+  color: navy;/*skyblue|slate|ocean*/
   position: absolute;
 }
 
@@ -213,12 +213,11 @@ a, a:active, a:focus, a:active {
 
 /*Dropdown-item: ul li ul li*/
 #head-container .dropdown-item {
-/*  background-color: var(--charcoal) !important;/*antiquegray|water*/
   width: 200px;
-  border-right: 0.5px dotted var(--charcoal);/*#222222*/
-  border-left: 0.5px dotted var(--charcoal);/*#222222*/
-  border-bottom: 0.5px dotted var(--charcoal);/*#222222|fuchsia|gainsboro*/
-  color: var(--charcoal);/*#222222*/
+  border-right: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
+  border-left: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
+  border-bottom: 0.5px dotted gainsboro;/*var(--charcoal)|#222222|fuchsia|gainsboro*/
+  color: ivory;/*var(--charcoal)|#222222*/
   z-index: 9999;
 }
 
