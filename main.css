@@ -238,6 +238,12 @@ a, a:active, a:focus, a:active {
   color: white !important;/*var(--charcoal)|ivory|obsidian|fuchsia*/
 }
 
+#head-container .dropdown-item a:hover {
+  background-color: gainsboro;
+  padding-left: 10px;/*reducing padding shift left*/
+  color: var(--obsidian);
+}
+
 /*#head-container ul li ul li a:hover {color: var(--obsidian);}*/
 
 /*Dropdown Arrow*/
