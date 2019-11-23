@@ -589,13 +589,15 @@ div.col-md-10.col-md-offset-2 {
 /*-- Contact-form End --*/
 
 /*--  Thank You --*/
+#thank-you {position: relative;}
+
 #thank-you .container {
   width: 100%;
   height: 400px; /* 375px; */
   background-color: #BFBFBF;
   opacity: 0.6;
   /* background-size: cover; */
-  margin: 0;
+  position:absolute;
 }
 /* #thank-you .row .no-gutters {
   height: auto;
