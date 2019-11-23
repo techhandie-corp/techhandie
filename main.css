@@ -218,7 +218,7 @@ a, a:active, a:focus, a:active {
   border-right: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
   border-left: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
   border-bottom: 0.5px dotted gainsboro;/*var(--charcoal)|#222222|fuchsia|gainsboro*/
-  color: ivory;/*var(--charcoal)|#222222*/
+  color: white;/*var(--charcoal)|#222222*/
   z-index: 9999;
 }
 
