@@ -589,15 +589,16 @@ div.col-md-10.col-md-offset-2 {
 /*-- Contact-form End --*/
 
 /*--  Thank You --*/
-#thank-you {position: relative;}
+#thank-you {
+  background-color: #BFBFBF;
+  opacity: 0.6;
+}
 
 #thank-you .container {
   width: 100%;
   height: 400px; /* 375px; */
   background-color: #BFBFBF;
   opacity: 0.6;
-  /* background-size: cover; */
-  position:absolute;
 }
 
 #thank-you .row .no-gutters {
@@ -610,6 +611,7 @@ div.col-md-10.col-md-offset-2 {
   padding-bottom: 40px;
   height: 400px;
   width: 100%;
+  margin: auto 0% auto 62.55%;
 }
 #thank-you .block h2 {
   color: var(--obsidian);
@@ -622,7 +624,7 @@ div.col-md-10.col-md-offset-2 {
 }
 #thank-you .section-title {
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 /*-- Thank You End --*/
 
