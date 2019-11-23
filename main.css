@@ -223,6 +223,7 @@ a, a:active, a:focus, a:active {
 }
 
 #head-container .dropdown-item:hover {
+  background-color: gainsboro;
   padding-left: 10px;/*reducing padding shift left*/
   color: var(--obsidian);
 }
@@ -244,7 +245,7 @@ a, a:active, a:focus, a:active {
   content: "\25BC";
   margin: 5px 0 0 20px;
   font-size: 0.65em;
-  color: white;
+  color: ivory;
 }
 
 #head-container .arrow:hover:after {
