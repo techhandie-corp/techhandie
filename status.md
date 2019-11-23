@@ -3,7 +3,8 @@
 </style>
 
 #<div style="text-align:center">PROJECT STATUS</div>
-###TechHandie Corp website
+###Name: TechHandie Corporation
+###URL: <a href="https://techhandie-corp.github.io/techhandie/">TechHandie Corporation</a>
 <hr>
 ##To Do
 * <p style="font-size:1.25em;">Setup News & Thankyou pages</p>
