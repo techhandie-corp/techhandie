@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<title>History</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,10 +21,10 @@
 	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
 
 	<!--Canonical URL -->
-	<link rel="canonical" href="{{ page.url | prepend: site.url }}"/>
+	<!--<link rel="canonical" href="{{ page.url | prepend: site.url }}"/>-->
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="../assets/css/main.css" type="text/css">
+	<!-- External Stylesheet -->
+	<link rel="stylesheet" href="main.css" type="text/css">
 
 	<!-- SEO Tag Setup -->
 	<!--{% seo %}-->
@@ -41,24 +41,34 @@
    <div id="site-container">
 
 	<!--Header Start-->
-		<header>
-			<div id="head-container">
-				<div id="brand"><a href="https://techhandie.coms">TechHandie Corporation</a></div>
-				<ul class="dropdown">
-					<li><a href="#">Request</a></li>
-					<li class="h-menu">
-						<a href="#">Services</a>
-						<ul class="hidden">
-							<li><a class="m-item" href="#">Web Design</a></li>
-							<li ><a class="m-item" href="#">Web Development</a></li>
-							<li><a class="m-item" href="#">Technical Assistance</a></li>
-						</ul>
-					</li>
-					<li><a class="m-item" href="#">History</a></li>
-					<li><a class="m-item" href="#">Contact Us</a></li>
-				</ul>
-			</div>
-		</header>
+	<header>
+		<div id="head-container">
+			<div id="brand"><a href="https://techhandie-corp.github.io/techhandie/">TechHandie Corporation</a></div>
+			<ul class="menu">
+				<li class="menu-item"><a href="#">Home</a></li>
+				<li class="menu-item drop">
+					<a href="#">Services<span class="arrow"></span></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-item"><a href="https://techhandie-corp.github.io/techhandie/services/#techassist">Technical Assistance</a></li>
+							<li class="dropdown-item"><a href="https://techhandie-corp.github.io/techhandie/services/#seo">SEO Marketability</a></li>
+							<li class="dropdown-item"><a href="https://techhandie-corp.github.io/techhandie/services/#design">Web Design</a></li>
+							<li class="dropdown-item end"><a href="https://techhandie-corp.github.io/techhandie/services/#develop">Web Development</a></li>
+						 </ul>
+				</li>
+				<li class="menu-item drop">
+					<a href="#">Projects<span class="arrow"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-item"><a href="https://techhandie-corp.github.io/techhandie/projects/#cornerstone">Cornerstone CDC</a></li>
+						<li class="dropdown-item"><a href="https://techhandie-corp.github.io/techhandie/projects/#juicedbyj">Juiced by J</a></li>
+						<li class="dropdown-item"><a href="https://techhandie-corp.github.io/techhandie/projects/#kayman">The Kayman</a></li>
+						<li class="dropdown-item end"><a href="https://techhandie-corp.github.io/techhandie/projects/#trbca">TRBCA</a></li>
+					</ul>
+				</li>
+				<li class="menu-item"><a href="https://techhandie-corp.github.io/techhandie/history">History</a></li>
+				<li class="menu-item"><a href="https://techhandie-corp.github.io/techhandie/contact">Contact Us</a></li>
+			</ul>
+		</div><!--headcontainer-->
+	</header>
 
 	<!-- Content Start -->
 		<section id="history">
