@@ -592,16 +592,16 @@ div.col-md-10.col-md-offset-2 {
 #thank-you .container {
   width: 100%;
   height: 400px; /* 375px; */
-  background: #BFBFBF;
+  background-color: #BFBFBF;
   opacity: 0.6;
-  background-size: cover;
+  /* background-size: cover; */
   margin: 0;
 }
 #thank-you .row .no-gutters {
   height: auto;
 }
 #thank-you .block {
-  color: white;
+  color: var(--obsidian);
   padding-top: 100px;
   padding-bottom: 40px;
   height: 400px;
