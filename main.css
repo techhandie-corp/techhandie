@@ -231,10 +231,10 @@ a, a:active, a:focus, a:active {
 
 #head-container .dropdown-item.end {border-bottom: 0;}
 
-#head-container .dropdown-item a {
+#head-container .dropdown-item a {/*default dropdown item text*/
   font-size: 1.25em !important;
   text-decoration: none;
-  color: var(--charcoal) !important;/*ivory|obsidian|fuchsia*/
+  color: ivory !important;/*var(--charcoal)|ivory|obsidian|fuchsia*/
 }
 
 #head-container ul li ul li a:hover {color: var(--obsidian);}
