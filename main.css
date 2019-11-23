@@ -236,7 +236,7 @@ a, a:active, a:focus, a:active {
   color: var(--charcoal) !important;/*ivory|obsidian|fuchsia*/
 }
 
-#head-container ul li ul li a:hover {color: var(--obsidian)};}
+#head-container ul li ul li a:hover {color: var(--obsidian);}
 
 /*Dropdown Arrow*/
 #head-container .arrow:after {
