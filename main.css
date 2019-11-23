@@ -214,10 +214,10 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item {
 /*  background-color: var(--charcoal) !important;/*antiquegray|water*/
   width: 200px;
-  border-right: 0.5px dotted var(--charcoal);
-  border-left: 0.5px dotted var(--charcoal);
-  border-bottom: 0.5px dotted var(--charcoal);/*fuchsia|gainsboro*/
-  color: var(--charcoal);
+  border-right: 0.5px dotted #222222;/*var(--charcoal)*/
+  border-left: 0.5px dotted #222222;/*var(--charcoal)*/
+  border-bottom: 0.5px dotted #222222;/*var(--charcoal)*//*fuchsia|gainsboro*/
+  color: #222222;/*var(--charcoal)*/
   z-index: 9999;
 }
 
