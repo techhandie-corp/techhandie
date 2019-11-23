@@ -235,7 +235,7 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item a {/*default dropdown item text*/
   font-size: 1.25em !important;
   text-decoration: none;
-  color: white !important;/*var(--charcoal)|ivory|obsidian|fuchsia*/
+  color: white;/*var(--charcoal)|ivory|obsidian|fuchsia*/
 }
 
 #head-container .dropdown-item a:hover {
