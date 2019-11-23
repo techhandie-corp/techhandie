@@ -199,6 +199,7 @@ a, a:active, a:focus, a:active {
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
   background-color: var(--charcoal);/*antiquegray|var(--water);*/
+  opacity: 0.5;
   border: 0.5px dotted var(--charcoal);
   display: none;
 }
@@ -248,7 +249,7 @@ a, a:active, a:focus, a:active {
 
 #head-container .arrow:hover:after {
   font-size: 1em;
-  color: var(--cottonblue);/*#d3edf8|skyblue|obsidian*/
+  color: navy;/*var(--cottonblue)|#d3edf8|skyblue|obsidian*/
 }
 
 /*--	Header End --*/
