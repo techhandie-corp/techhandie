@@ -33,15 +33,10 @@
 
 /*--	Common Css --*/
 
-* {/*remove default settings for site*/
-  margin: 0;
-  padding: 0;
-}
-
-
-@root: {
+:root {
 --antiquegray: rgb(207,207,207);/*#cfcfcf*/
 --charcoal: #222222;
+--cottonbule: #d3edf8;
 --grey: #555555;
 --light-grey: #eaeaea;
 --medium-light-grey: #e6e6e6;
@@ -53,6 +48,11 @@
 }
 
 /****** Featured ******/
+
+* {/*selector for ALL elements - remove default settings for site*/
+  margin: 0;
+  padding: 0;
+}
 
 .shine {filter: brightness(120%);}
 
@@ -248,7 +248,7 @@ a, a:active, a:focus, a:active {
 
 #head-container .arrow:hover:after {
   font-size: 1em;
-  color: skyblue;/*obsidian*/
+  color: #d3edf8;/*skyblue|obsidian*/
 }
 
 /*--	Header End --*/
