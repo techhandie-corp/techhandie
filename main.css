@@ -234,7 +234,7 @@ a, a:active, a:focus, a:active {
 #head-container .dropdown-item a {/*default dropdown item text*/
   font-size: 1.25em !important;
   text-decoration: none;
-  color: ivory !important;/*var(--charcoal)|ivory|obsidian|fuchsia*/
+  color: white !important;/*var(--charcoal)|ivory|obsidian|fuchsia*/
 }
 
 #head-container ul li ul li a:hover {color: var(--obsidian);}
@@ -244,7 +244,7 @@ a, a:active, a:focus, a:active {
   content: "\25BC";
   margin: 5px 0 0 20px;
   font-size: 0.65em;
-  color: ivory;
+  color: white;
 }
 
 #head-container .arrow:hover:after {
