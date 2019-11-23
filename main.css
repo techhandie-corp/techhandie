@@ -228,7 +228,7 @@ a, a:active, a:focus, a:active {
 
 #head-container .dropdown-item:first-child {border-top: 0;}
 
-#head-container .dropdown-item:nth-child(4),  {border: 0;}
+#head-container .dropdown-item:nth-child(4) {border: 0;}
 
 #head-container .dropdown-item a {
   font-size: 1.25em !important;
