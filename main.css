@@ -163,7 +163,7 @@ a, a:active, a:focus, a:active {
   list-style: none;
 }
 
-#head-container ul.menu {/*force menu bar to the far right*/
+#head-container ul.menu {/*force primary menu bar to the far right*/
   margin: 20px 50px 0 800px;
   background: black;
 }
