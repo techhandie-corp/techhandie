@@ -606,7 +606,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #thank-you .block {
-  color: midnightblue;/*var(--obsidian)*/
+  color: black;/*var(--obsidian)*/
   padding-top: 100px;
   padding-bottom: 40px;
   height: 400px;
@@ -614,16 +614,14 @@ div.col-md-10.col-md-offset-2 {
   margin: auto 0% auto 63.55%;
 }
 #thank-you .block h2 {
-  color: midnightblue;/*var(--obsidian)*/
+  color: black;/*var(--obsidian)*/
 }
 #thank-you .block p {
-  text-align: center;
   font-size: 1.25em;
   /*padding-top: 20px; */
   line-height: 28px;
 }
 #thank-you .section-title {
-  text-align: center;
   margin-bottom: 0;
 }
 /*-- Thank You End --*/
