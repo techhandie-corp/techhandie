@@ -381,15 +381,15 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects .project-name {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Bitter", serif;
+  font-size: 1.75rem;
   color: var(--dusk);
 }
 
 #projects h2 {
   text-transform: uppercase;
   font-size: 1.75em;
-  color: var(--coal);
+  color: var(--obsidian);
 }
 
 #projects p {
@@ -400,9 +400,9 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects .projects-subtitle {
-  color: var(--coal);
+  color: var(--obsidian);
   font-family: "Milkshake", cursive;
-  font-size: 1.2em;
+  font-size: 2em;
   font-style: normal !important;
 }
 
