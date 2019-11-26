@@ -377,7 +377,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects img {
-  border-radius: 12px;
+  border-radius: 30px;
 }
 
 #projects .project-name {
@@ -431,13 +431,14 @@ div.col-md-10.col-md-offset-2 {
   grid-column: 1/2;/*remains constant*/
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
-  margin: 20px -10px 20px auto;
+  margin: 20px auto 20px auto;
 }
 
 #projects .row1-2 {
   grid-area: content;
   grid-row: 2/3;
   grid-column: 2/3;
+  align-self: center;
 }
 
 /*Row 2*/
@@ -447,13 +448,14 @@ div.col-md-10.col-md-offset-2 {
   grid-column: 1/2;
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
-  margin: 20px -10px 20px auto;
+  margin: 20px auto 20px auto;
 }
 
 #projects .row2-2 {
   grid-area: content;
   grid-row: 3/4;
   grid-column: 2/3;
+  align-self: center;
 }
 
 /* Row3 */
@@ -463,13 +465,14 @@ div.col-md-10.col-md-offset-2 {
   grid-column: 1/2;
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
-  margin: 20px -10px 20px auto;
+  margin: 20px auto 20px auto;
 }
 
 #projects .row3-2 {
   grid-area: content;
   grid-row: 4/5;
   grid-column: 2/3;
+  align-self: center;
 }
 
 /* Row4 */
@@ -479,13 +482,14 @@ div.col-md-10.col-md-offset-2 {
   grid-column: 1/2;
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
-  margin: 20px -10px 20px auto;
+  margin: 20px auto 20px auto;
 }
 
 #projects .row4-2 {
   grid-area: content;
   grid-row: 5/6;
   grid-column:2/3;
+  align-self: center;
 }
 
 
