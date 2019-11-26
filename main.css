@@ -384,14 +384,14 @@ div.col-md-10.col-md-offset-2 {
 #projects h2 {
   text-transform: uppercase;
   font-size: 1.75em;
-  font-weight: 600;
   color: var(--coal);
-  text-align: center;
 }
 
 #projects p {
-  font-size: 0.875em;
+  font-family: "Volkhov", serif;
+  font-size: 1em;
   color: var(--coal);
+  line-height: normal;
 }
 
 #projects .projects-subtitle {
