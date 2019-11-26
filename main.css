@@ -373,6 +373,7 @@ div.col-md-10.col-md-offset-2 {
 /*-- Projects Start --*/
 #projects {
   background: var(--water);
+  opacity: 0.3;
   padding: 50px 0;
 }
 
@@ -401,7 +402,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects .projects-subtitle {
-  color: var(--obsidian);
+  color: var(--dusk);
   font-family: "Milkshake", cursive;
   font-size: 1.65em;
   font-style: normal !important;
