@@ -387,8 +387,9 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects h2 {
+  font-family: "Bitter", serif;
   text-transform: uppercase;
-  font-size: 1.75em;
+  font-size: 2em;
   color: var(--obsidian);
 }
 
@@ -402,7 +403,7 @@ div.col-md-10.col-md-offset-2 {
 #projects .projects-subtitle {
   color: var(--obsidian);
   font-family: "Milkshake", cursive;
-  font-size: 2em;
+  font-size: 1.65em;
   font-style: normal !important;
 }
 
