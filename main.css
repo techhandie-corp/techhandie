@@ -385,7 +385,6 @@ div.col-md-10.col-md-offset-2 {
   text-transform: uppercase;
   font-size: 1.75em;
   font-weight: 600;
-  line-height: 1.2;
   color: var(--coal);
   text-align: center;
   padding: 30px 0;
@@ -393,18 +392,17 @@ div.col-md-10.col-md-offset-2 {
 
 #projects p {
   font-size: 0.875em;
-  line-height: 1.8;
   color: var(--coal);
 }
 
 #projects .projects-subtitle {
   color: var(--coal);
-  font-family: "Volkhov, serif"
+  font-family: "Volkhov", serif;
   font-size: 1.2em;
   font-style: normal !important;
 }
 
-#projects container {
+#projects .container {
   display: grid;
   grid-template-columns: 30% 60%;
   grid-template-rows: auto;
@@ -428,17 +426,12 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 2/3;
   grid-column: 1/2;/*remains constant*/
-  align-self: center;
-  justify-self: center;
 }
 
 #projects .row1-2 {
   grid-area: content;
   grid-row: 2/3;
   grid-column: 2/3;
-/*   justify-content: middle; */
-  color: white;
-/*   align-self: center; */
 }
 
 /*Row 2*/
@@ -446,16 +439,13 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 3/4;
   grid-column: 1/2;
-  align-self: center;
-  justify-self: center;
 }
 
 #projects .row2-2 {
   grid-area: content;
   grid-row: 3/4;
   grid-column: 2/3;
-  color: white;
-  align-self: center;
+
 }
 
 /* Row3 */
@@ -463,16 +453,12 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 4/5;
   grid-column: 1/2;
-  align-self: center;
-  justify-self: center;
 }
 
 #projects .row3-2 {
   grid-area: content;
   grid-row: 4/5;
   grid-column: 2/3;
-  color: white;
-/*   align-self: center; */
 }
 
 /* Row4 */
@@ -480,16 +466,12 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 5/6;
   grid-column: 1/2;
-  align-self: center;
-  justify-self: center;
 }
 
 #projects .row4-2 {
   grid-area: content;
   grid-row: 5/6;
   grid-column:2/3;
-  color: white;
-  align-self: center;
 }
 
 
