@@ -36,8 +36,9 @@
 :root {
 --antiquegray: rgb(207,207,207);/*#cfcfcf*/
 --charcoal: #222222;
---coal: var(--coal);
+--coal: #1d1d1d;
 --cottonbule: #e9f6fb;
+--dusk: #666666;
 --grey: #555555;
 --light-grey: #eaeaea;
 --medium-light-grey: #e6e6e6;
@@ -370,8 +371,34 @@ div.col-md-10.col-md-offset-2 {
 /*-- History End --*/
 
 /*-- Projects Start --*/
-#projects {
-  background: var(--water);
+#projects {background: var(--water);}
+
+#projects .project-name {
+  font-size: 1.5rem;
+  color: var(--dusk);
+}
+
+#projects h2 {
+  font-size: 1.75em;
+  color: var(--coal);
+  text-align: center;
+  padding: 30px 0;
+}
+
+#projects p {
+  font-size: 0.875em;
+  line-height: 1.8;
+  color: var(--coal);
+}
+
+#projects .projects-subtitle {
+  color: var(--coal);
+  font-family: "Volkhov, serif"
+  font-size: 1.2em;
+  font-style: normal !important;
+}
+
+#projects container {
   display: grid;
   grid-template-columns: 30% 60%;
   grid-template-rows: auto;
@@ -381,28 +408,17 @@ div.col-md-10.col-md-offset-2 {
     "gallery content"
     "gallery content"
     "gallery content";
+  margin: 0 auto;
 }
 
-#projects .sectitle {
-  color: var(--coal);
-  font-size: 1.2em;
-  font-style: normal !important;
-}
-
-.section-title {
+#projects .projects-title {
   grid-area: title;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  font-size: 3em;
-  color: white;
-  text-align: center;
-  padding: 30px 0;
+  grid-row: 1/2;
+  grid-column: 1/3;
 }
 
 /* Row1 */
-.row1-1 {
+#projects .row1-1 {
   grid-area: gallery;
   grid-row: 2/3;
   grid-column: 1/2;/*remains constant*/
@@ -410,7 +426,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;
 }
 
-.row1-2 {
+#projects .row1-2 {
   grid-area: content;
   grid-row: 2/3;
   grid-column: 2/3;
@@ -420,7 +436,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*Row 2*/
-.row2-1 {
+#projects .row2-1 {
   grid-area: gallery;
   grid-row: 3/4;
   grid-column: 1/2;
@@ -428,7 +444,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;
 }
 
-.row2-2 {
+#projects .row2-2 {
   grid-area: content;
   grid-row: 3/4;
   grid-column: 2/3;
@@ -437,7 +453,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /* Row3 */
-.row3-1 {
+#projects .row3-1 {
   grid-area: gallery;
   grid-row: 4/5;
   grid-column: 1/2;
@@ -445,7 +461,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;
 }
 
-.row3-2 {
+#projects .row3-2 {
   grid-area: content;
   grid-row: 4/5;
   grid-column: 2/3;
@@ -454,7 +470,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /* Row4 */
-.row4-1 {
+#projects .row4-1 {
   grid-area: gallery;
   grid-row: 5/6;
   grid-column: 1/2;
@@ -462,13 +478,15 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;
 }
 
-.row4-2 {
+#projects .row4-2 {
   grid-area: content;
   grid-row: 5/6;
   grid-column:2/3;
   color: white;
   align-self: center;
 }
+
+
 
 /*-- Projects End --*/
 
