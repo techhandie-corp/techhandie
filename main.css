@@ -425,6 +425,8 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 2/3;
   grid-column: 1/2;/*remains constant*/
+  justify-self: center;/*horizontal*/
+  align-self: center;/*vertical*/
 }
 
 #projects .row1-2 {
@@ -438,13 +440,14 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 3/4;
   grid-column: 1/2;
+  justify-self: center;/*horizontal*/
+  align-self: center;/*vertical*/
 }
 
 #projects .row2-2 {
   grid-area: content;
   grid-row: 3/4;
   grid-column: 2/3;
-
 }
 
 /* Row3 */
@@ -452,6 +455,8 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 4/5;
   grid-column: 1/2;
+  justify-self: center;/*horizontal*/
+  align-self: center;/*vertical*/
 }
 
 #projects .row3-2 {
@@ -465,6 +470,8 @@ div.col-md-10.col-md-offset-2 {
   grid-area: gallery;
   grid-row: 5/6;
   grid-column: 1/2;
+  justify-self: center;/*horizontal*/
+  align-self: center;/*vertical*/
 }
 
 #projects .row4-2 {
