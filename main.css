@@ -377,10 +377,11 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects img {
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 #projects .project-name {
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   color: var(--dusk);
 }
@@ -392,8 +393,8 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #projects p {
-  font-family: "Volkhov", serif;
-  font-size: 1em;
+  font-family: "Belleza", serif;
+  font-size: 1.3em;
   color: var(--coal);
   line-height: normal;
 }
