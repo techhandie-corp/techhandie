@@ -535,6 +535,46 @@ div.col-md-10.col-md-offset-2 {
 }
 /*-- Service End --*/
 
+/*-- TechAssist Start --*/
+#techassist {
+  background: var(--water);
+  text-align: center;
+  padding: 50px 0;
+}
+
+#techassist title   {}
+
+#techassist .techassist-item {
+  padding-bottom: 30px;
+}
+#techassist .techassist-item i {
+  font-size: 60px;
+  color: var(--midnite);
+}
+#techassist .techassist-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+#techassist .techassist-item p {
+  color: var(--coal); /* #888; */
+  padding-top: 10px;
+  padding-right: 20px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
+  /* font-style: italic; */
+}
+#techassist .subtitle {
+  color: var(--coal);
+  font-size: 1.2em;
+  font-style: normal !important;
+}
+/*-- TechAssist End --*/
+
+
+
 /*-- News Start --*/
 #news {
   background: var(--water);
