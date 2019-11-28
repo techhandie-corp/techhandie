@@ -540,7 +540,19 @@ div.col-md-10.col-md-offset-2 {
   padding: 50px 0;
 }
 
-#techassist title   {}
+#techassist .title {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.75em;/*28px*/
+  font-weight: 600;
+}
+
+#techassist .subtitle   {
+  font-family: "Volkhov", cursive;
+  color: var(--coal);
+  font-size: 1.2em;
+  font-style: normal !important;
+}
 
 #techassist .techassist-item {
   padding-bottom: 30px;
