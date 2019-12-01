@@ -436,6 +436,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
   margin: 20px auto 20px auto;
+  padding-bottom: 20px;
 }
 
 #projects .row1-2 {
@@ -443,6 +444,7 @@ div.col-md-10.col-md-offset-2 {
   grid-row: 2/3;
   grid-column: 2/3;
   align-self: center;
+  padding-bottom: 20px;
 }
 
 /*Row 2*/
@@ -453,6 +455,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
   margin: 20px auto 20px auto;
+  padding-bottom: 20px;
 }
 
 #projects .row2-2 {
@@ -470,6 +473,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
   margin: 20px auto 20px auto;
+  padding-bottom: 20px;
 }
 
 #projects .row3-2 {
@@ -477,6 +481,7 @@ div.col-md-10.col-md-offset-2 {
   grid-row: 4/5;
   grid-column: 2/3;
   align-self: center;
+  padding-bottom: 20px;
 }
 
 /* Row4 */
@@ -487,6 +492,7 @@ div.col-md-10.col-md-offset-2 {
   justify-self: center;/*horizontal*/
   align-self: center;/*vertical*/
   margin: 20px auto 20px auto;
+  padding-bottom: 20px;
 }
 
 #projects .row4-2 {
@@ -494,6 +500,7 @@ div.col-md-10.col-md-offset-2 {
   grid-row: 5/6;
   grid-column:2/3;
   align-self: center;
+  padding-bottom: 20px;
 }
 
 /*-- Projects End --*/
