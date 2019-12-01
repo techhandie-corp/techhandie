@@ -202,7 +202,7 @@ a, a:active, a:focus, a:active {
 /*Dropdown Menu*/
 #head-container .dropdown-menu {
   background-color: var(--charcoal);/*antiquegray|var(--water);*/
-  opacity: 0.3;
+  opacity: 0.7;
   border: 0.5px dotted var(--charcoal);
   color: ivory;
   display: none;
