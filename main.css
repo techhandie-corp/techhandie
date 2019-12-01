@@ -122,7 +122,7 @@ a, a:active, a:focus, a:active {
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
-  color: #666;
+  color: var(--dusk);/*#666;*/
 }
 
 /*--	Common CSS End --*/
@@ -529,7 +529,7 @@ div.col-md-10.col-md-offset-2 {
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: var(--dusk);/*#666;*/
   text-align: left;
 }
 
@@ -538,12 +538,11 @@ div.col-md-10.col-md-offset-2 {
   padding-top: 10px;
   padding-right: 20px;
   margin: 0;
-  font-size: 14px;
+  font-size: 1.25em;
   line-height: 1.8;
   text-align: justify;
   /* font-style: italic; */
 }
-
 
 /*===============================================*/
 
@@ -690,7 +689,7 @@ div.col-md-10.col-md-offset-2 {
 #techassist .techassist-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: var(--dusk);/*#666;*/
 }
 #techassist .techassist-item p {
   color: var(--coal); /* #888; */
