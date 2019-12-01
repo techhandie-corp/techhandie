@@ -373,7 +373,7 @@ div.col-md-10.col-md-offset-2 {
 /*-- Projects Start --*/
 #projects {
   background: #4e4d50;/*rgba(240,240,240,0.3);*/
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 #projects img {
@@ -383,25 +383,25 @@ div.col-md-10.col-md-offset-2 {
 #projects .project-name {
   font-family: "Bitter", serif;
   font-size: 1.75rem;
-  color: var(--dusk);
+  color: white;/*dusk*/
 }
 
 #projects h2 {
   font-family: "Bitter", serif;
   text-transform: uppercase;
   font-size: 2.25em;
-  color: var(--dusk);
+  color: white;/*dusk*/
 }
 
 #projects p {
   font-family: "Belleza", serif;
   font-size: 1.3em;
-  color: var(--coal);
+  color: ghostwhite;/*coal*/
   line-height: normal;
 }
 
 #projects .projects-subtitle {
-  color: var(--dusk);
+  color: snow;/*dusk*/
   font-family: "Milkshake", cursive;
   font-size: 1.65em;
   font-style: normal !important;
@@ -574,7 +574,7 @@ div.col-md-10.col-md-offset-2 {
   grid-row:2/3;
   grid-column: 1/5;
   color: var(--coal);
-  font-size: 1.5em;
+  font-size: 1.35em;
   font-style: normal !important;
   margin-bottom: 50px;
 }
