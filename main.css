@@ -672,10 +672,6 @@ div.col-md-10.col-md-offset-2 {
   padding: 80px 0;
 }
 
-#techassist .row:second-child {
-  margin-top: -20px;
-}
-
 #techassist span.italics {font-style: oblique;}
 
 #techassist .title {
@@ -696,6 +692,11 @@ div.col-md-10.col-md-offset-2 {
 #techassist .techassist-item {
   padding-bottom: 30px;
 }
+
+#techassist .techassist-item:first-child {
+  margin-top: -20px;
+}
+
 #techassist .techassist-item i {
   font-size: 3.75em;/*60px*/
   color: var(--midnite);
