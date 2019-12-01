@@ -499,23 +499,40 @@ div.col-md-10.col-md-offset-2 {
 /*-- Projects End --*/
 
 /*-- Service Start --*/
+
 #service {
   background: var(--water);
   text-align: center;
   padding: 50px 0;
 }
-#service .service-item {
-  padding-bottom: 30px;
-}
-#service .service-item i {
+
+#service i {
   font-size: 60px;
   color: var(--midnite);
 }
+
+#service .fa-phone {
+  font-size: 3.0625em;/*30px;*/
+}
+
+#service .icon-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#service .service-item {
+  padding-bottom: 30px;
+}
+
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
   color: #666;
+  text-align: left;
 }
+
 #service .service-item p {
   color: var(--coal); /* #888; */
   padding-top: 10px;
@@ -526,11 +543,120 @@ div.col-md-10.col-md-offset-2 {
   text-align: justify;
   /* font-style: italic; */
 }
-#service .sectitle {
+
+
+/*===============================================*/
+
+#service-container {
+	display: grid;
+	grid-template-areas:
+	"title title title title"
+	"heading heading heading heading"
+	"icon i-title i-title i-title"
+	"content content content content"
+	"icon"
+	"content content content content"
+	"icon"
+	"content content content content"
+	"icon"
+	"content content content content";
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+#service .title {
+	grid-area: title;
+	grid-row:1/2;
+	grid-column: 1/5;
+}
+
+#service .subtitle {
+  grid-area: heading;
+  grid-row:2/3;
+  grid-column: 1/5;
   color: var(--coal);
   font-size: 1.2em;
   font-style: normal !important;
+  margin-bottom: 50px;
 }
+
+#img1 {
+	grid-area: "icon";
+	grid-row: 3/4;
+	grid-column: 1/2;
+  justify-self: start;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+	grid-row: 3/4;
+	grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#design {
+	grid-area:"content";
+	grid-row: 4/5;
+	grid-column: 1/5;
+}
+
+#img2 {
+	grid-area: "icon";
+	grid-row: 5/6;
+	grid-column: 1/2;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+	grid-row: 5/6;
+	grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#develop {
+	grid-area:"content";
+	grid-row: 6/7;
+	grid-column: 1/5;
+}
+
+#img3 {
+	grid-area: "icon";
+	grid-row: 7/8;
+	grid-column: 1/2;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+	grid-row: 7/8;
+	grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#tech_assist {
+	grid-area:"content";
+	grid-row: 8/9;
+	grid-column: 1/5;
+}
+
+#img4 {
+	grid-area: "icon";
+	grid-row: 9/10;
+	grid-column: 1/2;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+	grid-row: 9/10;
+	grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#consult {
+	grid-area:"content";
+	grid-row: 10/11;
+	grid-column: 1/5;
+}
+
 /*-- Service End --*/
 
 /*-- TechAssist Start --*/
