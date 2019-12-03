@@ -160,7 +160,7 @@ a, a:active, a:focus, a:active {
   color: ivory;
 }
 
-#head-container li:hover a {color: var--shale;}
+#head-container li:hover a {color: var(--shale;)}
 
 #head-container ul {
   list-style: none;
