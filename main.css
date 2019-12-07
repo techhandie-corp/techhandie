@@ -168,8 +168,7 @@ a {
 
 nav {
   display: block;
-  /* justify-content: flex-end; */
-  float: left;
+  justify-content: flex-end;
 }
 
 nav ul {
