@@ -152,7 +152,8 @@ a, a:active, a:focus, a:active {
   /*gray lip to the bar*/
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;/*space vertically*/
+  justify-content: space-between;
   position: relative;
   height: 80px;
 }
