@@ -161,8 +161,8 @@ a {
   font-family: "Handel Gothic", "Geneva", sans-serif !important;
   font-size: 1.75em; /*2em*/
   font-weight: 700;
-  margin: 0 0 0 100px;
-  /*float: left;*/
+  margin: 0 50px 0 50px;
+  justify-content: flex-start;
   position: absolute;
 }
 
