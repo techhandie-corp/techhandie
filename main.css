@@ -173,7 +173,7 @@ a {
   font-size: 1.75em; /*2em*/
   font-weight: 700;
   margin: 0 0 0 100px;
-  float: left;
+  /*float: left;*/
   position: absolute;
 }
 
