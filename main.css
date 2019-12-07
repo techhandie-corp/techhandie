@@ -170,7 +170,7 @@ a {
   justify-self: start;
 }
 
-ul.nav {
+nav {
   display: block;
   justify-self: end;
 }
