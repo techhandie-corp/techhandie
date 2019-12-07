@@ -174,12 +174,12 @@ a {
   justify-self: start;
 }
 
-nav {
+ul.nav {
   display: block;
   justify-self: end;
 }
 
-nav ul {
+ul.nav ul {
   margin: 0;
   padding: 0;
 }
