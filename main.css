@@ -173,7 +173,8 @@ a {
   font-size: 1.75em; /*2em*/
   font-weight: 700;
   margin: 0 0 0 100px;
-  justify-content: flex-start;
+  float: left;
+  position: absolute;
 }
 
 nav {
