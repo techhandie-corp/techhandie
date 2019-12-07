@@ -135,6 +135,14 @@ a, a:active, a:focus, a:active {
 
  /*-- Header Start --*/
 
+#head-container {
+  width: 100%;
+  height: 90px;
+  display: table-row;
+  vertical-align: middle;
+  position: relative;
+  background: black;/*#4CAF50*/
+}
 
 #brand {
   color: ivory !important;/* white */
@@ -146,190 +154,112 @@ a, a:active, a:focus, a:active {
   position: absolute;
 }
 
-#head-container {
-  background: black;
-  /*box-shadow: inset 0 2em .33em -.5em #555;*/ /*opaque sheen to background */
-/*   text-shadow: 0 -1px 0 #000; */
-  /*   border-bottom: 9.875px #aaa solid; */
-  /*gray lip to the bar*/
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
-}
-
-a {
+#head-container a {
+  font-size: 1.125em;
   text-decoration: none;
   color: ivory;
 }
 
-#brand {
-  color: ivory !important; /* white */
-  /*   padding-top: 25px; */
-  font-family: "Handel Gothic", "Geneva", sans-serif !important;
-  font-size: 1.75em; /*2em*/
-  font-weight: 700;
-  margin: 0 0 0 100px;
-}
+#head-container li:hover a {color: var(--shale;)}
 
-nav {
-  display: block;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-.nav a {
-  display: block;
-  background: black;/*#111*/
-  color: ivory; /*#fff*/
-  text-decoration: none;
-  padding: 0.8em 1.8em;
-  text-transform: uppercase;
-  font-size: 80%;
-  letter-spacing: 2px;
-/*   text-shadow: 0 -1px 0 #000; */
-  position: relative;
-}
-
-.nav {
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.nav li {
+#head-container ul {
   list-style: none;
-  background: var(--charcoal);
+}
+
+#head-container ul.menu {/*force primary menu bar to the far right*/
+  margin: 20px 50px 0 800px;
+  background: black;
+}
+
+#head-container li.menu-item:hover {
+  /* margin-top: 16px; */
+}
+
+/*Primary Level Menu*/
+#head-container ul li {
+  width: 150px;
+  height: 50px;
+  line-height: 2.875; /*50px*/
+  border: none;
+  text-align: left;
+  float: left;
+  padding-left: 20px;
   position: relative;
 }
 
-.nav li:hover {
+#head-container ul li:hover  {/*effects menu items*/
   background-color: var(--antiquegray);/*peach*/
   color: var(--shale);/*seaweed*/
 }
 
-.nav > li {
-  float: left;
-  margin-right: 1px;
+#head-container ul li a:hover, #head-container ul li a:focus  {
+  font-size: 1.125em;
+  font-weight: 700;
+  color: navy;/*skyblue|slate|ocean*/
+  position: absolute;
 }
 
-.nav > li > a {
-  margin-bottom: 1px;
-/*   box-shadow: inset 0 2em 0.33em -0.5em #555; */
+/*Dropdown Menu*/
+#head-container .dropdown-menu {
+  background-color: var(--charcoal);/*antiquegray|var(--water);*/
+  opacity: 0.7;
+  border: 0.5px dotted var(--charcoal);
+  color: ivory;
+  display: none;
 }
 
-.nav li:hover > a {
-  background: var(--antiquegray);
-   list-style: none;
-  color: navy;
+#head-container ul li:hover > ul {/*ul li*/
+  display: block;
+  top: 50px;
+  margin-left: 30px;
+  position: absolute;
 }
 
-.nav ul li ul li {
-    border-right: 0.5px dotted gainsboro;
-  border-left: 0.5px dotted gainsboro;
-  border-bottom: 0.5px dotted gainsboro;
-  color: white;
+/*Dropdown-item: ul li ul li*/
+#head-container .dropdown-item {
+  width: 250px;
+  border-right: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
+  border-left: 0.5px dotted gainsboro;/*var(--charcoal)|#222222*/
+  border-bottom: 0.5px dotted gainsboro;/*var(--charcoal)|#222222|fuchsia|gainsboro*/
+  color: white;/*var(--charcoal)|#222222*/
+  z-index: 9999;
 }
 
-.nav ul li ul li:hover {
-  background: gainsboro;
+#head-container .dropdown-item:hover {
+  background-color: gainsboro;
+  padding-left: 10px;/*reducing padding shift left*/
   color: var(--obsidian);
 }
 
-.nav > li:first-child .nav > li:first-child > a {
+#head-container .dropdown-item:first-child {border-top: 0;}
+
+#head-container .dropdown-item.end {border-bottom: 0;}
+
+#head-container .dropdown-item a {/*default dropdown item text*/
+  /* font-size: 1.25em; */
+  text-decoration: none;
+  color: white;/*var(--charcoal)|ivory|obsidian|fuchsia*/
 }
 
-.nav > li:last-child {
-  border-radius: 0 0 4px 0;
-  margin-right: 0;
+#head-container .dropdown-item a:hover {
+  background-color: gainsboro;
+  padding-left: 10px;/*reducing padding shift left*/
+  color: var(--obsidian);
 }
 
-.nav li li a {
-  margin-top: 1px;
-  list-style: none;
-  background: var(--charcoal);
-  opacity: 0.7;
-  border-bottom: 0.5px dotted gainsboro;
+/*#head-container ul li ul li a:hover {color: var(--obsidian);}*/
+
+/*Dropdown Arrow*/
+#head-container .arrow:after {
+  content: "\25BC";
+  margin: 5px 0 0 20px;
+  font-size: 0.65em;
+  color: ivory;
 }
 
-.nav li a:first-child:nth-last-child(2):before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  border: 0.5px dotted gainsboro;
-  top: 50%;
-  right: 5px;
-}
-
-/* submenu positioning*/
-.nav ul {
-  position: absolute;
-  white-space: nowrap;
-  z-index: 1;
-  left: -99999em;
-}
-
-.nav > li:hover > ul {
-  left: auto;
-  padding-top: 5px;
-  min-width: 100%;
-}
-
-.nav > li li ul {
-  border-left: 0.5px dotted gainsboro;
-}
-
-.nav > li li:hover > ul {
-  margin-left: 1px;
-  left: 100%;
-  top: -1px;
-}
-
-
-/* arrow hover styling */
-/*style down arrow*/
-.nav > li > a:first-child:nth-last-child(2):before {
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: none;
-  border-top-style: solid;
-  border-top-width: 5px;
-  border-top-color: ivory;/*#aaa*/
-}
-/*style up arrow*/
-.nav > li:hover > a:first-child:nth-last-child(2):before {
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: none;
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
-  border-bottom-color: navy;
-  margin-top: -5px;
-}
-
-/*style right arrow*/
-.nav li li > a:first-child:nth-last-child(2):before {
-  border-left-style: solid;
-  border-left-width: 5px;
-  border-left-color: ivory;/**#aaa*/
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  margin-top: -5px;
-}
-/*Style left arrow*/
-.nav li li:hover > a:first-child:nth-last-child(2):before {
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: none;
-  border-right-style: solid;
-  border-right-width: 5px;
-  border-right-color: navy;
-  right: 10px;
+#head-container .arrow:hover:after {
+  font-size: 1em;
+  color: navy;/*var(--cottonblue)|#d3edf8|skyblue|obsidian*/
 }
 
 /*--	Header End --*/
