@@ -170,7 +170,7 @@ a {
   justify-self: start;
 }
 
-nav {
+nav {/*nav tag*/
   display: block;
   justify-self: end;
 }
