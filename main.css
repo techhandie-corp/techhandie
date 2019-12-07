@@ -176,6 +176,7 @@ a {
 
 nav {
   display: block;
+  float: right;
 }
 
 nav ul {
@@ -199,7 +200,7 @@ ul.nav a {
 ul.nav {
   vertical-align: middle;
   display: inline-block;
-  float: right;
+
 }
 
 ul.nav li {
@@ -322,6 +323,7 @@ ul.nav li li > a:first-child:nth-last-child(2):before {
   border-bottom: 5px solid transparent;
   margin-top: -5px;
 }
+
 /*Style left arrow*/
 ul.nav li li:hover > a:first-child:nth-last-child(2):before {
   border-top: 5px solid transparent;
