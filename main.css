@@ -158,6 +158,7 @@ a, a:active, a:focus, a:active {
   justify-content: space-between;
   position: relative;
   width: 100%;
+  height: 80px;
 }
 
 a {
