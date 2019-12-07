@@ -170,6 +170,8 @@ a {
   justify-self: start;
 }
 
+#brand a {color: ivory;}
+
 nav {/*nav tag*/
   display: block;
   justify-self: end;
