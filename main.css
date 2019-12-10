@@ -162,7 +162,7 @@ a {
   color: ivory !important;
   /* white */
   /*   padding-top: 25px; */
-  font-family: "Handel Gothic", "Geneva", sans-serif !important;
+  font-family: "Handel Gothic", 'Geneva', sans-serif !important;
   font-size: 1.725em;
   /*2em*/
   font-weight: 700;
@@ -1116,6 +1116,28 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*------------ Heading End -----------*/
+
+/*------------Modal Pop Up Start------------*/
+#cboxLoadedContent {
+  padding: 10px;
+  background: #fffff0;
+}
+
+#modal-content {
+  display: none;
+}
+
+#modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#modal-content input {
+  width: 95%;
+}
+/*------------Modal Pop Up End--------------*/
+
+
 /*--	Footer Start --*/
 footer {
   background: #000000;
