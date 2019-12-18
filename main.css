@@ -336,6 +336,8 @@ ul.nav li li:hover>a:first-child:nth-last-child(2):before {
 }
 
 /*--	Header End --*/
+
+
 /*-- Content Start --*/
 /* in Index */
 h1.weighty {
@@ -396,6 +398,216 @@ div.col-md-10.col-md-offset-2 {
   font-weight: 600;
   color: var(--obsidian);
 }
+/*-- Content End --*/
+
+
+/*-- Modal Start --*/
+
+.modal-content {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);
+}
+
+/*-- modal-Header --*/
+.modal-header {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);
+  background-size: cover;
+  padding-top: 65px;
+  /* 150px */
+  padding-bottom: 25px;
+  /* 107px */
+  position: relative;
+  background-attachment: fixed;
+  border-bottom: none;
+  /* 1px solid #222222; */
+  height: 100px;
+}
+
+.modal-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  /* linear-gradient(to left, #928dab, #1f1c2c 70%); */
+/*   opacity: 0.2; */
+}
+
+.modal-header #block  {
+  color: #e3e3e4;
+  /* #E3E3E4 */
+  margin: 0 auto;
+/*   padding-left: 0px; */
+  text-align: left;
+}
+
+.modal-title {
+  color: var(--obsidian);
+  font-weight: 300;
+  font-size: 2.0125em;/*45px*/
+  letter-spacing: 0.125em;/*2px;*/
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.modal-header .instruct {
+  color: var(--obsidian);
+  font-size: 1.125em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.modal-header p a {
+  color: black;
+  text-decoration: underline;
+}
+
+.modal-header  p a:hover {
+  color: #426bca;
+  font-style: italic;
+}
+
+/*-- modal-Header End --*/
+
+
+/*-- Contact-form Start --*/
+#contact-form {
+  background: #A3A3A3;
+  /* #f2f2f2 */
+  padding-top: 35px;
+  padding-bottom: -80px+;
+}
+
+#contact-form .container {
+  margin: 0 30%;
+}
+
+#contact-form .requires {
+  margin-bottom: 30px;
+}
+
+#contact-form p {
+  color: white;
+  font-style: italic;
+}
+
+#contact-form label {color: white;}
+
+#contact-form  form .form-group {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin: 0px;
+  width: 100%;
+}
+
+#contact-form  form .form-group .form-control {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 60px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+}
+
+#contact-form  form .form-group-2 {
+  padding-bottom: 15px;
+}
+
+#contact-form  .form-group-2 textarea {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 135px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+#contact-form button.btn {
+  width: 100px !important;
+  height: 40px !important;
+  background: #47424C !important;
+  border: none;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0625em;
+}
+
+#contact-form button.btn:hover {
+  background-color: #426bca !important;
+  color: pink  !important;
+  font-style: italic;
+}
+
+#contact-form form .field-block {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: justify;
+}
+
+#contact-form  form .field {
+  color: white;
+  font-size: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+#contact-form  form .btn {
+  background: var(--water);
+  border: none;
+  border-radius: 15px;
+  color: var(--coal);
+  width: 150px;
+  height: 50px;
+}
+
+#contact-form  form .btn:hover {
+  background: #428bca;
+  color: white;
+}
+
+#contact-form .info-title h2 {
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: underline;
+}
+
+#contact-form .info-title h3 {
+  font-family: 'Handel Gothic', sans-serif;
+  font-size: 1.125em;
+  color: white;
+  margin-top: 0px;
+}
+
+#contact-form .info-title a {
+  color: white;
+}
+
+#contact-form .info-title a:hover {
+  text-decoration: underline;
+  color: #426bca;
+}
+
+#contact-form img {
+  padding-right: 10px;
+}
+
+/*-- Contact-form End --*/
+
+/*-- Modal End --*/
+
 
 /*-- History Start --*/
 #history {

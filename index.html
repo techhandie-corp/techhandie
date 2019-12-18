@@ -80,7 +80,7 @@
 							</ul>
 						</li>
 						<li><a href="https://techhandie-corp.github.io/techhandie/history">History</a></li>
-						
+
 						<li><a href="https://techhandie-corp.github.io/techhandie/contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -96,7 +96,6 @@
 						<div class="block">
 							<h2>"We fit the technology to your business"</h2>
 							<br>
-							<!--<p >Business is the focus ... <br>Understanding your business and your vision Developing custom web based solutions To meet your business objectives</p>-->
 							<p>Business is our focus ...</p>
 							<p>Understanding your business and vision</p>
 							<p>Developing custom web based solutions</p>
@@ -107,7 +106,64 @@
 				</div><!-- row -->
 			</div><!-- container -->
 		</section>
-		<!-- Cotent End -->
+		<!-- Content End -->
+
+		<!-- Modal Start -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+
+						<div id="block">
+							<h5 class="modal-title" id="exampleModalLabel">Need Information</h5>
+							<h4 class="instruct">Please complete and send</h4>
+						</div>
+
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+					</div>
+					<div id="contact-form" class="modal-body">
+						<form accept-charset="UTF-8" action="https://formspree.io/admin@techhandie.com" method="POST">
+							<div class="form-group">
+								<p class="requires">* required fields</p>
+								<input type='hidden' class="form-control" name="Source" value="Req Info">
+								<label for="firstname-input" class="form-label">* First Name: </label>
+								<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="First Name" required="true">
+
+								<label for="lastname-input" class="form-label">* Last Name: </label>
+								<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="Last Name" required="true">
+
+								<label for="phone-input" class="form-label">* Phone Number <i>(10 digits; no hyphens)</i> :</label>
+								<input type="text" pattern="[0-9]{10}" class="form-control" name="Phone" require="true">
+
+								<label for="email-input" class="form-label">* Email Address: </label>
+								<input type="text" pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i" class="form-control" name="Email" required="true">
+
+								<div class="field-block">
+									I am interested in:<br>
+									<input type="checkbox" class="field" name="interest1" value="Reporting"> customized reporting<br>
+									<input type="checkbox" class="field" name="interest2" value="Analysis"> data analysis<br>
+									<input type="checkbox" class="field" name="interest3" value="Ecommerce"> ecommerce solution<br>
+									<input type="checkbox" class="field" name="interest4" value="Consult"> free consultation<br>
+									<input type="checkbox" class="field" name="interest5" value="Marketing"> marketing & promotion<br>
+									<input type="checkbox" class="field" name="interest6" value="SEO"> search engine optimization<br>
+									<input type="checkbox" class="field" name="interest7" value="Design"> website design <br>
+								</div>
+								<!-- field-block -->
+								<button type="submit" class="btn btn-info btn-lg">Send</button>
+							</div>
+							<!--form-group -->
+						</form><!-- action -->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<!--<button type="button" class="btn btn-primary">Save changes</button>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Modal End-->
 
 		<!-- Footer Start -->
 		<footer>
@@ -138,6 +194,13 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<!--JQuery Modal Pop-Up Code-->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			 $("#exampleModal").delay(2000).modal('show').fadeIn(400);
+		});
+	</script>
 
 </body>
 
