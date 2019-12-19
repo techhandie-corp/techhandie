@@ -198,9 +198,13 @@
 
 	<!--JQuery Modal Pop-Up Code-->
 	<script type="text/javascript">
+
 		$(document).ready(function(){
-			 $("#exampleModal").delay(20000).modal('show').fadeIn(1000);
+		setTimeout(function(){
+		$("#exampleModal").modal('show');
+	},60000);
 		});
+
 	</script>
 
 </body>
