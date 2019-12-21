@@ -407,7 +407,7 @@ div.col-md-10.col-md-offset-2 {
   padding: 0 50px;
   /* background: #A3A3A3 !important; */
   width: 500px;
-  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);*/
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);
 }
 
 /*-- modal-Header --*/
@@ -421,7 +421,6 @@ div.col-md-10.col-md-offset-2 {
   background-attachment: fixed;
   border-bottom: none;
   /* 1px solid #222222; */
-  width: 500px;
   height: 100px;
 }
 
