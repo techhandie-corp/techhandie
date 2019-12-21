@@ -413,9 +413,8 @@ div.col-md-10.col-md-offset-2 {
 .modal-header {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);
   background-size: cover;
-  padding-top: 65px;
+  padding: 65px 50px 25px 50px;
   /* 150px */
-  padding-bottom: 25px;
   /* 107px */
   position: relative;
   background-attachment: fixed;
