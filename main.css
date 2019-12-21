@@ -445,8 +445,8 @@ div.col-md-10.col-md-offset-2 {
 }
 
 .modal-title {
-  color: var(--obsidian);
-  font-weight: 300;
+  color: var(--coal);
+  font-weight: 400;
   font-size: 2.0125em;/*45px*/
   letter-spacing: 0.125em;/*2px;*/
   margin-top: 0;
@@ -454,7 +454,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 .modal-header .instruct {
-  color: var(--obsidian);
+  color: var(--coal);
   font-size: 1.125em;
   font-weight: 400;
   letter-spacing: 1px;
