@@ -96,7 +96,7 @@
     <div class"row">
         <div class="col-md-12">
             <div class="block">
-                <h1>{{ page.title }}</h1>
+                <h1>Request Information</h1>
                 <p class="instruct">Please complete and send.</p>
             </div><!-- block -->
         </div><!-- col-md12 -->
@@ -113,24 +113,29 @@
           <form accept-charset="UTF-8" action="https://formspree.io/admin@techhandie.com" method="POST">
             <div class="form-group">
               <input type='hidden' class="form-control" name="Source" value="Req Info" >
-              <label for="firstname-input" class="form-label">* First Name: </label>
-              <input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="First Name" required="true">
+							<label for="firstname-input" class="form-label">* First Name: </label>
+							<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="First Name" required="true">
 
-              <label for="lastname-input" class="form-label">* Last Name: </label>
-              <input type="text"  pattern="[A-Za-z]{1..50}" class="form-control" name="Last Name" required="true">
+							<label for="lastname-input" class="form-label">* Last Name: </label>
+							<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="Last Name" required="true">
 
-              <label for="phone-input" class="form-label">* Phone Number   <i>(10 digits; no hyphens)</i> :</label>
-              <input type="text"  pattern="[0-9]{10}" class="form-control" name="Phone" require="true">
+							<label for="phone-input" class="form-label">* Phone Number <i>(10 digits; no hyphens)</i> :</label>
+							<input type="text" pattern="[0-9]{10}" class="form-control" name="Phone" require="true">
 
-              <label for="email-input" class="form-label">* Email Address: </label>
-              <input type="text" pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i" class="form-control" name="Email" required="true">
+							<label for="email-input" class="form-label">* Email Address: </label>
+							<input type="text" pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i" class="form-control" name="Email" required="true">
 
-              <div class="field-block">
-                I am interested in having a:<br>
-                <input type="checkbox" class="field" name="interest2" value="Consult">   free consultation<br>
-                <input type="checkbox" class="field" name="interest3" value="Design">    website designed<br>
-                <input type="checkbox" class="field" name="interest4" value="Develop">   web application developed
-              </div><!-- field-block -->
+							<div class="field-block">
+								I am interested in:<br>
+								<input type="checkbox" class="field" name="interest1" value="Reporting"> customized reporting<br>
+								<input type="checkbox" class="field" name="interest2" value="Analysis"> data analysis<br>
+								<input type="checkbox" class="field" name="interest3" value="Ecommerce"> ecommerce solution<br>
+								<input type="checkbox" class="field" name="interest4" value="Consult"> free consultation<br>
+								<input type="checkbox" class="field" name="interest5" value="Marketing"> marketing & promotion<br>
+								<input type="checkbox" class="field" name="interest6" value="SEO"> search engine optimization<br>
+								<input type="checkbox" class="field" name="interest7" value="Design"> website design <br>
+							</div>
+							<!-- field-block -->
               <button type="submit" class="btn btn-info btn-lg">Send</button>
             </div><!-- form-group --
           </form><!-- action -->
