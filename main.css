@@ -404,7 +404,9 @@ div.col-md-10.col-md-offset-2 {
 /*-- Modal Start --*/
 
 .modal-content {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);
+  padding: 0 50px;
+  background: #A3A3A3;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg);*/
 }
 
 /*-- modal-Header --*/
@@ -456,7 +458,7 @@ div.col-md-10.col-md-offset-2 {
 .modal-header .instruct {
   color: var(--coal);
   font-size: 1.125em;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   word-spacing: 2px;
 }
