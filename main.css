@@ -483,7 +483,7 @@ div.col-md-10.col-md-offset-2 {
   padding-bottom: -80px+;
 }
 
-#contact-form.modal-body {background: #A3A3A3;}
+#contact-form.modal-body {background: transparent;}
 
 #contact-form .container {
   margin: 0 10%;
