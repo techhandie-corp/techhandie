@@ -2,6 +2,7 @@
 /*    General   */
 /****************/
 /* https://www.techhandie.com/ */
+
 /*-- Font Sourcing --*/
 @import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov');
 
@@ -31,6 +32,8 @@
 }
 
 /*-- Font sourcing End --*/
+
+
 /*--	Common Css --*/
 :root {
   --antiquegray: rgb(207, 207, 207);
@@ -139,9 +142,12 @@ a, a:active, a:focus, a:active {
 }
 
 /*--	Common CSS End --*/
+
 /***********************/
 /*** * General End * ***/
 /***********************/
+
+
 /*-- Header Start --*/
 #navbar {
   background: black;
@@ -398,13 +404,38 @@ div.col-md-10.col-md-offset-2 {
   font-weight: 600;
   color: var(--obsidian);
 }
+
 /*-- Content End --*/
 
 
-/*-- Modal Start --*/
+/*--------- Heading Start ------------*/
+/*
+.heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.heading h2 {
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.heading p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #292929;
+  font-weight: 300;
+}
+*/
+/*------------ Heading End -----------*/
+
+
+/*------------Modal Pop Up Start------------*/
 
 .modal-content {
-  background: #A3A3A3;
+  background: #A3A3A3 !important;
   width: 500px;
   /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg); */
 }
@@ -467,7 +498,7 @@ div.col-md-10.col-md-offset-2 {
   text-decoration: underline;
 }
 
-.modal-header  p a:hover {
+.modal-header p a:hover {
   color: #426bca;
   font-style: italic;
 }
@@ -617,12 +648,32 @@ div.col-md-10.col-md-offset-2 {
 
 /*-- Contact-form End --*/
 
+
+#cboxLoadedContent {
+  padding: 10px;
+  background: #fffff0;
+}
+
+#modal-content {
+  display: none;
+}
+
+#modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#modal-content input {
+  width: 95%;
+}
+
+
 .modal-footer {background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg) !important;}
 
-/*-- Modal End --*/
+/*------------Modal Pop Up End--------------*/
 
 
-/*-- History Start --*/
+/*-------------History Start----------------*/
 #history {
   padding: 30px 0;
   /* 50 */
@@ -680,6 +731,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- History End --*/
+
 
 /*===============================================*/
 /*-- Req-contact-form Start --*/
@@ -968,6 +1020,8 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- Projects End --*/
+
+
 /*-- Service Start --*/
 #service {
   background: var(--water);
@@ -1128,6 +1182,8 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- Service End --*/
+
+
 /*-- TechAssist Start --*/
 #techassist {
   background: var(--water);
@@ -1196,6 +1252,8 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- TechAssist End --*/
+
+
 /*-- News Start --*/
 #news {
   background: var(--water);
@@ -1237,6 +1295,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- News End --*/
+
 
 /*-- Global-Header --*/
 #global-header {
@@ -1303,20 +1362,21 @@ div.col-md-10.col-md-offset-2 {
 
 /*-- Global-Header End --*/
 
-/*-- Contact-form Start --*/
-#contact-form {
-  background: #A3A3A3 !important;
+
+/*-- Contact-Page Start --*/
+#c-contact-form {
+  background: #A3A3A3;
   /* #f2f2f2 */
   padding-top: 35px;
   padding-bottom: 35px;
 }
 
-#contact-form p {
+#c-contact-form p {
   color: white;
   font-style: italic;
 }
 
-#contact-form .block form .form-group {
+#c-contact-form .block form .form-group {
   color: white;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1324,7 +1384,7 @@ div.col-md-10.col-md-offset-2 {
   width: 100%;
 }
 
-#contact-form .block form .form-group .form-control {
+#c-contact-form .block form .form-group .form-control {
   color: black;
   background: #ffffff;
   /* #F6F8FA */
@@ -1335,11 +1395,11 @@ div.col-md-10.col-md-offset-2 {
   width: 100%;
 }
 
-#contact-form .block form .form-group-2 {
+#c-contact-form .block form .form-group-2 {
   padding-bottom: 15px;
 }
 
-#contact-form .block .form-group-2 textarea {
+#c-contact-form .block .form-group-2 textarea {
   color: black;
   background: #ffffff;
   /* #F6F8FA */
@@ -1351,7 +1411,7 @@ div.col-md-10.col-md-offset-2 {
   margin: 40px 0 20px 0;
 }
 
-#contact-form .block button {
+#c-contact-form .block button {
   width: 100%;
   height: 60px;
   background: #47424C;
@@ -1361,7 +1421,7 @@ div.col-md-10.col-md-offset-2 {
   font-size: 18px;
 }
 
-#contact-form .block form .field-block {
+#c-contact-form .block form .field-block {
   color: white;
   margin-top: 20px;
   margin-bottom: 25px;
@@ -1369,14 +1429,14 @@ div.col-md-10.col-md-offset-2 {
   text-align: justify;
 }
 
-#contact-form .block form .field {
+#c-contact-form .block form .field {
   color: white;
   font-size: 1.1em;
   padding-top: 40px;
   padding-bottom: 35px;
 }
 
-#contact-form .block form .btn {
+#c-contact-form .block form .btn {
   background: var(--water);
   border: none;
   border-radius: 15px;
@@ -1385,39 +1445,40 @@ div.col-md-10.col-md-offset-2 {
   height: 50px;
 }
 
-#contact-form .block form .btn:hover {
+#c-contact-form .block form .btn:hover {
   background: #428bca;
   color: white;
 }
 
-#contact-form .info-title h2 {
+#c-contact-form .info-title h2 {
   font-family: 'Bitter', serif;
   font-size: 1.5em;
   color: white;
   text-decoration: underline;
 }
 
-#contact-form .info-title h3 {
+#c-contact-form .info-title h3 {
   font-family: 'Handel Gothic', sans-serif;
   font-size: 1.125em;
   color: white;
   margin-top: 0px;
 }
 
-#contact-form .info-title a {
+#c-contact-form .info-title a {
   color: white;
 }
 
-#contact-form .info-title a:hover {
+#c-contact-form .info-title a:hover {
   text-decoration: underline;
   color: #426bca;
 }
 
-#contact-form img {
+#c-contact-form img {
   padding-right: 10px;
 }
 
-/*-- Contact-form End --*/
+/*-- Contact-Page End --*/
+
 /*--  Thank You --*/
 #thank-you {
   background-color: #BFBFBF;
@@ -1462,47 +1523,6 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- Thank You End --*/
-/*--------- Heading Start ------------*/
-.heading {
-  padding-bottom: 60px;
-  text-align: center;
-}
-
-.heading h2 {
-  color: #000;
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 400;
-}
-
-.heading p {
-  font-size: 18px;
-  line-height: 40px;
-  color: #292929;
-  font-weight: 300;
-}
-
-/*------------ Heading End -----------*/
-
-/*------------Modal Pop Up Start------------*/
-#cboxLoadedContent {
-  padding: 10px;
-  background: #fffff0;
-}
-
-#modal-content {
-  display: none;
-}
-
-#modal-content label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#modal-content input {
-  width: 95%;
-}
-/*------------Modal Pop Up End--------------*/
 
 
 /*--	Footer Start --*/
@@ -1525,27 +1545,27 @@ footer a {
   /* #595959; */
 }
 
-footer .footer-manu {
+footer .footer-menu {
   padding-bottom: 25px;
 }
 
-footer .footer-manu ul {
+footer .footer-menu ul {
   margin: 0px;
   padding: 0px;
 }
 
-footer .footer-manu ul li {
+footer .footer-menu ul li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-footer .footer-manu ul li a {
+footer .footer-menu ul li a {
   display: inline-block;
   color: var(--water);
   /* #494949; */
 }
 
-footer .footer-manu ul li a:hover {
+footer .footer-menu ul li a:hover {
   color: #428bca;
 }
 
