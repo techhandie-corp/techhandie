@@ -1631,7 +1631,7 @@ footer .footer-menu ul li a:hover {
   nav {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start !important;
     justify-self: start;
     visibility: hidden;
   }
