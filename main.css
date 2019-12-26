@@ -164,6 +164,8 @@ a {
   color: ivory;
 }
 
+#menu, label {display:none;}
+
 #brand {
   color: ivory !important;
   /* white */
@@ -1574,15 +1576,18 @@ footer .footer-menu ul li a:hover {
 /*======================Media Queries=======================*/
 
 @media only screen and (max-width: 1000px) {
+
+  #menu, label {display: block;}
+
     .navbar {
-    background: black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start !important;
-    align-content: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    width: 100%;
+      background: black;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start !important;
+      align-content: flex-start;
+      justify-content: flex-start;
+      position: relative;
+      width: 100%;
   }
 
   a {
@@ -1621,7 +1626,7 @@ footer .footer-menu ul li a:hover {
     visibility: visible;
   }
 
-  /*=========================*/
+  /*========Mobile===========*/
 
   nav {
     display: flex;
@@ -1638,8 +1643,7 @@ footer .footer-menu ul li a:hover {
     padding: 0.8em 1.8em;
     text-transform: uppercase;
     font-size: 80%;
-    letter-spacing: 2px;
-  /*   text-shadow: 0 -1px 0 #000; */
+    letter-spacing: 2px
     position: relative;
   }
 
