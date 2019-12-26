@@ -1598,7 +1598,7 @@ footer .footer-menu ul li a:hover {
   #brand {
     color: ivory !important;
     font-family: "Handel Gothic", "Geneva", sans-serif !important;
-    font-size: 1.75em; /*2em*/
+    font-size: 1em; /*2em*/
     font-weight: 700;
     margin: 0;
   }
