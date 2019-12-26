@@ -381,14 +381,6 @@ h1.weighty {
   color: var(--obsidian);
 }
 
-/* #content .block h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 45px;
-  line-height: 60px;
-  letter-spacing: 10px;
-  padding-bottom: 45px;
-} */
 #content .block p {
   color: vaar(--obsidian);
   font-size: 23px;
@@ -1596,9 +1588,10 @@ footer .footer-menu ul li a:hover {
   }
 
   #brand {
+    display: none;
     color: ivory !important;
     font-family: "Handel Gothic", "Geneva", sans-serif !important;
-    font-size: 1em; /*2em*/
+    font-size: 1.5em; /*2em*/
     font-weight: 700;
     margin: 0;
   }
@@ -1626,7 +1619,7 @@ footer .footer-menu ul li a:hover {
     visibility: visible;
   }
 
-  /*========Mobile===========*/
+  /*========Mobilge===========*/
 
   nav {
     display: flex;
