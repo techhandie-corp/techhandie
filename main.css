@@ -1641,7 +1641,7 @@ footer .footer-menu ul li a:hover {
   }
 
   ul.nav {
-    display: block;
+    display: block !important;
 
     /*
     display: flex;
