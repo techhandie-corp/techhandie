@@ -1630,7 +1630,7 @@ footer .footer-menu ul li a:hover {
 
   nav {
     display: block;
-    visibility: visible;
+    visibility: hidden;
     z-index: 99999;
     /*
     display: flex;
