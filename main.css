@@ -1565,6 +1565,7 @@ footer .footer-menu ul li a:hover {
 
 /*-- Footer End --*/
 
+
 /*======================Media Queries=======================*/
 
 @media only screen and (max-width: 1000px) {
@@ -1619,7 +1620,7 @@ footer .footer-menu ul li a:hover {
     visibility: visible;
   }
 
-  /*========Mobilge===========*/
+  /*========Mobile===========*/
 
   #navbar {
     display: flex;
@@ -1650,6 +1651,8 @@ footer .footer-menu ul li a:hover {
   .nav {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;/**vertical/
+    justify-content: flex-start;/**horizontal/
   }
 
   .nav > li {
