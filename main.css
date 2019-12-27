@@ -1636,6 +1636,19 @@ footer .footer-menu ul li a:hover {
     visibility: hidden;
   }
 
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;/*vertical*/
+    justify-content: flex-start;/*horizontal*/
+    z-index: 99999;
+  }
+
+  .nav > li {
+    float: left;
+    margin-right: 1px;
+  }
+
   .nav a {
     display: block;
     background: black;/*#111*/
@@ -1646,18 +1659,6 @@ footer .footer-menu ul li a:hover {
     font-size: 80%;
     letter-spacing: 2px
     position: relative;
-  }
-
-  .nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;/**vertical/
-    justify-content: flex-start;/**horizontal/
-  }
-
-  .nav > li {
-    float: left;
-    margin-right: 1px;
   }
 
   #content {}
