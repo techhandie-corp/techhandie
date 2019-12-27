@@ -1640,11 +1640,15 @@ footer .footer-menu ul li a:hover {
     */
   }
 
-  .nav {
+  ul.nav {
+    display: block;
+
+    /*
     display: flex;
     flex-direction: column;
     align-items: flex-start;/*vertical*/
     justify-content: flex-start;/*horizontal*/
+    */
   }
 
   .nav > li {
