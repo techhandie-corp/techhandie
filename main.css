@@ -1590,9 +1590,6 @@ footer .footer-menu ul li a:hover {
 /*-- Footer End --*/
 
 
-
-
-
 /*=============Media Queries==================*/
 
   @media only screen and (max-width: 1000px) {
@@ -1604,7 +1601,7 @@ footer .footer-menu ul li a:hover {
   {display: block;}
 
     /*Show menu when invisible checkbox is checked*/
-  input[type=checkbox]:checked ~ ul#nav{
+  input[type=checkbox]:checked ~ nav{
       display: block;
   }
 
