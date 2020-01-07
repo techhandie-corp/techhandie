@@ -1590,59 +1590,7 @@ footer .footer-menu ul li a:hover {
 /*-- Footer End --*/
 
 
-/*======================Media Queries=======================*/
 
-@media only screen and (max-width: 1000px) {
-
-  #menu, label {display: block;}
-
-    .navbar {
-      background: black;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start !important;
-      align-content: flex-start;
-      justify-content: flex-start;
-      position: relative;
-      width: 100%;
-  }
-
-  a {
-    text-decoration: none !important;
-    color: ivory !important;
-  }
-
-  #brand {
-    display: none;
-    color: ivory !important;
-    font-family: "Handel Gothic", "Geneva", sans-serif !important;
-    font-size: 1.5em; /*2em*/
-    font-weight: 700;
-    margin: 0;
-  }
-
-  .icon {/*hamburger icon*/
-    width: 25px;
-    height: 2px;
-    background-color: white;
-    margin: 6px 0;
-  }
-
-  label {
-    cursor:pointer;/*act like link*/
-    margin: -10px 0 0 0;
-  }
-
-  input[type=checkbox] {visibility: hidden;}
-
-  /* Toggle Effect */
-  input[type=checkbox]:checked ~ label {/*display close icon*/
-  /*     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/close_outlne.png); */
-  }
-
-  input[type=checkbox]:checked ~ nav {/*display menu*/
-    visibility: visible;
-  }
 
 
 /*=============Media Queries==================*/
