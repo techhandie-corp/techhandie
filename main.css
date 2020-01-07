@@ -1644,8 +1644,52 @@ footer .footer-menu ul li a:hover {
     visibility: visible;
   }
 
-  /*========Mobile===========*/
 
+/*=============Media Queries==================*/
+
+  @media only screen and (max-width: 1000px) {
+
+  header {background: black; height: 70px;}
+
+    /*Hide checkbox*/
+    input[type=checkbox] + label.show-menu
+  {display: block;}
+
+    /*Show menu when invisible checkbox is checked*/
+  input[type=checkbox]:checked ~ ul#nav{
+      display: block;
+  }
+
+       /*Display 'show menu' link*/
+      label.show-menu {display:block;}
+
+    /*Make dropdown links appear inline*/
+      ul {
+          position: static;
+        float: left;
+          display: none;
+      }
+
+    #nav {margin: -7px 0 0 0;}
+
+      /*Create vertical spacing*/
+      li {
+          margin-bottom: 1px;
+      }
+
+      /*Make all menu links full width*/
+      ul li {display: block;}
+
+    ul li:first-child {border-top: 0;}
+
+    li:hover li {margin: -20px 0 0 30px;border: none;}
+
+  }
+
+
+
+  /*========Mobile===========*/
+/*
   #navbar {
     display: flex;
     flex-direction: column !important;
@@ -1664,6 +1708,7 @@ footer .footer-menu ul li a:hover {
     */
   }
 
+/*
   ul.nav {
     display: block !important;
     flex-wrap: nowrap;
@@ -1674,16 +1719,18 @@ footer .footer-menu ul li a:hover {
     /*justify-content: flex-start;/*horizontal*/
     */
   }
-
+  */
+/*
   .nav > li {
     float: left;
     margin-right: 1px;
   }
-
+  */
+/*
   .nav a {
     display: block;
-    background: black;/*#111*/
-    color: ivory; /*#fff*/
+    background: black;
+    color: ivory;
     text-decoration: none;
     padding: 0.8em 1.8em;
     text-transform: uppercase;
@@ -1691,5 +1738,5 @@ footer .footer-menu ul li a:hover {
     letter-spacing: 2px
     position: relative;
   }
-
 }
+*/
