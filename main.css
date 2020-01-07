@@ -180,6 +180,30 @@ a {
 
 #brand a {color: ivory;}
 
+/*=====Hamburger Menu====*/
+/*Style 'show menu' label button and hide it by default*/
+
+input#show-menu {
+  visibility: hidden;
+  margin: 25px 0 0 13px;
+}
+
+.show-menu {
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+/*     text-align: center; */
+    padding: 10px 0;
+    display: none;
+    margin: -40px 0 0 10px;
+}
+
+.show-menu .fa-bars {color: gainsboro;}
+
+/**===Actual Menu===*/
 nav {/*nav tag*/
   display: block;
   justify-self: end;
