@@ -1642,7 +1642,7 @@ footer .footer-menu ul li a:hover {
 
   ul.nav {
     display: block !important;
-
+    flex-wrap: nowrap;
     /*
     display: flex;
     flex-direction: column;
@@ -1667,7 +1667,5 @@ footer .footer-menu ul li a:hover {
     letter-spacing: 2px
     position: relative;
   }
-
-  #content {}
 
 }
