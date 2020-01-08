@@ -1613,7 +1613,7 @@ footer .footer-menu ul li a:hover {
   /*Display 'show menu' link*/
   label.show-menu {
     display:block;
-    margin: 30px 100px 0 -800px;
+    margin: 30px 100px 0 -900px;
   }
 
   #navbar {height: 100px;}
