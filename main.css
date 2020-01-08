@@ -1595,7 +1595,7 @@ footer .footer-menu ul li a:hover {
 
   @media only screen and (max-width: 1000px) {
 
-  header {background: black; height: 70px;}
+  header {background: black; height: 100px;}
 
     /*Hide checkbox*/
   input[type=checkbox] + label.show-menu
@@ -1614,7 +1614,7 @@ footer .footer-menu ul li a:hover {
     margin: 50px 0 0 -355px;
   }
 
-  #navbar {height: 90px;}
+  #navbar {height: 100px;}
 
   nav {display: block;}
 
