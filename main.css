@@ -1601,6 +1601,7 @@ footer .footer-menu ul li a:hover {
     display: flex;
     flex-direction: column !important;
     justify-content: flex-start !important;
+    flex-wrap: nowrap;
     height: 100px;
   }
 
@@ -1620,7 +1621,7 @@ footer .footer-menu ul li a:hover {
   /*Display 'show menu' link*/
   label.show-menu {
     display:block;
-    margin: -50px 0 0 0;/* 30px 100px 0 -900px*/
+    margin: -20px 0 0 0;/* 30px 100px 0 -900px*/
   }
 
   nav {display: block;}
