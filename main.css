@@ -1614,6 +1614,7 @@ footer .footer-menu ul li a:hover {
   label.show-menu {
     display:block;
     margin: 30px 0 0 -350px;
+    float : left;
   }
 
   #navbar {height: 100px;}
