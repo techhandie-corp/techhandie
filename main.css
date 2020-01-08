@@ -1608,12 +1608,12 @@ footer .footer-menu ul li a:hover {
       display: block;
   }
 
-  input#show-menu {visibility: visible; margin: 50px 0 0 -680px;}
+  input#show-menu {visibility: visible; margin: 30px 0 0 -650px;}
 
   /*Display 'show menu' link*/
   label.show-menu {
     display:block;
-    margin: 20px 0 0 -355px;
+    margin: 30px 0 0 -355px;
   }
 
   #navbar {height: 100px;}
