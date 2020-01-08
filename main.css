@@ -1609,13 +1609,13 @@ footer .footer-menu ul li a:hover {
       label.show-menu {display:block;}
 
     /*Make dropdown links appear inline*/
-      ul {
+      ul.nav {
           position: static;
           float: left;
           display: none;
       }
 
-    .nav {margin: -7px 0 0 0;}
+    ul.nav {margin: -7px 0 0 0;}
 
       /*Create vertical spacing*/
       li {
@@ -1623,9 +1623,9 @@ footer .footer-menu ul li a:hover {
       }
 
       /*Make all menu links full width*/
-      ul li {display: block;}
+      ul.nav li {display: block;}
 
-    ul li:first-child {border-top: 0;}
+    ul.nav li:first-child {border-top: 0;}
 
     li:hover li {margin: -20px 0 0 30px;border: none;}
 
