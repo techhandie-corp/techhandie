@@ -180,6 +180,7 @@ a {
 
 #brand a {color: ivory;}
 
+
 /*=====Hamburger Menu====*/
 /*Style 'show menu' label button and hide it by default*/
 
@@ -188,7 +189,7 @@ input#show-menu {
   margin: 25px 0 0 13px;
 }
 
-.show-menu {
+label.show-menu {
     cursor: pointer;
     font-family: "Open Sans", Arial, sans-serif;
   font-size: 1.5em;
@@ -1613,21 +1614,27 @@ footer .footer-menu ul li a:hover {
           position: static;
           float: left;
           display: none;
+          margin: -7px 0 0 0;
       }
-
-    ul.nav {margin: -7px 0 0 0;}
 
       /*Create vertical spacing*/
-      li {
-          margin-bottom: 1px;
-      }
+      li {margin-bottom: 1px;}
+
+      li ul {display: none;}
 
       /*Make all menu links full width*/
       ul.nav li {display: block;}
 
     ul.nav li:first-child {border-top: 0;}
 
+    li:hover > ul {
+      display: block;
+      position: absolute;
+    }
+
     li:hover li {margin: -20px 0 0 30px;border: none;}
+
+
 
   }
 
