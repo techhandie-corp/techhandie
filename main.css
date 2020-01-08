@@ -1597,6 +1597,8 @@ footer .footer-menu ul li a:hover {
 
   header {background: black; height: 100px;}
 
+  #brand {margin: 0 0 50px 0;}
+
     /*Hide checkbox*/
   input[type=checkbox] + label.show-menu
   {display: block;}
