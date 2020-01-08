@@ -1615,12 +1615,12 @@ footer .footer-menu ul li a:hover {
       display: block;
   }
 
-  input#show-menu {visibility: visible; margin: 10px 0 0 0; }/**30px 100px 0 -800px/
+  input#show-menu {visibility: visible; margin: -50px 0 0 0; }/**30px 100px 0 -800px/
 
   /*Display 'show menu' link*/
   label.show-menu {
     display:block;
-    margin: 10px 0 0 0;/* 30px 100px 0 -900px*/
+    margin: -50px 0 0 0;/* 30px 100px 0 -900px*/
   }
 
   nav {display: block;}
