@@ -1600,7 +1600,7 @@ footer .footer-menu ul li a:hover {
   #navbar {
     display: flex;
     flex-direction: column !important;
-    align-items: flex-start !important;
+    justify-content: flex-start !important;
     height: 80px;
   }
 
