@@ -1601,7 +1601,7 @@ footer .footer-menu ul li a:hover {
     display: flex;
     flex-direction: column !important;
     justify-content: flex-start !important;
-    height: 80px;
+    height: 100px;
   }
 
   #brand {margin: 0 0 50px 50px;}
@@ -1615,15 +1615,13 @@ footer .footer-menu ul li a:hover {
       display: block;
   }
 
-  input#show-menu {visibility: visible; margin: 30px 0 0 0; }/**30px 100px 0 -800px/
+  input#show-menu {visibility: visible; margin: 10px 0 0 0; }/**30px 100px 0 -800px/
 
   /*Display 'show menu' link*/
   label.show-menu {
     display:block;
-    margin: 30px 0 0 0;/* 30px 100px 0 -900px*/
+    margin: 10px 0 0 0;/* 30px 100px 0 -900px*/
   }
-
-  #navbar {height: 100px;}
 
   nav {display: block;}
 
