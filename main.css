@@ -1598,7 +1598,7 @@ footer .footer-menu ul li a:hover {
   header {background: black; height: 70px;}
 
     /*Hide checkbox*/
-    input[type=checkbox] + label.show-menu
+  input[type=checkbox] + label.show-menu
   {display: none;}
 
     /*Show menu when invisible checkbox is checked*/
@@ -1606,8 +1606,12 @@ footer .footer-menu ul li a:hover {
       display: block;
   }
 
+  input#show-menu {margin: 50px 0 -680px;}
+
        /*Display 'show menu' link*/
       label.show-menu {display:block;}
+
+  nav {display: block;} 
 
     /*Make dropdown links appear inline*/
       ul.nav {
