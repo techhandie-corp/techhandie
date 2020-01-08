@@ -1598,7 +1598,7 @@ footer .footer-menu ul li a:hover {
 
     /*Hide checkbox*/
     input[type=checkbox] + label.show-menu
-  {display: block;}
+  {display: none;}
 
     /*Show menu when invisible checkbox is checked*/
   input[type=checkbox]:checked ~ nav{
@@ -1611,11 +1611,11 @@ footer .footer-menu ul li a:hover {
     /*Make dropdown links appear inline*/
       ul {
           position: static;
-        float: left;
+          float: left;
           display: none;
       }
 
-    #nav {margin: -7px 0 0 0;}
+    .nav {margin: -7px 0 0 0;}
 
       /*Create vertical spacing*/
       li {
