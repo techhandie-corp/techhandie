@@ -1609,9 +1609,7 @@ footer .footer-menu ul li a:hover {
     {display: block;}
 
       /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ ul.nav{
-        display: block;
-    }
+    input[type=checkbox]:checked ~ ul.nav {display: block;}
 
     input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
 
@@ -1627,14 +1625,14 @@ footer .footer-menu ul li a:hover {
     ul.nav {
         position: static;
         float: left;
-        display: none;
+        display: block;
         margin: -7px 0 0 0;
     }
 
     /*Create vertical spacing*/
     li {margin-bottom: 1px;}
 
-    li ul {display: none;}
+    /*li ul {display: none;}*/
 
     /*Make all menu links full width*/
     ul.nav li {display: block;}
