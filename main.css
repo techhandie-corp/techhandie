@@ -194,11 +194,10 @@ input#show-menu {
 label.show-menu {
     cursor: pointer;
     font-family: "Open Sans", Arial, sans-serif;
-  font-size: 1.5em;
+    font-size: 1.5em;
     text-decoration: none;
     color: #fff;
     background: black;
-/*     text-align: center; */
     padding: 10px 0;
     display: none;
     margin: -40px 0 0 10px;
@@ -1613,7 +1612,7 @@ footer .footer-menu ul li a:hover {
     {display: block;}
 
       /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ nav ul#nav {display: block;}
+    input[type=checkbox]:checked ~ #mobile {display: block;}
 
     input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
 
@@ -1630,13 +1629,32 @@ footer .footer-menu ul li a:hover {
         margin: -7px 0 0 0;
     }
 
-    /*Create vertical spacing*/
-    #mobile li {margin-bottom: 1px;}
+    #mobile ul {
+      margin: 0;
+      padding: 0;
+    }
 
-    /*li ul {display: none;}*/
+    #mobile a {
+      display: block;
+      background: black;
+      /*#111*/
+      color: ivory;
+      /*#fff*/
+      text-decoration: none;
+      padding: 0.8em 1.8em;
+      text-transform: uppercase;
+      font-size: 80%;
+      letter-spacing: 2px;
+      position: relative;
+    }
+
 
     /*Make all menu links full width*/
-    #mobile li {display: block !important;}
+    #mobile li {
+      display: block !important;
+      /*Create vertical spacing*/
+      margin: 0 0 1px 0;
+    }
 
     #mobile li:first-child {border-top: 0;}
 
