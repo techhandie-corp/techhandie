@@ -1623,7 +1623,7 @@ footer .footer-menu ul li a:hover {
 
     /*Make dropdown links appear inline*/
     ul.nav {
-        position: static;
+        /*position: static;*/
         float: left;
         display: block !important;
         margin: -7px 0 0 0;
@@ -1635,7 +1635,7 @@ footer .footer-menu ul li a:hover {
     /*li ul {display: none;}*/
 
     /*Make all menu links full width*/
-    ul.nav li {display: block !important;}
+    nav ul li {display: block !important;}
 
     ul.nav li:first-child {border-top: 0;}
 
