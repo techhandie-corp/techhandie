@@ -211,12 +211,12 @@ nav {/*nav tag*/
   margin: 0 50px 0 0;
 }
 
-ul.nav ul {
+ul#nav ul {
   margin: 0;
   padding: 0;
 }
 
-ul.nav a {
+ul#nav a {
   display: block;
   background: black;
   /*#111*/
@@ -230,58 +230,58 @@ ul.nav a {
   position: relative;
 }
 
-ul.nav {
+ul#nav {
   vertical-align: middle;
   display: inline-block;
 }
 
-ul.nav li {
+ul#nav li {
   list-style: none;
   position: relative;
 }
 
-ul.nav li:hover {
+ul#nav li:hover {
   background-color: var(--antiquegray);
   /*peach*/
   color: var(--shale);
   /*seaweed*/
 }
 
-ul.nav>li {
+ul#nav>li {
   float: left;
   margin-right: 1px;
 }
 
-ul.nav>li>a {
+ul#nav>li>a {
 margin-bottom: 1px;
 }
 
-ul.nav li:hover>a {
+ul#nav li:hover>a {
   background: var(--antiquegray);
   list-style: none;
   color: navy;
 }
 
-ul.nav ul li ul li {
+ul#nav ul li ul li {
   border-right: 0.5px solid gainsboro;
   border-left: 0.5px solid gainsboro;
   border-bottom: 0.5px solid gainsboro;
   color: white;
 }
 
-ul.nav ul li ul li:hover {
+ul#nav ul li ul li:hover {
   background: gainsboro;
   color: var(--obsidian);
 }
 
-ul.nav>li:first-child .nav>li:first-child>a {}
+ul#nav>li:first-child #nav>li:first-child>a {}
 
-ul.nav>li:last-child {
+ul#nav>li:last-child {
   border-radius: 0 0 4px 0;
   margin-right: 0;
 }
 
-ul.nav li li a {
+ul#nav li li a {
   margin-top: 1px;
   list-style: none;
   background: var(--charcoal);
@@ -289,7 +289,7 @@ ul.nav li li a {
   border-bottom: 0.5px solid gainsboro;
 }
 
-ul.nav li a:first-child:nth-last-child(2):before {
+ul#nav li a:first-child:nth-last-child(2):before {
   content: "";
   position: absolute;
   height: 0;
@@ -300,24 +300,24 @@ ul.nav li a:first-child:nth-last-child(2):before {
 }
 
 /* submenu positioning*/
-ul.nav ul {
+ul#nav ul {
   position: absolute;
   white-space: nowrap;
   z-index: 1;
   left: -99999em;
 }
 
-ul.nav>li:hover>ul {
+ul#nav>li:hover>ul {
   left: auto;
   padding-top: 5px;
   min-width: 100%;
 }
 
-ul.nav>li li ul {
+ul#nav>li li ul {
   border-left: 0.5px solid gainsboro;
 }
 
-ul.nav>li li:hover>ul {
+ul#nav>li li:hover>ul {
   margin-left: 1px;
   left: 100%;
   top: -1px;
@@ -325,7 +325,7 @@ ul.nav>li li:hover>ul {
 
 /* arrow hover styling */
 /*style down arrow*/
-ul.nav>li>a:first-child:nth-last-child(2):before {
+ul#nav>li>a:first-child:nth-last-child(2):before {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: none;
@@ -336,7 +336,7 @@ ul.nav>li>a:first-child:nth-last-child(2):before {
 }
 
 /*style up arrow*/
-ul.nav>li:hover>a:first-child:nth-last-child(2):before {
+ul#nav>li:hover>a:first-child:nth-last-child(2):before {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: none;
@@ -347,7 +347,7 @@ ul.nav>li:hover>a:first-child:nth-last-child(2):before {
 }
 
 /*style right arrow*/
-ul.nav li li>a:first-child:nth-last-child(2):before {
+ul#nav li li>a:first-child:nth-last-child(2):before {
   border-left-style: solid;
   border-left-width: 5px;
   border-left-color: ivory;
@@ -358,7 +358,7 @@ ul.nav li li>a:first-child:nth-last-child(2):before {
 }
 
 /*Style left arrow*/
-ul.nav li li:hover>a:first-child:nth-last-child(2):before {
+ul#nav li li:hover>a:first-child:nth-last-child(2):before {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: none;
@@ -1609,7 +1609,7 @@ footer .footer-menu ul li a:hover {
     {display: block;}
 
       /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ nav ul.nav {display: block;}
+    input[type=checkbox]:checked ~ nav ul#nav {display: block;}
 
     input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
 
@@ -1622,7 +1622,7 @@ footer .footer-menu ul li a:hover {
     nav {display: block !important;}
 
     /*Make dropdown links appear inline*/
-    ul.nav {
+    ul#nav {
         /*position: static;*/
         float: left;
         display: block !important;
@@ -1635,9 +1635,9 @@ footer .footer-menu ul li a:hover {
     /*li ul {display: none;}*/
 
     /*Make all menu links full width*/
-    nav ul li {display: block !important;}
+    nav ul#nav li {display: block !important;}
 
-    ul.nav li:first-child {border-top: 0;}
+    ul#nav li:first-child {border-top: 0;}
 
     li:hover > ul {
       display: block;
@@ -1675,7 +1675,7 @@ footer .footer-menu ul li a:hover {
   }
 
 /*
-  ul.nav {
+  ul#nav {
     display: block !important;
     flex-wrap: nowrap;
     /*
@@ -1687,13 +1687,13 @@ footer .footer-menu ul li a:hover {
   }
   */
 /*
-  .nav > li {
+  #nav > li {
     float: left;
     margin-right: 1px;
   }
   */
 /*
-  .nav a {
+  #nav a {
     display: block;
     background: black;
     color: ivory;
