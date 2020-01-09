@@ -1609,7 +1609,7 @@ footer .footer-menu ul li a:hover {
     {display: block;}
 
       /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ ul.nav {display: block;}
+    input[type=checkbox]:checked ~ nav ul.nav {display: block;}
 
     input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
 
