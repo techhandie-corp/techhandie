@@ -149,6 +149,8 @@ a, a:active, a:focus, a:active {
 
 
 /*-- Header Start --*/
+#mobile {display: none;}
+
 #navbar {
   background: black;
   display: flex;
@@ -1619,7 +1621,7 @@ footer .footer-menu ul li a:hover {
       margin: -41px 0 0 18px;/*-41px 0 0 43px|30px 100px 0 -900px*/
     }
 
-    nav {display: block !important;}
+    nav, #nav {display: block !important;}
 
     /*Make dropdown links appear inline*/
     ul#nav {
