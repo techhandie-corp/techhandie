@@ -166,7 +166,7 @@ a {
   color: ivory;
 }
 
-#menu, label {display:none;}
+#show-menu, label {display:none;}
 
 #brand {
   color: ivory !important;
@@ -1607,13 +1607,6 @@ footer .footer-menu ul li a:hover {
 
     #brand {margin: 0 0 0 20px;}
 
-      /*Hide checkbox*/
-    input[type=checkbox] + label.show-menu
-    {display: block;}
-
-      /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ #mobile {display: block;}
-
     input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
 
     /*Display 'show menu' link*/
@@ -1622,7 +1615,14 @@ footer .footer-menu ul li a:hover {
       margin: -41px 0 0 18px;/*-41px 0 0 43px|30px 100px 0 -900px*/
     }
 
-    /*M*/
+    /*Hide checkbox*/
+  input[type=checkbox] + label.show-menu
+  {display: block;}
+
+    /*Show menu when invisible checkbox is checked*/
+  input[type=checkbox]:checked ~ #mobile {display: block;}
+
+    /*Mobile*/
     #mobile {
         display: block !important;
         float: left;
@@ -1663,7 +1663,7 @@ footer .footer-menu ul li a:hover {
       position: absolute;
     }
 
-    #mobile li:hover li {margin: -20px 0 0 30px;border: none;}
+    #mobile li:hover li {margin: -20px 0 0 30px; border: none;}
 
   }
 
