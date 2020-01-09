@@ -1595,49 +1595,49 @@ footer .footer-menu ul li a:hover {
 
   @media only screen and (max-width: 1000px) {
 
-  header {background: black; height: 100px;}
+    header {background: black; height: 100px;}
 
-  #navbar {
-    display: block;
-    height: 100px;
-  }
-
-  #brand {margin: 0 0 0 20px;}
-
-    /*Hide checkbox*/
-  input[type=checkbox] + label.show-menu
-  {display: block;}
-
-    /*Show menu when invisible checkbox is checked*/
-  input[type=checkbox]:checked ~ nav{
+    #navbar {
       display: block;
-  }
+      height: 100px;
+    }
 
-  input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
+    #brand {margin: 0 0 0 20px;}
 
-  /*Display 'show menu' link*/
-  label.show-menu {
-    display:block;
-    margin: -41px 0 0 18px;/*-41px 0 0 43px|30px 100px 0 -900px*/
-  }
+      /*Hide checkbox*/
+    input[type=checkbox] + label.show-menu
+    {display: block;}
 
-  nav {display: block;}
+      /*Show menu when invisible checkbox is checked*/
+    input[type=checkbox]:checked ~ ul.nav{
+        display: block;
+    }
+
+    input#show-menu {visibility: visible; margin: 0 0 0 22.45px; }/*50px 30px 100px 0 -800px*/
+
+    /*Display 'show menu' link*/
+    label.show-menu {
+      display:block;
+      margin: -41px 0 0 18px;/*-41px 0 0 43px|30px 100px 0 -900px*/
+    }
+
+    nav {display: block;}
 
     /*Make dropdown links appear inline*/
-      ul.nav {
-          position: static;
-          float: left;
-          display: none;
-          margin: -7px 0 0 0;
-      }
+    ul.nav {
+        position: static;
+        float: left;
+        display: none;
+        margin: -7px 0 0 0;
+    }
 
-      /*Create vertical spacing*/
-      li {margin-bottom: 1px;}
+    /*Create vertical spacing*/
+    li {margin-bottom: 1px;}
 
-      li ul {display: none;}
+    li ul {display: none;}
 
-      /*Make all menu links full width*/
-      ul.nav li {display: block;}
+    /*Make all menu links full width*/
+    ul.nav li {display: block;}
 
     ul.nav li:first-child {border-top: 0;}
 
