@@ -1597,8 +1597,6 @@ footer .footer-menu ul li a:hover {
 
   @media only screen and (max-width: 1000px) {
 
-    nav {display: none;}
-
     header {background: black; height: 100px;}
 
     #navbar {
@@ -1662,6 +1660,8 @@ footer .footer-menu ul li a:hover {
     }
 
     #mobile li:hover li {margin: -20px 0 0 30px; border: none;}
+
+    nav, #nav {display: none !important;}
 
   }
 
