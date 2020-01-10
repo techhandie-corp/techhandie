@@ -200,7 +200,7 @@ label.show-menu {
     background: black;
     padding: 10px 0;
     display: none;
-    margin: -20px 0 0 20px;
+    margin: -10px 0 0 20px;
 }
 
 .show-menu .fa-bars {color: gainsboro;}
@@ -1604,7 +1604,7 @@ footer .footer-menu ul li a:hover {
       height: 100px;
     }
 
-    #brand {margin: 0 0 0 20px;}
+    #brand {margin: 5px 0 5px 20px;}
 
     input#show-menu {visibility: visible;}/* margin: 0 0 0 22.45px;*//*50px 30px 100px 0 -800px*/
 
