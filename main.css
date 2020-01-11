@@ -1616,12 +1616,12 @@ footer .footer-menu ul li a:hover {
     /*Hide checkbox*/
     input[type=checkbox] + label {display: block;}
 
-    input[type=checkbox] ~ .fas-bars {display: block;}
+    input[type=checkbox] ~ .fa-bars {display: block;}
 
     /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ .fas-bars {display: none;}
+    input[type=checkbox]:checked ~ .fa-bars {display: none;}
 
-    input[type=checkbox]:checked ~ .fas-times {display: block;}
+    input[type=checkbox]:checked ~ .fa-times {display: block;}
 
     input[type=checkbox]:checked ~ ul#mobile {display: block;}
 
