@@ -1612,12 +1612,12 @@ footer .footer-menu ul li a:hover {
     label.show-menu {display:block;}/*margin: -41px 0 0 18px;*//*-41px 0 0 43px|30px 100px 0 -900px*/
 
     /*Hide checkbox*/
-  input[type=checkbox] + label.show-menu
+  input[type=checkbox] + label
   {display: block;}
 
     /*Show menu when invisible checkbox is checked*/
   input[type=checkbox] ~ label
-  input[type=checkbox]:checked ~ #mobile {display: block;}
+  input[type=checkbox]:checked ~ ul#mobile {display: block;}
 
     /*Mobile*/
     #mobile {
