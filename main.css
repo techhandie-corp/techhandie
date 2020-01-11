@@ -1623,7 +1623,7 @@ footer .footer-menu ul li a:hover {
 
     input[type=checkbox]:checked ~ .fa-times {display: block;}
 
-    input[type=checkbox]:checked ~ ul#mobile {display: block;}
+    input[type=checkbox]:checked ~ ul#mobile {display: block; visibility:visible; }
 
     /*Mobile*/
     #mobile {
