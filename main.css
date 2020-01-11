@@ -1616,6 +1616,7 @@ footer .footer-menu ul li a:hover {
   {display: block;}
 
     /*Show menu when invisible checkbox is checked*/
+  input[type=checkbox] ~ label
   input[type=checkbox]:checked ~ #mobile {display: block;}
 
     /*Mobile*/
@@ -1625,7 +1626,8 @@ footer .footer-menu ul li a:hover {
         margin: -7px 0 0 0;
     }
 
-    #mobile ul {
+    ul#mobile {
+      position:static;
       margin: 0;
       padding: 0;
     }
