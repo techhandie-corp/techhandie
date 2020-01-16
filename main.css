@@ -4,7 +4,7 @@
 /* https://www.techhandie.com/ */
 
 /*-- Font Sourcing --*/
-@import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov');
+/*@import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov');*/
 
 @font-face {
   font-family: 'Belleza';
@@ -1617,14 +1617,9 @@ footer .footer-menu ul li a:hover {
     /*Hide checkbox*/
     input[type=checkbox] + label {display: block;}
 
-    input[type=checkbox] ~ .fa-bars {display: block;}
-
     /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ .fa-bars {display: none;}
 
-    input[type=checkbox]:checked ~ .fa-times {display: block;}
-
-    input[type=checkbox]:checked ~ ul#mobile {display: block;}
+    input[type=checkbox]:checked ~ #mobile {display: block;}
 
     /*Mobile*/
     #mobile {
@@ -1676,7 +1671,6 @@ footer .footer-menu ul li a:hover {
     nav, #nav {display: none !important;}
 
   }
-
 
 
   /*========Old Media Queries===========*/
