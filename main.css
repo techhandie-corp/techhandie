@@ -187,12 +187,12 @@ a {
 /*=====Hamburger Menu====*/
 /*Style 'show menu' label button and hide it by default*/
 
-input#show-menu {
+#show-menu {
   visibility: hidden;
   margin: 0px 0 0 20px;
 }
 
-label.show-menu {
+.show-menu {
     cursor: pointer;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 1.5em;
@@ -208,6 +208,8 @@ label.show-menu {
 
 .show-menu .fa-times {display: none; color: gainsboro;}
 
+/*Hide checkbox*/
+input[type=checkbox] + label {display: block;}
 
 /**===Actual Menu===*/
 nav {/*nav tag*/
@@ -1620,7 +1622,7 @@ footer .footer-menu ul li a:hover {
 
     /*Show menu when invisible checkbox is checked*/
 
-    input[type=checkbox]:checked ~ #mobile {display: block;}
+    input[type=checkbox]:checked ~ nav #mobile {display: block;}
 
     /*Mobile*/
     #mobile {
@@ -1672,60 +1674,3 @@ footer .footer-menu ul li a:hover {
     nav, #nav {display: none !important;}
 
   }
-
-
-  /*========Old Media Queries===========*/
-/*
-
-  #navbar {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: flex-start !important;
-    flex-wrap: nowrap;
-    height: 100px;
-  }
-
-  nav {
-    display: block;
-    visibility: hidden;
-    z-index: 99999;
-    /*
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start !important;
-    justify-self: start;
-    */
-  }
-
-/*
-  #nav {
-    display: block !important;
-    flex-wrap: nowrap;
-    /*
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;/*vertical*/
-    /*justify-content: flex-start;/*horizontal*/
-    */
-  }
-  */
-/*
-  #nav > li {
-    float: left;
-    margin-right: 1px;
-  }
-  */
-/*
-  #nav a {
-    display: block;
-    background: black;
-    color: ivory;
-    text-decoration: none;
-    padding: 0.8em 1.8em;
-    text-transform: uppercase;
-    font-size: 80%;
-    letter-spacing: 2px
-    position: relative;
-  }
-}
-*/
