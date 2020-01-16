@@ -1624,6 +1624,8 @@ footer .footer-menu ul li a:hover {
 
     input[type=checkbox]:checked ~ nav #mobile {display: block;}
 
+    .show-menu:hover {}
+
     /*Mobile*/
     #mobile {
         display: block !important;
@@ -1671,6 +1673,6 @@ footer .footer-menu ul li a:hover {
 
     #mobile li:hover li {margin: -20px 0 0 30px; border: none;}
 
-    nav, #nav {display: none !important;}
+    #nav {display: none !important;}
 
   }
