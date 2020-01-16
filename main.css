@@ -8,12 +8,12 @@
 
 @font-face {
   font-family: 'Belleza';
-  src: url("fonts/Belleza.ttf") format('ttf');
+  src: url("fonts/Belleza.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Bitter';
-  src: url("fonts/Bitter.ttf") format('ttf');
+  src: url("fonts/Bitter.ttf") format('truetype');
 }
 
 @font-face {
@@ -23,12 +23,12 @@
 
 @font-face {
   font-family: 'Handel Gothic';
-  src: url("fonts/Handel-Gothic.ttf") format('ttf');
+  src: url("fonts/Handel-Gothic.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Milkshake';
-  src: url("fonts/Milkshake.ttf") format('ttf');
+  src: url("fonts/Milkshake.ttf") format('truetype');
 }
 
 /*-- Font sourcing End --*/
@@ -37,7 +37,6 @@
 /*--	Common Css --*/
 :root {
   --antiquegray: rgb(207, 207, 207);
-  /*#cfcfcf*/
   --charcoal: #222222;
   --coal: #1d1d1d;
   --cottonblue: #e9f6fb;
@@ -48,11 +47,13 @@
   --midnite: #4a4656;
   --obsidian: #0d0d26;
   --ocean: #325c8f;
-  /*#428bca*/
   --shale: #c2c2c2;
   --slate: #212529;
   --water: #f2f2f2;
 }
+
+/*Optional Colors*/
+/*#cfcfcf*//*#428bca*/
 
 /****** Featured ******/
 * {
@@ -215,12 +216,12 @@ nav {/*nav tag*/
   margin: 0 50px 0 0;
 }
 
-ul#nav ul {
+#nav ul {
   margin: 0;
   padding: 0;
 }
 
-ul#nav a {
+#nav a {
   display: block;
   background: black;
   /*#111*/
@@ -234,59 +235,59 @@ ul#nav a {
   position: relative;
 }
 
-ul#nav {
+#nav {
   vertical-align: middle;
   display: inline-block;
   z-index: 1;
 }
 
-ul#nav li {
+#nav li {
   list-style: none;
   position: relative;
 }
 
-ul#nav li:hover {
+#nav li:hover {
   background-color: var(--antiquegray);
   /*peach*/
   color: var(--shale);
   /*seaweed*/
 }
 
-ul#nav>li {
+#nav>li {
   float: left;
   margin-right: 1px;
 }
 
-ul#nav>li>a {
+#nav>li>a {
 margin-bottom: 1px;
 }
 
-ul#nav li:hover>a {
+#nav li:hover>a {
   background: var(--antiquegray);
   list-style: none;
   color: navy;
 }
 
-ul#nav ul li ul li {
+#nav ul li ul li {
   border-right: 0.5px solid gainsboro;
   border-left: 0.5px solid gainsboro;
   border-bottom: 0.5px solid gainsboro;
   color: white;
 }
 
-ul#nav ul li ul li:hover {
+#nav ul li ul li:hover {
   background: gainsboro;
   color: var(--obsidian);
 }
 
-ul#nav>li:first-child #nav>li:first-child>a {}
+#nav>li:first-child #nav>li:first-child>a {}
 
-ul#nav>li:last-child {
+#nav>li:last-child {
   border-radius: 0 0 4px 0;
   margin-right: 0;
 }
 
-ul#nav li li a {
+#nav li li a {
   margin-top: 1px;
   list-style: none;
   background: var(--charcoal);
@@ -294,7 +295,7 @@ ul#nav li li a {
   border-bottom: 0.5px solid gainsboro;
 }
 
-ul#nav li a:first-child:nth-last-child(2):before {
+#nav li a:first-child:nth-last-child(2):before {
   content: "";
   position: absolute;
   height: 0;
@@ -305,24 +306,24 @@ ul#nav li a:first-child:nth-last-child(2):before {
 }
 
 /* submenu positioning*/
-ul#nav ul {
+#nav ul {
   position: absolute;
   white-space: nowrap;
   z-index: 99999;
   left: -99999em;
 }
 
-ul#nav>li:hover>ul {
+#nav>li:hover>ul {
   left: auto;
   padding-top: 5px;
   min-width: 100%;
 }
 
-ul#nav>li li ul {
+#nav>li li ul {
   border-left: 0.5px solid gainsboro;
 }
 
-ul#nav>li li:hover>ul {
+#nav>li li:hover>ul {
   margin-left: 1px;
   left: 100%;
   top: -1px;
@@ -330,7 +331,7 @@ ul#nav>li li:hover>ul {
 
 /* arrow hover styling */
 /*style down arrow*/
-ul#nav>li>a:first-child:nth-last-child(2):before {
+#nav>li>a:first-child:nth-last-child(2):before {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: none;
@@ -341,7 +342,7 @@ ul#nav>li>a:first-child:nth-last-child(2):before {
 }
 
 /*style up arrow*/
-ul#nav>li:hover>a:first-child:nth-last-child(2):before {
+#nav>li:hover>a:first-child:nth-last-child(2):before {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: none;
@@ -352,7 +353,7 @@ ul#nav>li:hover>a:first-child:nth-last-child(2):before {
 }
 
 /*style right arrow*/
-ul#nav li li>a:first-child:nth-last-child(2):before {
+#nav li li>a:first-child:nth-last-child(2):before {
   border-left-style: solid;
   border-left-width: 5px;
   border-left-color: ivory;
@@ -363,7 +364,7 @@ ul#nav li li>a:first-child:nth-last-child(2):before {
 }
 
 /*Style left arrow*/
-ul#nav li li:hover>a:first-child:nth-last-child(2):before {
+#nav li li:hover>a:first-child:nth-last-child(2):before {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: none;
@@ -1697,7 +1698,7 @@ footer .footer-menu ul li a:hover {
   }
 
 /*
-  ul#nav {
+  #nav {
     display: block !important;
     flex-wrap: nowrap;
     /*
