@@ -209,7 +209,7 @@ a {
 .show-menu .fa-times {display: none; color: gainsboro;}
 
 /*Hide checkbox*/
-input[type=checkbox] + label {display: block;}
+input[type=checkbox] + label {display: none;}
 
 /**===Actual Menu===*/
 nav {/*nav tag*/
