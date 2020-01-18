@@ -1626,7 +1626,7 @@ footer .footer-menu ul li a:hover {
       margin: 60px 0 0 0;
       padding: 0;
       /*default collapse to use with transition*/
-      max-height: 0px;
+      max-height: 100vh;;
       overflow: hidden;
       transition: max-height .25s ease-in-out;
     }
