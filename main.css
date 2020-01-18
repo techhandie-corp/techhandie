@@ -1617,12 +1617,11 @@ footer .footer-menu ul li a:hover {
 
     #nav {display: none;}
 
-    #mobile {display:block;}
-
     .show-menu {display: block}
 
     /*Mobile*/
     #mobile {
+      display: block;
       width: 250px;
       margin: 60px 0 0 0;
       padding: 0;
@@ -1638,9 +1637,11 @@ footer .footer-menu ul li a:hover {
   #show-menu + .show-menu .fa-bars {display: block;}
 
   #show-menu + .show-menu .fa-times {display: none;}
-  
+
 /*Display mobile menu*/
-  #show-menu:checked + .show-menu + #mobile {max-height: 100vh;}
+/*#show-menu:checked + .show-menu + #mobile {max-height: 100vh;}*/
+  #show-menu:checked + .show-menu {max-height: 100vh;}
+  #show-menu:checked + #mobile {max-height: 100vh;}
 
 /*Hide hamburger icons & show X icon*/
   #show-menu:checked + .show-menu .fa-bars {display: none;}
