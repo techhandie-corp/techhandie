@@ -167,7 +167,7 @@ a {
   color: ivory;
 }
 
-#show-menu, label {display:none;}
+#show-menu, .show-menu {display:none;}
 
 #brand {
   color: ivory !important;
@@ -188,7 +188,7 @@ a {
 /*Style 'show menu' label button and hide it by default*/
 
 #show-menu {
-  visibility: hidden;
+  /*visibility: hidden;*/
   margin: 0px 0 0 20px;
 }
 
@@ -209,7 +209,7 @@ a {
 .show-menu .fa-times {display: none; color: gainsboro;}
 
 /*Hide checkbox*/
-input[type=checkbox] + label {display: none;}
+#show-menu + .show-menu {display: none;}
 
 /**===Actual Menu===*/
 nav {/*nav tag*/
@@ -1632,19 +1632,20 @@ footer .footer-menu ul li a:hover {
       transition: max-height .25s ease-in-out;
     }
 
-/*================*/
+/*=====Show hmburger icon & hide X icon===========*/
   #show-menu + .show-menu .fa-bars {display: block;}
 
   #show-menu + .show-menu .fa-times {display: none;}
 
-  #show-menu:checked + .show-menu + #mobile {
-  max-height: 100vh;
-}
+/*Display mobile menu*/
+  #show-menu:checked + .show-menu + #mobile {max-height: 100vh;}
+
+/*Hide hamburger icons & show X icon*/
   #show-menu:checked + .show-menu .fa-bars {display: none;}
 
   #show-menu:checked + .show-menu .fa-times {display: block;}
 
-/*=====Menu======*/
+/*=================The Menu================*/
     #mobile a {
       background: black;
       /*#111*/
