@@ -1665,6 +1665,7 @@ footer .footer-menu ul li a:hover {
 
     /*Make all menu links full width*/
     #mobile li {
+      display: block;
       /*Create vertical spacing*/
       margin: 0 0 1px 0;
     }
