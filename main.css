@@ -1610,7 +1610,10 @@ footer .footer-menu ul li a:hover {
       height: 100px;
     }
 
-    #brand {margin: 10px 0 5px 20px;}
+    #brand {
+      font-size: 1.5em;
+      margin: 10px 0 5px 20px;
+    }
 
     #nav {display: none;}
 
