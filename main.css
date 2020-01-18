@@ -1629,6 +1629,7 @@ footer .footer-menu ul li a:hover {
       max-height: 100vh;;
       overflow: hidden;
       transition: max-height .25s ease-in-out;
+      z-index: 99999;
     }
 
 /*=====Show hmburger icon & hide X icon===========*/
