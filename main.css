@@ -1642,7 +1642,7 @@ footer .footer-menu ul li a:hover {
 /*Display mobile menu*/
 /*#show-menu:checked + .show-menu + #mobile {max-height: 100vh;}*/
   #show-menu:checked + .show-menu {max-height: 100vh;}
-  #show-menu:checked + #mobile {max-height: 100vh;}
+  #show-menu:checked + #mobile {display: none; max-height: 100vh;}
 
 /*Hide hamburger icons & show X icon*/
   #show-menu:checked + .show-menu .fa-bars {display: none;}
