@@ -1671,7 +1671,7 @@ footer .footer-menu ul li a:hover {
     }
 
     #mobile li ul {
-      display: none;
+      display: block;/*none*/
     }
 
     #mobile li:first-child {border-top: 0;}
