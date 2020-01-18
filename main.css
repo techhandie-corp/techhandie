@@ -1612,35 +1612,37 @@ footer .footer-menu ul li a:hover {
 
     #brand {margin: 10px 0 5px 20px;}
 
-    #show-menu {visibility: visible;}/* margin: 0 0 0 22.45px;*//*50px 30px 100px 0 -800px*/
+    #nav {display: none;}
 
-    /*Display 'show menu' link*/
-    .show-menu {display:block;}/*margin: -41px 0 0 18px;*//*-41px 0 0 43px|30px 100px 0 -900px*/
+    #mobile {display:block;}
 
-    /*Hide checkbox*/
-    input[type=checkbox] + .show-menu {display: block;}
-
-    /*Show menu when invisible checkbox is checked*/
-
-    input[type=checkbox]:checked ~ nav #mobile {display: block;}
-
-    .show-menu:hover {}
+    .show-menu {display: block}
 
     /*Mobile*/
     #mobile {
-        display: block !important;
-        float: left;
-        margin: -7px 0 0 0;
-    }
-
-    ul#mobile {
-      position:static;
-      margin: 0;
+      width: 250px;
+      margin: 60px 0 0 0;
       padding: 0;
+      /*default collapse to use with transition*/
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
     }
 
+/*================*/
+  #show-menu + .show-menu .fa-bars {display: block;}
+
+  #show-menu + .show-menu .fa-times {display: none;}
+
+  #show-menu:checked + .show-menu + #mobile {
+  max-height: 100vh;
+}
+  #show-menu:checked + .show-menu .fa-bars {display: none;}
+
+  #show-menu:checked + .show-menu .fa-times {display: block;}
+
+/*=====Menu======*/
     #mobile a {
-      display: block;
       background: black;
       /*#111*/
       color: ivory;
@@ -1672,7 +1674,5 @@ footer .footer-menu ul li a:hover {
     }
 
     #mobile li:hover li {margin: -20px 0 0 30px; border: none;}
-
-    #nav {display: none !important;}
 
   }
