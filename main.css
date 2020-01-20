@@ -1640,17 +1640,17 @@ footer .footer-menu ul li a:hover {
 
   #show-menu + .show-menu .fa-times {display: none;}
 
-  #show-menu:checked + #mobile {display: none;}
-
-/*Display mobile menu*/
-  #show-menu:checked ~ #mobile {display: block;}
-  /*#show-menu:checked + .show-menu {max-height: 100vh;}
-  #show-menu:checked + #mobile {display: none; max-height: 100vh;}*/
+  #show-menu:checked + #mobile {display: block;}
 
 /*Hide hamburger icons & show X icon*/
   #show-menu:checked + .show-menu .fa-bars {display: none;}
 
   #show-menu:checked + .show-menu .fa-times {display: block;}
+
+  /*Display mobile menu*/
+  #show-menu:checked ~ #mobile {display: block;}
+    /*#show-menu:checked + .show-menu {max-height: 100vh;}
+    #show-menu:checked + #mobile {display: none; max-height: 100vh;}*/
 
 /*=================The Menu================*/
     #mobile a {
