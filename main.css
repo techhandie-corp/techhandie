@@ -1641,7 +1641,7 @@ footer .footer-menu ul li a:hover {
   #show-menu + .show-menu .fa-times {display: none;}
 
 /*Display mobile menu*/
-  #show-menu:checked + .show-menu + #mobile {max-height: 100vh;}
+  #show-menu:checked + .show-menu + #mobile {display: none}
   /*#show-menu:checked + .show-menu {max-height: 100vh;}
   #show-menu:checked + #mobile {display: none; max-height: 100vh;}*/
 
