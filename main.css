@@ -1558,8 +1558,10 @@ footer .footer-menu ul li a:hover {
     header {background: black; height: 100px;}
 
     #navbar {
-      display: block;
-      height: 100px;
+      flex-direction: column;
+      flex-wrap:wrap;
+      /*display: block;*/
+      /*height: 100px;*/
     }
 
     #brand {
@@ -1567,7 +1569,10 @@ footer .footer-menu ul li a:hover {
       margin: 10px 0 5px 20px;
     }
 
-    #nav {display: none;}
+    #nav {
+      justify-self: none;
+      margin: 0;
+    }
 
 
   }
