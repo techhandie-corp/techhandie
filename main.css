@@ -1559,7 +1559,7 @@ footer .footer-menu ul li a:hover {
 
     #navbar {
       flex-direction: column;
-      flex-wrap:wrap;
+      flex-wrap:nowrap;
       /*display: block;*/
       /*height: 100px;*/
     }
@@ -1570,6 +1570,7 @@ footer .footer-menu ul li a:hover {
     }
 
     #nav {
+      display: block;
       justify-self: none;
       margin: 0;
     }
