@@ -1557,7 +1557,7 @@ footer .footer-menu ul li a:hover {
 
     header {
       background: black;
-      height: 150px;
+      height: 200px;
     }
 
     #navbar {
@@ -1569,7 +1569,7 @@ footer .footer-menu ul li a:hover {
 
     #brand {
       font-size: 1.5em;
-      margin: 10px 0 5px -100px;
+      margin: 10px 0 5px -80px;
     }
 
     #nav {
