@@ -1555,7 +1555,10 @@ footer .footer-menu ul li a:hover {
 
   @media only screen and (max-width: 1000px) {
 
-    header {background: black; height: 100px;}
+    header {
+      background: black;
+      height: 150px;
+    }
 
     #navbar {
       flex-direction: column;
@@ -1566,7 +1569,7 @@ footer .footer-menu ul li a:hover {
 
     #brand {
       font-size: 1.5em;
-      margin: 10px 0 5px 20px;
+      margin: 10px 0 5px -100px;
     }
 
     #nav {
