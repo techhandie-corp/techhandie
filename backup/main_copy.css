@@ -1,0 +1,1690 @@
+/****************/
+/*    General   */
+/****************/
+/* https://www.techhandie.com/ */
+
+/*-- Font Sourcing --*/
+/*@import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov');*/
+
+@font-face {
+  font-family: 'Belleza';
+  src: url("fonts/Belleza.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("fonts/Bitter.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url("fonts/fontawesome-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Handel Gothic';
+  src: url("fonts/Handel-Gothic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Milkshake';
+  src: url("fonts/Milkshake.ttf") format('truetype');
+}
+
+/*-- Font sourcing End --*/
+
+
+/*--	Common Css --*/
+:root {
+  --antiquegray: rgb(207, 207, 207);
+  --charcoal: #222222;
+  --coal: #1d1d1d;
+  --cottonblue: #e9f6fb;
+  --dusk: #666666;
+  --grey: #555555;
+  --light-grey: #eaeaea;
+  --medium-light-grey: #e6e6e6;
+  --midnite: #4a4656;
+  --obsidian: #0d0d26;
+  --ocean: #325c8f;
+  --shale: #c2c2c2;
+  --slate: #212529;
+  --water: #f2f2f2;
+}
+
+/*Optional Colors*/
+/*#cfcfcf*//*#428bca*/
+
+/****** Featured ******/
+* {
+  /*selector for ALL elements - remove default settings for site*/
+  margin: 0;
+  padding: 0;
+}
+
+.shine {
+  filter: brightness(120%);
+}
+
+.matte {
+  filter: contrast(50%);
+}
+
+.weighty {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.just {
+  text-align: justify;
+}
+
+/**********************/
+#site-container {
+  width: 100vw;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a, a:active, a:focus, a:active {
+  text-decoration: none !important;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  /* 70px */
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section-title p {
+  font-family: 'Volkhov', serif;
+  font-style: italic;
+  color: var(--dusk);
+  /*#666;*/
+}
+
+/*--	Common CSS End --*/
+
+/***********************/
+/*** * General End * ***/
+/***********************/
+
+
+/*-- Header Start --*/
+#mobile {display: none;}
+
+#navbar {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;/*space vertically*/
+  justify-content: space-between;
+  position: relative;
+  height: 60px;/*80px*/
+}
+
+a {
+  text-decoration: none;
+  color: ivory;
+}
+
+#show-menu, .show-menu {display:none;}
+
+#brand {
+  color: ivory !important;
+  /* white */
+  /*   padding-top: 25px; */
+  font-family: "Handel Gothic", 'Geneva', sans-serif !important;
+  font-size: 1.725em;
+  /*2em*/
+  font-weight: 700;
+  margin: 0 0 0 50px;
+  justify-self: start;
+}
+
+#brand a {color: ivory;}
+
+
+/*=====Hamburger Menu====*/
+/*Style 'show menu' label button and hide it by default*/
+
+#show-menu {
+  /*visibility: hidden;*/
+  margin: 0px 0 0 20px;
+}
+
+.show-menu {
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 10px 0;
+    display: none;
+    margin: -15px 0 0 20px;
+}
+
+.show-menu .fa-bars {color: gainsboro;}
+
+.show-menu .fa-times {display: none; color: gainsboro;}
+
+/*Hide checkbox*/
+#show-menu + .show-menu {display: none;}
+
+/**===Actual Menu===*/
+nav {/*nav tag*/
+  display: block;
+  justify-self: end;
+  margin: 0 50px 0 0;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#nav a {
+  display: block;
+  background: black;
+  /*#111*/
+  color: ivory;
+  /*#fff*/
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+#nav {
+  vertical-align: middle;
+  display: inline-block;
+  z-index: 1;
+}
+
+#nav li {
+  list-style: none;
+  position: relative;
+}
+
+#nav li:hover {
+  background-color: var(--antiquegray);
+  /*peach*/
+  color: var(--shale);
+  /*seaweed*/
+}
+
+#nav>li {
+  float: left;
+  margin-right: 1px;
+}
+
+#nav>li>a {
+margin-bottom: 1px;
+}
+
+#nav li:hover>a {
+  background: var(--antiquegray);
+  list-style: none;
+  color: navy;
+}
+
+#nav ul li ul li {
+  border-right: 0.5px solid gainsboro;
+  border-left: 0.5px solid gainsboro;
+  border-bottom: 0.5px solid gainsboro;
+  color: white;
+}
+
+#nav ul li ul li:hover {
+  background: gainsboro;
+  color: var(--obsidian);
+}
+
+#nav>li:first-child #nav>li:first-child>a {}
+
+#nav>li:last-child {
+  border-radius: 0 0 4px 0;
+  margin-right: 0;
+}
+
+#nav li li a {
+  margin-top: 1px;
+  list-style: none;
+  background: var(--charcoal);
+  opacity: 0.7;
+  border-bottom: 0.5px solid gainsboro;
+}
+
+#nav li a:first-child:nth-last-child(2):before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 0.5px solid gainsboro;
+  top: 50%;
+  right: 5px;
+}
+
+/* submenu positioning*/
+#nav ul {
+  position: absolute;
+  white-space: nowrap;
+  z-index: 99999;
+  left: -99999em;
+}
+
+#nav>li:hover>ul {
+  left: auto;
+  padding-top: 5px;
+  min-width: 100%;
+}
+
+#nav>li li ul {
+  border-left: 0.5px solid gainsboro;
+}
+
+#nav>li li:hover>ul {
+  margin-left: 1px;
+  left: 100%;
+  top: -1px;
+}
+
+/* arrow hover styling */
+/*style down arrow*/
+#nav>li>a:first-child:nth-last-child(2):before {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: none;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: ivory;
+  /*#aaa*/
+}
+
+/*style up arrow*/
+#nav>li:hover>a:first-child:nth-last-child(2):before {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: none;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: navy;
+  margin-top: -5px;
+}
+
+/*style right arrow*/
+#nav li li>a:first-child:nth-last-child(2):before {
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: ivory;
+  /**#aaa*/
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  margin-top: -5px;
+}
+
+/*Style left arrow*/
+#nav li li:hover>a:first-child:nth-last-child(2):before {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: navy;
+  right: 10px;
+}
+
+/*--	Header End --*/
+
+
+/*-- Content Start --*/
+/* in Index */
+h1.weighty {
+  font-family: 'Bitter', serif;
+  margin: 50px 0;
+  color: #120337;
+}
+
+#content {
+  background-image: url("images/Brooklyn-Bridge-Under-Construction-1883.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+
+#content:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--water);
+  /* linear-gradient(to left, #8b86a3, #322e40); */
+  opacity: 0.5;
+}
+
+#content .block {
+  color: var(--obsidian);
+}
+
+#content .block p {
+  color: vaar(--obsidian);
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+div.col-md-10.col-md-offset-2 {
+  margin: auto 0% auto 5%;
+}
+
+#content .block h2 {
+  font-weight: 600;
+  color: var(--obsidian);
+}
+
+/*-- Content End --*/
+
+
+/*--------- Heading Start ------------*/
+/*
+.heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.heading h2 {
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.heading p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #292929;
+  font-weight: 300;
+}
+*/
+/*------------ Heading End -----------*/
+
+
+/*------------Modal Pop Up Start------------*/
+
+.modal-content {
+  background: #A3A3A3 !important;
+  width: 500px;
+  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg); */
+}
+
+/*-- modal-Header --*/
+.modal-header {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg) !important;
+  background-size: cover;
+  padding: 65px 50px 25px 50px;
+  /* 150px */
+  /* 107px */
+  position: relative;
+  background-attachment: fixed;
+  border-bottom: none;
+  /* 1px solid #222222; */
+  height: 100px;
+}
+
+.modal-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  /* linear-gradient(to left, #928dab, #1f1c2c 70%); */
+/*   opacity: 0.2; */
+}
+
+.modal-header #block  {
+  color: #e3e3e4;
+  /* #E3E3E4 */
+  margin: 0 auto;
+/*   padding-left: 0px; */
+  text-align: left;
+}
+
+.modal-title {
+  color: var(--coal);
+  font-weight: 400;
+  font-size: 2.0125em;/*45px*/
+  letter-spacing: 0.125em;/*2px;*/
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.modal-header .instruct {
+  color: var(--coal);
+  font-size: 1.125em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.modal-header p a {
+  color: black;
+  text-decoration: underline;
+}
+
+.modal-header p a:hover {
+  color: #426bca;
+  font-style: italic;
+}
+
+/*-- modal-Header End --*/
+
+/*-- Contact-form Start --*/
+#contact-form {
+  /* background: #A3A3A3; */
+  /* #f2f2f2 */
+  padding-top: 35px;
+  padding-bottom: -80px;
+  width: 366px;
+  margin: 0 auto;
+}
+
+#contact-form.modal-body {background: transparent;}
+
+#contact-form .container {
+  margin: 0 10%;
+}
+
+#contact-form .requires {
+  margin-bottom: 30px;
+}
+
+#contact-form p {
+  color: white;
+  font-style: italic;
+}
+
+#contact-form label {color: white;}
+
+#contact-form  form .form-group {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin: 0px;
+  width: 100%;
+}
+
+#contact-form  form .form-group .form-control {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 60px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+}
+
+#contact-form  form .form-group-2 {
+  padding-bottom: 15px;
+}
+
+#contact-form  .form-group-2 textarea {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 135px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+#contact-form #contact1 {margin-bottom: 20px;}
+
+#contact-form button.btn {
+  width: 180px !important;
+  height: 60px !important;
+  background: #47424C !important;
+  border-radius: 12px;
+  border: none;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0625em;
+}
+
+#contact-form button.btn:hover {
+  background-color: #426bca !important;
+  color: pink  !important;
+  font-style: italic;
+}
+
+#contact-form form .field-block {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: justify;
+}
+
+#contact-form  form .field {
+  color: white;
+  font-size: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+#contact-form  form .btn {
+  background: var(--water);
+  border: none;
+  border-radius: 15px;
+  color: var(--coal);
+  width: 150px;
+  height: 50px;
+}
+
+#contact-form  form .btn:hover {
+  background: #428bca;
+  color: white;
+}
+
+#contact-form .info-title {
+  margin: 30px 0 0 0;
+}
+
+#contact-form .info-title h2 {
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: underline;
+}
+
+#contact-form .info-title h3 {
+  font-family: 'Handel Gothic', sans-serif;
+  font-size: 1.125em;
+  color: white;
+  margin-top: 0px;
+}
+
+#contact-form .info-title a {
+  color: white;
+}
+
+#contact-form .info-title a:hover {
+  text-decoration: underline;
+  color: #426bca;
+}
+
+#contact-form img {
+  padding-right: 10px;
+}
+
+/*-- Contact-form End --*/
+
+
+#cboxLoadedContent {
+  padding: 10px;
+  background: #fffff0;
+}
+
+#modal-content {
+  display: none;
+}
+
+#modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#modal-content input {
+  width: 95%;
+}
+
+
+.modal-footer {background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Brooklyn%20Bridge%20Under%20Construction%201883.jpg) !important;}
+
+/*------------Modal Pop Up End--------------*/
+
+
+/*-------------History Start----------------*/
+#history {
+  padding: 30px 0;
+  /* 50 */
+  background: var(--water);
+}
+
+#history .block h2 {
+  text-transform: none;
+  font-family: 'Milkshake', cursive;
+  font-size: 1.75em;
+  padding-top: 20px;
+  /* 35px */
+  line-height: 27px;
+  margin: 0;
+}
+
+#history .block p {
+  color: var(--coal);
+  /* #7B7B7B */
+  padding-top: 20px;
+  font-family: 'Bitter', serif;
+  font-size: 1.2em;
+  text-align: justify;
+  font-style: normal;
+}
+
+#history .section-title {
+  margin-bottom: 0px;
+}
+
+#history .section-title p {
+  padding-top: 20px;
+}
+
+#history ul {
+  color: var(--coal);
+  font-family: 'Belleza', serif;
+  font-size: 1.3em;
+  padding-top: 15px;
+  list-style-type: disc;
+}
+
+#history .signoff p {
+  font-family: 'Milkshake', cursive;
+  font-size: 1.5em;
+  padding: 20px 10px 15px 0;
+  text-align: right;
+}
+
+#history .signoff p span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75em;
+  padding: 20px 0px 15px 0;
+  text-align: right;
+}
+
+/*-- History End --*/
+
+
+/*===============================================*/
+/*-- Req-contact-form Start --*/
+#req-contact-form {
+  background: #A3A3A3;
+  /* #f2f2f2 */
+  padding-top: 35px;
+  padding-bottom: -80px+;
+}
+
+#req-contact-form .container {
+  margin: 0 15%;
+}
+
+#req-contact-form .block {
+  margin-top: 40px;
+}
+
+#req-contact-form .requires {
+  margin: 0 -118px 0 0;
+}
+
+#req-contact-form p {
+  color: white;
+  font-style: italic;
+}
+
+#req-contact-form label {color: white;}
+
+#req-contact-form form .form-group {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin: 0px;
+  width: 100%;
+}
+
+#req-contact-form form .form-group .form-control {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 60px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+}
+
+#req-contact-form form .form-group-2 {
+  padding-bottom: 15px;
+}
+
+#req-contact-form .form-group-2 textarea {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 135px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+#req-contact-form button.btn {
+  width: 100px !important;
+  height: 40px !important;
+  background: #47424C !important;
+  border: none;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0625em;
+}
+
+#req-contact-form button.btn:hover {
+  background-color: #426bca !important;
+  color: pink  !important;
+  font-style: italic;
+}
+
+#req-contact-form form .field-block {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: justify;
+}
+
+#req-contact-form  form .field {
+  color: white;
+  font-size: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+#req-contact-form  form .btn {
+  background: var(--water);
+  border: none;
+  border-radius: 15px;
+  color: var(--coal);
+  width: 150px;
+  height: 50px;
+}
+
+#req-contact-form  form .btn:hover {
+  background: #428bca;
+  color: white;
+}
+
+#req-contact-form .info-title h2 {
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: underline;
+}
+
+#req-contact-form .info-title h3 {
+  font-family: 'Handel Gothic', sans-serif;
+  font-size: 1.125em;
+  color: white;
+  margin-top: 0px;
+}
+
+#req-contact-form .info-title a {
+  color: white;
+}
+
+#req-contact-form .info-title a:hover {
+  text-decoration: underline;
+  color: #426bca;
+}
+
+#req-contact-form img {
+  padding-right: 10px;
+}
+
+/*-- req-contact-form End --*/
+/*===============================================*/
+
+
+/*-- Projects Start --*/
+#projects {
+  background: #4e4d50;
+  /*rgba(240,240,240,0.3);*/
+  padding: 100px 0;
+}
+
+#projects img {
+  border-radius: 50px;
+}
+
+#projects .project-name {
+  font-family: "Bitter", serif;
+  font-size: 1.75rem;
+  color: snow;
+  /*white;dusk*/
+}
+
+#projects h2 {
+  font-family: "Bitter", serif;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  color: white;
+  /*dusk*/
+}
+
+#projects p {
+  font-family: "Belleza", serif;
+  font-size: 1.3em;
+  color: ghostwhite;
+  /*coal*/
+  line-height: normal;
+}
+
+#projects .projects-subtitle {
+  color: snow;
+  /*dusk*/
+  font-family: "Milkshake", cursive;
+  font-size: 1.65em;
+  font-style: normal !important;
+}
+
+#projects .container {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "title title"
+    "gallery content"
+    "gallery content"
+    "gallery content"
+    "gallery content";
+  margin: 0 auto;
+}
+
+#projects .projects-title {
+  grid-area: title;
+  grid-row: 1/2;
+  grid-column: 1/3;
+  justify-self: center;
+  padding-bottom: 30px;
+}
+
+/* Row1 */
+#projects .row1-1 {
+  grid-area: gallery;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  /*remains constant*/
+  justify-self: center;
+  /*horizontal*/
+  align-self: center;
+  /*vertical*/
+  margin: 20px auto 20px auto;
+  padding-bottom: 20px;
+}
+
+#projects .row1-2 {
+  grid-area: content;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+/*Row 2*/
+#projects .row2-1 {
+  grid-area: gallery;
+  grid-row: 3/4;
+  grid-column: 1/2;
+  justify-self: center;
+  /*horizontal*/
+  align-self: center;
+  /*vertical*/
+  margin: 20px auto 20px auto;
+  padding-bottom: 20px;
+}
+
+#projects .row2-2 {
+  grid-area: content;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  align-self: center;
+}
+
+/* Row3 */
+#projects .row3-1 {
+  grid-area: gallery;
+  grid-row: 4/5;
+  grid-column: 1/2;
+  justify-self: center;
+  /*horizontal*/
+  align-self: center;
+  /*vertical*/
+  margin: 20px auto 20px auto;
+  padding-bottom: 20px;
+}
+
+#projects .row3-2 {
+  grid-area: content;
+  grid-row: 4/5;
+  grid-column: 2/3;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+/* Row4 */
+#projects .row4-1 {
+  grid-area: gallery;
+  grid-row: 5/6;
+  grid-column: 1/2;
+  justify-self: center;
+  /*horizontal*/
+  align-self: center;
+  /*vertical*/
+  margin: 20px auto 20px auto;
+  padding-bottom: 20px;
+}
+
+#projects .row4-2 {
+  grid-area: content;
+  grid-row: 5/6;
+  grid-column: 2/3;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+/*-- Projects End --*/
+
+
+/*-- Service Start --*/
+#service {
+  background: var(--water);
+  text-align: center;
+  padding: 50px 0;
+}
+
+#service i {
+  font-size: 60px;
+  color: var(--midnite);
+}
+
+#service .fa-phone {
+  font-size: 3.0625em;
+  /*30px;*/
+}
+
+#service .icon-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#service .service-item {
+  padding-bottom: 30px;
+}
+
+#service .service-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: var(--dusk);
+  /*#666;*/
+  text-align: left;
+}
+
+#service .service-item p {
+  color: var(--coal);
+  /* #888; */
+  padding-top: 10px;
+  padding-right: 20px;
+  margin: 0;
+  font-size: 1.25em;
+  line-height: 1.8;
+  text-align: justify;
+  /* font-style: italic; */
+}
+
+/*===============================================*/
+#service-container {
+  display: grid;
+  grid-template-areas:
+    "title title title title"
+    "heading heading heading heading"
+    "icon i-title i-title i-title"
+    "content content content content"
+    "icon"
+    "content content content content"
+    "icon"
+    "content content content content"
+    "icon"
+    "content content content content";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#service .title {
+  grid-area: title;
+  grid-row: 1/2;
+  grid-column: 1/5;
+}
+
+#service .subtitle {
+  grid-area: heading;
+  grid-row: 2/3;
+  grid-column: 1/5;
+  color: var(--coal);
+  font-size: 1.35em;
+  font-style: normal !important;
+  margin-bottom: 50px;
+}
+
+#img1 {
+  grid-area: "icon";
+  grid-row: 3/4;
+  grid-column: 1/2;
+  justify-self: start;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+  grid-row: 3/4;
+  grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#design {
+  grid-area: "content";
+  grid-row: 4/5;
+  grid-column: 1/5;
+}
+
+#img2 {
+  grid-area: "icon";
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+  grid-row: 5/6;
+  grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#develop {
+  grid-area: "content";
+  grid-row: 6/7;
+  grid-column: 1/5;
+}
+
+#img3 {
+  grid-area: "icon";
+  grid-row: 7/8;
+  grid-column: 1/2;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+  grid-row: 7/8;
+  grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#tech_assist {
+  grid-area: "content";
+  grid-row: 8/9;
+  grid-column: 1/5;
+}
+
+#img4 {
+  grid-area: "icon";
+  grid-row: 9/10;
+  grid-column: 1/2;
+}
+
+#service .icon-header h4.icon-title {
+  grid-area: "i-title";
+  grid-row: 9/10;
+  grid-column: 2/5;
+  margin-left: 30px;
+}
+
+#consult {
+  grid-area: "content";
+  grid-row: 10/11;
+  grid-column: 1/5;
+}
+
+/*-- Service End --*/
+
+
+/*-- TechAssist Start --*/
+#techassist {
+  background: var(--water);
+  text-align: center;
+  padding: 80px 0;
+}
+
+#techassist span.italics {
+  font-style: oblique;
+}
+
+#techassist .title {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  /*28px*/
+  font-weight: 600;
+  color: var(--coal);
+}
+
+#techassist .subtitle {
+  font-family: "Volkhov", cursive;
+  color: var(--coal);
+  font-size: 1.35em;
+  font-style: normal !important;
+}
+
+#techassist .techassist-item {
+  padding-bottom: 30px;
+}
+
+#techassist .techassist-item:first-child {
+  margin-top: -20px;
+}
+
+#techassist .techassist-item i {
+  font-size: 3.75em;
+  /*60px*/
+  color: var(--midnite);
+}
+
+#techassist .techassist-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: var(--dusk);
+  /*#666;*/
+}
+
+#techassist .techassist-item p {
+  color: var(--coal);
+  /* #888; */
+  padding-top: 10px;
+  padding-right: 20px;
+  margin: 0;
+  font-size: 1.25em;
+  /*0.875em*/
+  line-height: 1.8;
+  text-align: justify;
+  /* font-style: italic; */
+}
+
+#techassist .subtitle {
+  color: var(--coal);
+  font-size: 1.2em;
+  font-style: normal !important;
+}
+
+/*-- TechAssist End --*/
+
+
+/*-- News Start --*/
+#news {
+  background: var(--water);
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  padding: 20px 0;
+}
+
+#news .block {
+  text-transform: none;
+  color: var(--coal);
+  font-family: 'Belleza', serif;
+  font-size: 1.75em;
+  line-height: 27px;
+  margin: 50px 0 40px 0;
+}
+
+#news .block h3 a {
+  color: var(--coal);
+  /* #7B7B7B */
+  margin-top: 40px;
+  font-family: 'Volkhov', cursive;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: justify;
+  font-style: normal;
+}
+
+#news ul {
+  color: var(--coal);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75em;
+  font-weight: 500;
+  padding-top: 15 0 20 0;
+  text-align: justify;
+  list-style: square;
+  margin: 0 25% 0 20%;
+}
+
+/*-- News End --*/
+
+
+/*-- Global-Header --*/
+#global-header {
+  background-image: url("images/Brooklyn-Bridge-Under-Construction-1883.png");
+  background-size: cover;
+  padding-top: 65px;
+  /* 150px */
+  padding-bottom: 25px;
+  /* 107px */
+  position: relative;
+  background-attachment: fixed;
+  border-bottom: none;
+  /* 1px solid #222222; */
+}
+
+#global-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--water);
+  /* linear-gradient(to left, #928dab, #1f1c2c 70%); */
+  opacity: 0.5;
+}
+
+#global-header .block {
+  color: var(--coal);
+  /* #E3E3E4 */
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+
+#global-header .block h1 {
+  font-weight: 300;
+  font-size: 45px;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+#global-header .block p {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+#global-header .block p a {
+  color: black;
+  text-decoration: underline;
+}
+
+#global-header .block p a:hover {
+  color: #426bca;
+  font-style: italic;
+}
+
+/*-- Global-Header End --*/
+
+
+/*-- Contact-Page Start --*/
+#c-contact-form {
+  background: #A3A3A3;
+  /* #f2f2f2 */
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#c-contact-form p {
+  color: white;
+  font-style: italic;
+}
+
+#c-contact-form .block form .form-group {
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0px;
+  width: 100%;
+}
+
+#c-contact-form .block form .form-group .form-control {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 60px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+}
+
+#c-contact-form .block form .form-group-2 {
+  padding-bottom: 15px;
+}
+
+#c-contact-form .block .form-group-2 textarea {
+  color: black;
+  background: #ffffff;
+  /* #F6F8FA */
+  height: 135px;
+  border: 1px solid #EBF0FA;
+  /* #EEF2F6 */
+  box-shadow: none;
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+#c-contact-form .block button {
+  width: 100%;
+  height: 60px;
+  background: #47424C;
+  border: none;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#c-contact-form .block form .field-block {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: justify;
+}
+
+#c-contact-form .block form .field {
+  color: white;
+  font-size: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+#c-contact-form .block form .btn {
+  background: var(--water);
+  border: none;
+  border-radius: 15px;
+  color: var(--coal);
+  width: 150px;
+  height: 50px;
+}
+
+#c-contact-form .block form .btn:hover {
+  background: #428bca;
+  color: white;
+}
+
+#c-contact-form .info-title h2 {
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: underline;
+}
+
+#c-contact-form .info-title h3 {
+  font-family: 'Handel Gothic', sans-serif;
+  font-size: 1.125em;
+  color: white;
+  margin-top: 0px;
+}
+
+#c-contact-form .info-title a {
+  color: white;
+}
+
+#c-contact-form .info-title a:hover {
+  text-decoration: underline;
+  color: #426bca;
+}
+
+#c-contact-form img {
+  padding-right: 10px;
+}
+
+/*-- Contact-Page End --*/
+
+/*--  Thank You --*/
+#thank-you {
+  background-color: #BFBFBF;
+  opacity: 0.6;
+}
+
+#thank-you .container {
+  width: 100%;
+  height: 400px;
+  /* 375px; */
+  background-color: #BFBFBF;
+  opacity: 0.6;
+}
+
+#thank-you .row .no-gutters {
+  height: auto;
+}
+
+#thank-you .block {
+  color: black;
+  /*var(--obsidian)*/
+  padding-top: 100px;
+  padding-bottom: 40px;
+  height: 400px;
+  width: 100%;
+  margin: auto 0% auto 63.55%;
+}
+
+#thank-you .block h2 {
+  color: black;
+  /*var(--obsidian)*/
+}
+
+#thank-you .block p {
+  font-size: 1.25em;
+  /*padding-top: 20px; */
+  line-height: 28px;
+}
+
+#thank-you .section-title {
+  margin-bottom: 0;
+}
+
+/*-- Thank You End --*/
+
+
+/*--	Footer Start --*/
+footer {
+  background: #000000;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #ffffff;
+  /* 919191 */
+}
+
+footer a {
+  color: #ffffff;
+  /* #595959; */
+}
+
+footer .footer-menu {
+  padding-bottom: 25px;
+}
+
+footer .footer-menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer .footer-menu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+footer .footer-menu ul li a {
+  display: inline-block;
+  color: var(--water);
+  /* #494949; */
+}
+
+footer .footer-menu ul li a:hover {
+  color: #428bca;
+}
+
+/*-- Footer End --*/
+
+
+/*=============Media Queries==================*/
+
+  @media only screen and (max-width: 1000px) {
+
+    header {background: black; height: 100px;}
+
+    #navbar {
+      display: block;
+      height: 100px;
+    }
+
+    #brand {
+      font-size: 1.5em;
+      margin: 10px 0 5px 20px;
+    }
+
+    #nav {display: none;}
+
+    .show-menu {display: block}
+
+    /*Mobile*/
+    #mobile {
+      display: block;
+      width: 250px;
+      margin: 60px 0 0 0;
+      padding: 0;
+      /*default collapse to use with transition*/
+      max-height: 100vh;;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+      z-index: 99999;
+    }
+
+/*=====Show hmburger icon & hide X icon===========*/
+
+  #show-menu + .show-menu {display: block;}
+
+  #show-menu + .show-menu .fa-bars {display: block;}
+
+  #show-menu + .show-menu .fa-times {display: none;}
+
+  #show-menu:checked + #mobile {display: block;}
+
+/*Hide hamburger icons & show X icon*/
+  #show-menu:checked + .show-menu .fa-bars {display: none;}
+
+  #show-menu:checked + .show-menu .fa-times {display: block;}
+
+  /*Display mobile menu*/
+  #show-menu:checked ~ #mobile {display: block;}
+    /*#show-menu:checked + .show-menu {max-height: 100vh;}
+    #show-menu:checked + #mobile {display: none; max-height: 100vh;}*/
+
+/*=================The Menu================*/
+    #mobile a {
+      background: black;
+      /*#111*/
+      color: ivory;
+      /*#fff*/
+      text-decoration: none;
+      padding: 0.8em 1.8em;
+      text-transform: uppercase;
+      font-size: 80%;
+      letter-spacing: 2px;
+      position: relative;
+    }
+
+
+    /*Make all menu links full width*/
+    #mobile li {
+      display: block;
+      /*Create vertical spacing*/
+      margin: 0 0 1px 0;
+    }
+
+    #mobile li ul {
+      display: block;/*none*/
+    }
+
+    #mobile li:first-child {border-top: 0;}
+
+    #mobile li:hover > ul {
+      display: block;
+      position: absolute;
+    }
+
+    #mobile li:hover li {margin: -20px 0 0 30px; border: none;}
+
+  }
