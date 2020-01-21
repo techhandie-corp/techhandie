@@ -1666,7 +1666,7 @@ footer .footer-menu ul li a:hover {
 
     #mobile li:hover {background: var(--charcoal);}
 
-    #mobile:hover>ul {display:block;}
+    .show-menu:hover>ul {display:block;}
 
     /*Make all menu links full width*/
     #mobile li {
