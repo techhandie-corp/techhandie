@@ -1636,11 +1636,11 @@ footer .footer-menu ul li a:hover {
     }
 
 /*=====Show hmburger icon & hide X icon===========*/
-#show-menu + .show-menu {
-    display: block;
-}
+    #show-menu + .show-menu {
+        display: block;
+    }
 
-
+    #show-menu:checked ~ #mobile > ul {display:block;}
 /*=================The Menu================*/
     #mobile a {
       background: black;
