@@ -1636,7 +1636,9 @@ footer .footer-menu ul li a:hover {
     }
 
 /*=====Show hmburger icon & hide X icon===========*/
-
+#show-menu + .show-menu {
+    display: block;
+}
 
 
 /*=================The Menu================*/
