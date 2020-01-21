@@ -185,31 +185,7 @@ a {
 
 
 /*=====Hamburger Menu====*/
-/*Style 'show menu' label button and hide it by default*/
 
-#show-menu {
-  /*visibility: hidden;*/
-  margin: 0px 0 0 20px;
-}
-
-.show-menu {
-    cursor: pointer;
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #fff;
-    background: black;
-    padding: 10px 0;
-    display: none;
-    margin: -15px 0 0 20px;
-}
-
-.show-menu .fa-bars {color: gainsboro;}
-
-.show-menu .fa-times {display: none; color: gainsboro;}
-
-/*Hide checkbox*/
-#show-menu + .show-menu {display: none;}
 
 /**===Actual Menu===*/
 nav {/*nav tag*/
@@ -433,30 +409,6 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- Content End --*/
-
-
-/*--------- Heading Start ------------*/
-/*
-.heading {
-  padding-bottom: 60px;
-  text-align: center;
-}
-
-.heading h2 {
-  color: #000;
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 400;
-}
-
-.heading p {
-  font-size: 18px;
-  line-height: 40px;
-  color: #292929;
-  font-weight: 300;
-}
-*/
-/*------------ Heading End -----------*/
 
 
 /*------------Modal Pop Up Start------------*/
@@ -1617,88 +1569,5 @@ footer .footer-menu ul li a:hover {
 
     #nav {display: none;}
 
-    .show-menu {display: block}
-
-    .fa-bars {
-      display: block;
-      font-size: 1.875rem;
-      cursor: pointer;
-      margin: 0 0 0 22px;
-    }
-
-    /*Mobile*/
-    #mobile {
-      display: none;
-      margin: 60px 0 0 0;
-      padding: 0;
-      cursor: pointer;
-      transition: max-height .25s ease-in-out;
-    }
-
-/*=====Show hmburger icon & hide X icon===========*/
-    #show-menu + .show-menu {
-        display: block;
-    }
-
-    #show-menu:checked ~ #mobile > ul {display:block;}
-/*=================The Menu================*/
-    #mobile a {
-      background: black;
-      /*#111*/
-      color: ivory;
-      /*#fff*/
-      text-decoration: none;
-      padding: 0.8em 1.8em;
-      text-transform: uppercase;
-      font-size: 80%;
-      letter-spacing: 2px;
-      position: relative;
-    }
-
-    #mobile ul>li {
-      background: var(--antiquegray);
-      display: block;
-      padding: 1rem;
-      border: 0.5px dotted gainsboro;
-      position: relative;
-      float: none;
-    }
-
-    #mobile li:hover {background: var(--charcoal);}
-
-    .show-menu:hover>ul {display:block;}
-
-    /*Make all menu links full width*/
-    #mobile li {
-      display: block;
-      width: 200px;
-      list-style: none;
-      position: relative;
-      padding: 0.75rem;
-      /*Create vertical spacing*/
-      margin: 0 0 1px 0;
-    }
-
-    #mobile ul li a {
-      display: block;
-      text-decoration: none;
-      white-space: nowrap;
-      font-size: 1.125rem;
-      color: navy;
-    }
-
-    #mobile ul lia:hover {font-style: oblique;
-      font-weight: 700;
-      width: 300px;
-      color: var(--obsidian);
-    }
-
-    #mobile li ul {
-      display: none;/*none*/
-      float: none;
-      z-index: 99999;
-    }
-
-    #mobile li:first-child {border-top: 0;}
 
   }
