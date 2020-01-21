@@ -1619,38 +1619,25 @@ footer .footer-menu ul li a:hover {
 
     .show-menu {display: block}
 
+    .fa-bars {
+      display: block;
+      font-size: 1.875rem;
+      cursor: pointer;
+      margin: 0 0 0 22px;
+    }
+
     /*Mobile*/
     #mobile {
-      display: block;
-      width: 250px;
+      display: none;
       margin: 60px 0 0 0;
       padding: 0;
-      /*default collapse to use with transition*/
-      max-height: 100vh;;
-      overflow: hidden;
+      cursor: pointer;
       transition: max-height .25s ease-in-out;
-      z-index: 99999;
     }
 
 /*=====Show hmburger icon & hide X icon===========*/
 
-  #show-menu + .show-menu {display: block;}
 
-  #show-menu + .show-menu .fa-bars {display: block;}
-
-  #show-menu + .show-menu .fa-times {display: none;}
-
-  #show-menu:checked + #mobile {display: block;}
-
-/*Hide hamburger icons & show X icon*/
-  #show-menu:checked + .show-menu .fa-bars {display: none;}
-
-  #show-menu:checked + .show-menu .fa-times {display: block;}
-
-  /*Display mobile menu*/
-  #show-menu:checked ~ #mobile {display: block;}
-    /*#show-menu:checked + .show-menu {max-height: 100vh;}
-    #show-menu:checked + #mobile {display: none; max-height: 100vh;}*/
 
 /*=================The Menu================*/
     #mobile a {
@@ -1666,25 +1653,50 @@ footer .footer-menu ul li a:hover {
       position: relative;
     }
 
+    #mobile ul>li {
+      background: var(--antiquegray);
+      display: block;
+      padding: 1rem;
+      border: 0.5px dotted gainsboro;
+      position: relative;
+      float: none;
+    }
+
+    #mobile li:hover {background: var(--charcoal);}
+
+    #mobile:hover>ul {display:block;}
 
     /*Make all menu links full width*/
     #mobile li {
       display: block;
+      width: 200px;
+      list-style: none;
+      position: relative;
+      padding: 0.75rem;
       /*Create vertical spacing*/
       margin: 0 0 1px 0;
     }
 
+    #mobile ul li a {
+      display: block;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 1.125rem;
+      color: navy;
+    }
+
+    #mobile ul lia:hover {font-style: oblique;
+      font-weight: 700;
+      width: 300px;
+      color: var(--obsidian);
+    }
+
     #mobile li ul {
-      display: block;/*none*/
+      display: none;/*none*/
+      float: none;
+      z-index: 99999;
     }
 
     #mobile li:first-child {border-top: 0;}
-
-    #mobile li:hover > ul {
-      display: block;
-      position: absolute;
-    }
-
-    #mobile li:hover li {margin: -20px 0 0 30px; border: none;}
 
   }
