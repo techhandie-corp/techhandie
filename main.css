@@ -1604,7 +1604,7 @@ footer .footer-menu ul li a:hover {
       display: block;
       text-decoration: none;
       white-space: nowrap;
-      font-size: 1.125rem;
+      font-size: 1.0625rem;
       color: var(--obsidian);
     }
 
