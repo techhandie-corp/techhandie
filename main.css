@@ -1610,9 +1610,15 @@ footer .footer-menu ul li a:hover {
 
     #nav ul li a:hover {
       font-style: oblique;
-      font-weight: 700;
-      width: 300px;
+      font-size: 1.0625rem;
       color: navy;
+    }
+
+
+    #nav li:hover a {
+        background: var(--charcoal);
+        list-style: none;
+        color: navy;
     }
 
     /*Display dropdown on hover*/
