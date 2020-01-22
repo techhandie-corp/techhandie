@@ -1561,9 +1561,9 @@ footer .footer-menu ul li a:hover {
     }
 
     #navbar {
-      flex-direction: column;
-      flex-wrap:nowrap;
-      /*display: block;*/
+      /* flex-direction: column;
+      flex-wrap:nowrap; */
+      display: block;
       /*height: 100px;*/
     }
 
@@ -1576,6 +1576,56 @@ footer .footer-menu ul li a:hover {
       display: block;
       justify-self: none;
       margin: 0;
+      z-index: 1;
+    }
+
+    ul>li {
+      background: var(--charcoal);
+      display: block;
+      padding: 1rem;
+      border: 0.5px dotted gainsboro;
+      position: relative;
+      float: none;
+    }
+
+    #nav ul li {
+      width: 200px;
+      list-style: none;
+      position: relative;
+      padding: 0.75rem;
+    }
+
+    /*Display dropdown menu(s)*/
+    #nav:hover>ul {display: block;}
+
+    li:hover {background: var(--charcoal);}
+
+    #nav ul li a {
+      display: block;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 1.125rem;
+      color: var(--obsidian);
+    }
+
+    #nav ul li a:hover {
+      font-style: oblique;
+      font-weight: 700;
+      width: 300px;
+      color: navy;
+    }
+
+    /*Display dropdown on hover*/
+    #nav li:hover > ul {
+      display: block;
+      position: absolute;
+    }
+
+    /*Hide submenus*/
+    #nav li ul {
+      display:none;
+      float: none;
+      z-index: 99999;
     }
 
 
