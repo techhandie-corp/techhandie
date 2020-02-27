@@ -150,6 +150,7 @@ a, a:active, a:focus, a:active {
 
 
 /*-- Header Start --*/
+#mobile {display: none;}
 
 #navbar {
   background: black;
@@ -165,6 +166,8 @@ a {
   text-decoration: none;
   color: ivory;
 }
+
+#show-menu, .show-menu {display:none;}
 
 #brand {
   color: ivory !important;
@@ -182,9 +185,31 @@ a {
 
 
 /*=====Hamburger Menu====*/
-#mobile {display: none;}
-#show-menu, .show-menu {display:none;}
+/*Style 'show menu' label button and hide it by default*/
 
+#show-menu {
+  /*visibility: hidden;*/
+  margin: 0px 0 0 20px;
+}
+
+.show-menu {
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 10px 0;
+    display: none;
+    margin: -15px 0 0 20px;
+}
+
+.show-menu .fa-bars {color: gainsboro;}
+
+.show-menu .fa-times {display: none; color: gainsboro;}
+
+/*Hide checkbox*/
+#show-menu + .show-menu {display: none;}
 
 /**===Actual Menu===*/
 nav {/*nav tag*/
@@ -408,6 +433,30 @@ div.col-md-10.col-md-offset-2 {
 }
 
 /*-- Content End --*/
+
+
+/*--------- Heading Start ------------*/
+/*
+.heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.heading h2 {
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.heading p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #292929;
+  font-weight: 300;
+}
+*/
+/*------------ Heading End -----------*/
 
 
 /*------------Modal Pop Up Start------------*/
@@ -1554,69 +1603,102 @@ footer .footer-menu ul li a:hover {
 
   @media only screen and (max-width: 1000px) {
 
-  /*Header Start*/
-    header {
+    header {background: black; height: 100px;}
+
+    #navbar {
+      display: block;
+      height: 100px;
+    }
+
+    #brand {
+      font-size: 1.5em;
+      margin: 10px 0 5px 20px;
+    }
+
+    #nav {display: none;}
+
+    .show-menu {display: block}
+
+    .fa-bars {
+      display: block;
+      font-size: 1.875rem;
+      cursor: pointer;
+      margin: 0 0 0 22px;
+    }
+
+    /*Mobile*/
+    #mobile {
+      display: none;
+      margin: 60px 0 0 0;
+      padding: 0;
+      cursor: pointer;
+      transition: max-height .25s ease-in-out;
+    }
+
+/*=====Show hmburger icon & hide X icon===========*/
+    #show-menu + .show-menu {
+        display: block;
+    }
+
+    #show-menu:checked ~ #mobile > ul {display:block;}
+/*=================The Menu================*/
+    #mobile a {
       background: black;
-      height: 70px;
+      /*#111*/
+      color: ivory;
+      /*#fff*/
+      text-decoration: none;
+      padding: 0.8em 1.8em;
+      text-transform: uppercase;
+      font-size: 80%;
+      letter-spacing: 2px;
       position: relative;
     }
 
-    #navbar {display:none;}
+    #mobile ul>li {
+      background: var(--antiquegray);
+      display: block;
+      padding: 1rem;
+      border: 0.5px dotted gainsboro;
+      position: relative;
+      float: none;
+    }
 
-    #mobile {display:block;}
+    #mobile li:hover {background: var(--charcoal);}
 
+    .show-menu:hover>ul {display:block;}
 
+    /*Make all menu links full width*/
+    #mobile li {
+      display: block;
+      width: 200px;
+      list-style: none;
+      position: relative;
+      padding: 0.75rem;
+      /*Create vertical spacing*/
+      margin: 0 0 1px 0;
+    }
 
-  /*Hide checkbox*/
-  input[type=checkbox]+label {
-    display: block;
-  }
+    #mobile ul li a {
+      display: block;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 1.125rem;
+      color: navy;
+    }
 
-  /*Show menu when invisible checkbox is checked*/
-  input[type=checkbox]:checked~ul#menu {
-    display: block;
-  }
+    #mobile ul lia:hover {font-style: oblique;
+      font-weight: 700;
+      width: 300px;
+      color: var(--obsidian);
+    }
 
-  #menu {
-    margin-left: 0;
-  }
+    #mobile li ul {
+      display: none;/*none*/
+      float: none;
+      z-index: 99999;
+    }
 
-  /*Make dropdown links appear inline*/
-  ul {
-    position: static;
-    display: none;
-  }
-
-  #menu {
-    margin: -7px 0 0 0;
-  }
-
-  /*Create vertical spacing*/
-  li {
-    margin-bottom: 1px;
-  }
-
-  /*Make all menu links full width*/
-  ul li, li a {
-    width: 100%;
-  }
-
-  li ul li a {
-/*link element tek width of the screen*/
-    min-width:100vh;
-    /*min-width: 140px*/
-    padding: 0 0 0 5px;
-    /*padding: 0 20px*/
-  }
-
-  /*Display 'show menu' link*/
-  .show-menu {
-    display: block;
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: var(--blu);
-  }
-/*Header End*/
-
+    #mobile li:first-child {border-top: 0;}
 
   }
