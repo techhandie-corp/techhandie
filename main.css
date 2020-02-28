@@ -2,7 +2,7 @@
 /*    General   */
 /****************/
 /* https://www.techhandie.com/ */
-
+/*Header section 152-355*/
 /*-- Font Sourcing --*/
 /*@import url('https://fonts.googleapis.com/css?family=Belleza|Bitter|Open+Sans|Roboto|Volkhov');*/
 
@@ -183,8 +183,9 @@ a {
 
 /*=====Hamburger Menu====*/
 #mobile {display: none;}
-#show-menu, .show-menu {display:none;}
 
+#show-menu, .show-menu {display:none;}
+/*=======================*/
 
 /**===Actual Menu===*/
 nav {/*nav tag*/
@@ -212,7 +213,7 @@ nav {/*nav tag*/
   position: relative;
 }
 
-#nav {
+#nav {/*nav id*/
   vertical-align: middle;
   display: inline-block;
   z-index: 1;
@@ -1554,18 +1555,20 @@ footer .footer-menu ul li a:hover {
 
   @media only screen and (max-width: 1000px) {
 
-  /*Header Start*/
-    header {
-      background: black;
-      height: 70px;
-      position: relative;
-    }
+    /*Header Start*/
+  /*input[type="checkbox"] + label {display: block;}*/
+  #navbar {display: none;}
 
-    #navbar {display:none;}
+  #mobile {display: block;}
 
-    #mobile {display:block;}
+  #brand {display:none;}
 
+  a {color: var(--cottonblue);}
 
+  header {
+    background: black;
+    height: 60px;
+  }
 
   /*Hide checkbox*/
   input[type=checkbox]+label {
@@ -1581,6 +1584,83 @@ footer .footer-menu ul li a:hover {
     margin-left: 0;
   }
 
+  .up {
+  display: none;
+  margin: 0 0 0 10px;
+}
+
+.down {
+  display: inline;
+  margin: 0 0 0 5px;
+}
+
+li a:hover>span.up {
+  display: inline;
+}
+
+li a:hover>span.down {
+  display: none;
+}
+
+i.fas.fa-bars {
+  color: white;
+  font-size: 1.5rem;
+  }
+
+  /*==============================*/
+
+  /*Hover state for dropdown links*/
+  li:hover ul a:hover {
+  /*background: black;*/
+  color: white;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+  display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+  /*width: 250px;*/
+  display: block;
+  float: none;
+  text-align: left;
+  padding: 8px 0;/*control link element height*/
+  z-index: 99999;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+  width: auto;
+  min-width: 100vh;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover+.hidden, .hidden:hover {
+  display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  background: ;/*var(--antiquegray)*/
+  /*text-align: center;*/
+  padding: 10px 0;
+  margin: 0 0 0 20px;
+  display: none;
+}
+
+/*Hide checkbox*/
+  #show-menu {display:none;}
+
+  /*==============================*/
+
   /*Make dropdown links appear inline*/
   ul {
     position: static;
@@ -1588,7 +1668,10 @@ footer .footer-menu ul li a:hover {
   }
 
   #menu {
-    margin: -7px 0 0 0;
+    background: black;/*lightgray*/
+    /*text-align: center;/*center dropdown display*/
+    margin: -10px 0 0 0;/*move links closer to menu heading*/
+    padding: 0 0 0 20px;
   }
 
   /*Create vertical spacing*/
@@ -1596,26 +1679,48 @@ footer .footer-menu ul li a:hover {
     margin-bottom: 1px;
   }
 
+  li ul a:hover {
+    color: var(--obsidian);
+  }
+
+  li ul li {
+    background: var(--antiquegray);
+    z-index:99999;
+    min-width:100vh;
+    margin: 0 0 0 0;/*dropdown horizontal orientation*//*15px*/
+    border-bottom: 0.25px dotted var(--obsidian);
+  }
+
+  li ul li:hover {
+    background: var(--midnite);
+    color: ivory !important;
+  }
+
   /*Make all menu links full width*/
   ul li, li a {
-    width: 100%;
+    min-width:100vh;
+    color: var(--cottonblue) !important;
   }
 
   li ul li a {
 /*link element tek width of the screen*/
     min-width:100vh;
     /*min-width: 140px*/
-    padding: 0 0 0 5px;
+    padding: 0;
     /*padding: 0 20px*/
+    margin-left: 10px;
+    color: var(--obsidian) !important;
   }
 
-  /*Display 'show menu' link*/
-  .show-menu {
-    display: block;
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: var(--blu);
+  li ul li a:hover {
+    color:ivory !important;
   }
+
+  .nested {
+    color: peachpuff;
+    background: blanchedalmond;
+  }
+
 /*Header End*/
 
 
