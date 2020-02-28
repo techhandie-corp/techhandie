@@ -166,7 +166,7 @@ a {
   color: ivory;
 }
 
-#brand {
+.brand {
   color: ivory !important;
   /* white */
   /*   padding-top: 25px; */
@@ -178,7 +178,7 @@ a {
   justify-self: start;
 }
 
-#brand a {color: ivory;}
+.brand a {color: ivory;}
 
 
 /*=====Hamburger Menu====*/
@@ -1724,4 +1724,4 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Header End*/
 
 
-  }
+}/*media 768px*/
