@@ -1610,6 +1610,7 @@ li a:hover>span.down {
 i.fas.fa-bars {
   color: white;
   font-size: 1.5rem;
+  margin-top:8px;
 }
 
 .brand {
