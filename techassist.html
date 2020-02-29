@@ -44,8 +44,9 @@
 	<header>
 		<div id="navbar">
 			<div id="brand"><a href="https://www.techhandie.com/">TechHandie Corporation</a></div>
+
 			<nav>
-				<ul class="nav">
+				<ul id="nav">
 					<li><a href="https://www.techhandie.com/news">News</a>
 						<ul>
 							<li><a href="#">Artificial Intelligence</a></li>
@@ -54,23 +55,26 @@
 							<li><a href="#">Machine Learning</a></li>
 						</ul>
 					</li>
-					<li><a href="https://www.techhandie.com/services">Services</a>
+					<li><a href="#">Services</a>
 						<ul>
-							<li><a href="https://www.techhandie.com/techassist">Technical Assistance</a>
+							<li><a href="#">Development</a>
+								<ul>
+									<li><a href="https://www.techhandie.com/services#design">Web Design</a></li>
+									<li><a href="https://www.techhandie.com/services#develop">Web Development</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Technical Assistance</a>
 								<ul>
 									<li><a href="https://www.techhandie.com/techassist#report">Adhoc Reporting</a></li>
-									<li><a href="https://www.techhandie.com/techassist#data">Data Analysis</a></li>
+									<li><a href="https://www.techhandie.com/techassist#data">Bookkeeping</a></li>
 									<li><a href="https://www.techhandie.com/techassist#seo">Search Engine Optimization</a></li>
 									<li><a href="https://www.techhandie.com/techassist#promotion">Marketing Materials</a></li>
 								</ul>
 							</li>
-							<li><a href="https://www.techhandie.com/services#design">Web Design</a></li>
-							<li><a href="https://www.techhandie.com/services#develop">Web Development</a></li>
-							<li><a href="https://www.techhandie.com/services#consult">Consultation</a></li>
 							<li><a href="https://www.techhandie.com/reqinfo">Request Information</a></li>
 						</ul>
 					</li>
-					<li><a href="https://www.techhandie.com/projects">Projects</a>
+					<li><a href="#">Projects</a>
 						<ul>
 							<li><a href="https://www.techhandie.com/projects#juicedbyj">Juiced by J</a></li>
 							<li><a href="https://www.techhandie.com/projects#cornerstone">Cornerstone CDC</a></li>
@@ -80,12 +84,64 @@
 						</ul>
 					</li>
 					<li><a href="https://www.techhandie.com/history">History</a></li>
-
 					<li><a href="https://www.techhandie.com/contact">Contact</a></li>
-				</ul>
+				</ul><!-- nav -->
 			</nav>
+
 		</div>
-		<!--headcontainer-->
+		<!--navbar-->
+		<section id="mobile">
+
+					<input type="checkbox" id="show-menu" role="button" />
+					<label for="show-menu" class="show-menu"><i class="fas fa-bars"></i>&nbsp;&nbsp;<span class="brand">TechHandie Corporation</span></label>
+					<ul id="menu">
+						<li><a href="https://www.techhandie.com/index">Home</a></li>
+						<li><a href="https://www.techhandie.com/history">History</a></li>
+						<li>
+							<a href="#">Services<span class="tri up">&#x25B2</span><span class="tri down">&#x25BC</span></a>
+							<ul class="hidden">
+								<li>
+									<a href="#">Development<span class="tri up">&#x25B2</span><span class="tri down">&#x25BC</span></a>
+									<ul class="hidden">
+										<li><a href="https://www.techhandie.com/services#design">Web Design</a></li>
+										<li><a href="https://www.techhandie.com/services#design">Web Development</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Technical Assistance<span class="tri up">&#x25B2</span><span class="tri down">&#x25BC</span></a>
+									<ul class="hidden">
+										<li><a href="https://www.techhandie.com/techassist#data">Bookkeeping</a></li>
+										<li><a href="https://www.techhandie.com/techassist#seo">Search Engine Optimization</a></li>
+										<li><a href="https://www.techhandie.com/techassist#report">Adhoc Reporting</a></li>
+										<li><a href="https://www.techhandie.com/techassist#promotion">Marketing Materials</a></li>
+									</ul>
+								</li>
+								<li><a href="https://www.techhandie.com/reqinfo">Request Information</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Projects<span class="tri up">&#x25B2</span><span class="tri down">&#x25BC</span></a>
+							<ul class="hidden">
+								<li><a href="https://www.techhandie.com/projects#juicedbyj">Juiced by J</a></li>
+								<li><a href="https://www.techhandie.com/projects#cornerstone">Cornerstone CDC</a></li>
+								<li><a href="https://www.techhandie.com/projects#trbca">TRBCA</a></li>
+								<li><a href="https://www.techhandie.com/projects#campaign">Belcher for Council</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#">News<span class="tri up">&#x25B2</span><span class="tri down">&#x25BC</span></a>
+							<ul class="hidden">
+								<li><a href="#">Artificial Intelligence</a></li>
+								<li><a href="#">Block Chain</a></li>
+								<li><a href="#">IoI</a></li>
+								<li><a href="#">Machine Learning</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.techhandie.com/contact">Contact Us</a></li>
+					</ul>
+
+		</section><!--mobile-->
 	</header>
 	<!--Header End-->
 
