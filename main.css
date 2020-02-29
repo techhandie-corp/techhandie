@@ -1554,6 +1554,7 @@ footer .footer-menu ul li a:hover {
 
 /*=============Media Queries==================*/
 
+/*================For Tablets================*/
 @media only screen and (max-width: 1300px) {
 
 /*Contact Start*/
@@ -1569,6 +1570,9 @@ footer .footer-menu ul li a:hover {
 
   #c-contact-form button.btn.btn-default {
     margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 25px;
   }
 
   #c-contact-form .info-title {
@@ -1578,8 +1582,11 @@ footer .footer-menu ul li a:hover {
 /*Contact End*/
 
 }
+/*media 1300px*/
 
 
+
+/*================For Phones================*/
   @media only screen and (max-width: 768px) {
 
     /*Header Start*/
@@ -1755,11 +1762,6 @@ ul li a:hover+.hidden, .hidden:hover {
     color:ivory !important;
   }
 
-  .nested {
-    color: peachpuff;
-    background: blanchedalmond;
-  }
-
 /*Header End*/
 
 
@@ -1773,6 +1775,28 @@ ul li a:hover+.hidden, .hidden:hover {
     padding-left:0;
     text-align:left;
   }
+
+  #c-contact-form .block form .form-group
+  {
+    margin-left:0;
+  }
+
+  #c-contact-form .block .form-group-2 textarea {
+    margin-left:0;
+    margin-bottom:40px;
+  }
+
+  #c-contact-form button.btn.btn-default {
+    margin-left: 0;
+  }
+
+  #c-contact-form .info-title {
+    margin-left:0;
+  }
+
+
+
+
 /*Contact End*/
 
 
