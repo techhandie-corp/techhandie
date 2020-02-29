@@ -1738,6 +1738,11 @@ ul li a:hover+.hidden, .hidden:hover {
 
 
 /*Contact Start*/
+  #global-header {
+    padding-top: 30px;
+    z-index: -1;
+  }
+
   #global-header .block {
     padding-left:0;
     text-align:left;
