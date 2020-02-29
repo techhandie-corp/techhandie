@@ -182,7 +182,7 @@ a {
 
 
 /*=====Hamburger Menu====*/
-#mobile {display: none;}
+#mobile {display:none;}
 
 #show-menu, .show-menu {display:none;}
 /*=======================*/
@@ -1557,11 +1557,11 @@ footer .footer-menu ul li a:hover {
 
     /*Header Start*/
   /*input[type="checkbox"] + label {display: block;}*/
-  #navbar {display: none;}
-
-  #mobile {display: block;}
+  #navbar, nav, #nav {display:none;}
 
   #brand {display:none;}
+
+  #mobile {display: block;}
 
   a {color: var(--cottonblue);}
 
