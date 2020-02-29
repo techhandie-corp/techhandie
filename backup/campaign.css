@@ -1347,7 +1347,7 @@ input[type=checkbox]+label {
 /*=====================Phone Start=======================*/
 /*For Phones*/
 
-@media only screen and (max-width : 760px) {
+@media only screen and (max-width: 760px) {
 
 /*Active Start*/
 #gallery {
