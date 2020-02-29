@@ -166,7 +166,7 @@ a {
   color: ivory;
 }
 
-.brand {
+#brand {
   color: ivory !important;
   /* white */
   /*   padding-top: 25px; */
@@ -178,7 +178,7 @@ a {
   justify-self: start;
 }
 
-.brand a {color: ivory;}
+#brand a {color: ivory;}
 
 
 /*=====Hamburger Menu====*/
@@ -1605,7 +1605,12 @@ li a:hover>span.down {
 i.fas.fa-bars {
   color: white;
   font-size: 1.5rem;
-  }
+}
+
+.brand {
+  font-family: "Handel Gothic", cursive;
+  font-dize: 1.25rem;
+}
 
   /*==============================*/
 
@@ -1646,7 +1651,7 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
   cursor: pointer;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Bitter", Times Roman, serif;
   text-decoration: none;
   color: white;
   background: ;/*var(--antiquegray)*/
