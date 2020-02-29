@@ -1608,7 +1608,7 @@ i.fas.fa-bars {
 }
 
 .brand {
-  font-family: "Handel Gothic", cursive;
+  font-family: "Handel Gothic", cursive !important;
   font-dize: 1.25rem;
 }
 
