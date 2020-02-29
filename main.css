@@ -1675,6 +1675,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
   #menu {
     background: black;/*lightgray*/
+    font-family: "Roboto";
     /*text-align: center;/*center dropdown display*/
     margin: -10px 0 0 0;/*move links closer to menu heading*/
     padding: 0 0 20px 20px;
