@@ -1737,4 +1737,15 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Header End*/
 
 
+/*Contact Start*/
+  #global-header .block {
+    padding-left:0;
+    text-align:left;
+  }
+/*Contact End*/
+
+
+
+
+
 }/*media 768px*/
