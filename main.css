@@ -1554,6 +1554,32 @@ footer .footer-menu ul li a:hover {
 
 /*=============Media Queries==================*/
 
+@media only screen and (max-width: 1300px) {
+
+/*Contact Start*/
+  #c-contact-form .block form .form-group
+  {
+    margin-left:20px;
+  }
+
+  #c-contact-form .block .form-group-2 textarea {
+    margin-left:20px;
+    margin-bottom:40px;
+  }
+
+  #c-contact-form button.btn.btn-default {
+    margin-left: 20px;
+  }
+
+  #c-contact-form .info-title {
+    margin-left: 20px;
+  }
+
+/*Contact End*/
+
+}
+
+
   @media only screen and (max-width: 1000px) {
 
     /*Header Start*/
