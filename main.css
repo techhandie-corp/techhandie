@@ -1580,6 +1580,11 @@ footer .footer-menu ul li a:hover {
     border-radius: 25px;
   }
 
+  #c-contact-form button.btn.btn-default:hover {
+    background: var(--charcoal);
+    color: ivory;
+  }
+
   #c-contact-form .info-title {
     margin-left: 10px;
   }
