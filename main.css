@@ -1560,23 +1560,28 @@ footer .footer-menu ul li a:hover {
 /*Contact Start*/
   #c-contact-form .block form .form-group
   {
-    margin-left:20px;
+    margin-left:0;
   }
 
   #c-contact-form .block .form-group-2 textarea {
-    margin-left:20px;
+    margin-left:0;
     margin-bottom:40px;
+  }
+
+  #c-contact-form .container .row:first-child {
+    margin-left: -10px;
   }
 
   #c-contact-form button.btn.btn-default {
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px;
+    border: 5px double ivory;
     border-radius: 25px;
   }
 
   #c-contact-form .info-title {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
 /*Contact End*/
