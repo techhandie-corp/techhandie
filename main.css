@@ -1804,13 +1804,24 @@ ul li a:hover+.hidden, .hidden:hover {
     margin-left:0;
   }
 
-
-
-
 /*Contact End*/
 
 
+/*Modal*/
 
+.modal-header #block {
+  height: 200px;  
+}
+
+#contact-form label {color: white;}
+
+#contact-form  form .form-group {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin: 0px;
+  width: 100%;
+}
 
 
 }/*media 768px*/
