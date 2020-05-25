@@ -1840,6 +1840,9 @@ ul li a:hover+.hidden, .hidden:hover {
   margin: 0;
 }
 
+ul li, li a {
+  color: var(--coal);
+}
 /*News End*/
 
 }/*media 768px*/
