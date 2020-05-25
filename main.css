@@ -1809,18 +1809,13 @@ ul li a:hover+.hidden, .hidden:hover {
 
 /*Modal*/
 
-.modal-header #block {
-  height: 200px;  
+.modal-title {
+  font-size: 1.55em;
 }
 
-#contact-form label {color: white;}
-
-#contact-form  form .form-group {
-  color: white;
-  padding-top: 0;
-  padding-bottom: 40px;
-  margin: 0px;
-  width: 100%;
+#contact-form form .form-group {
+  margin-left: -5px;
+  width: 90%;
 }
 
 
