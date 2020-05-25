@@ -1807,8 +1807,7 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Contact End*/
 
 
-/*Modal*/
-
+/*Modal Start*/
 .modal-title {
   font-size: 1.55em;
   line-height: 1em;
@@ -1818,6 +1817,7 @@ ul li a:hover+.hidden, .hidden:hover {
   margin-left: -5px;
   width: 92%;/*90%*/
 }
+/*Modal End*/
 
 
 }/*media 768px*/
