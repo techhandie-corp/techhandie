@@ -1811,6 +1811,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
 .modal-title {
   font-size: 1.55em;
+  line-height: 0.75em;
 }
 
 #contact-form form .form-group {
