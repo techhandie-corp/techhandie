@@ -83,7 +83,7 @@
 }
 
 .underline {
-  text-decoration: underline;
+  text-decoration: solid 4px;
 }
 
 /**********************/
@@ -1263,9 +1263,7 @@ div.col-md-10.col-md-offset-2 {
   font-family: 'Volkhov', cursive;
   font-size: 1em;
   font-weight:600;
-  /*text-align: justify;*/
   font-style: normal;
-  text-decoration: underline;
 }
 
 #news ul {
