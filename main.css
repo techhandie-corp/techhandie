@@ -1272,7 +1272,7 @@ div.col-md-10.col-md-offset-2 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em;
   font-weight: 500;
-  padding-top: 15 0 20 0;
+  padding: 15 0 20 0;
   text-align: justify;
   list-style: square;
   margin: 0 0 0 30%;
@@ -1831,5 +1831,15 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 /*History End*/
 
+/*News Start*/
+#news .block {
+  margin: 0;
+}
+
+#news ul {
+  margin: 0;
+}
+
+/*News End*/
 
 }/*media 768px*/
