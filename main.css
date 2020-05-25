@@ -83,7 +83,7 @@
 }
 
 .underline {
-  text-decoration: solid 4px;
+  text-decoration: solid var(--coal) 4px;
 }
 
 /**********************/
