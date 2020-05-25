@@ -1836,13 +1836,18 @@ ul li a:hover+.hidden, .hidden:hover {
   margin: 0;
 }
 
-#news ul {
+#news ul.bullet2 {
+  color: var(--coal);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  padding: 15 0 20 0;
+  text-align: justify;
+  list-style: square;
   margin: 0;
 }
 
-#ai, #bct, #ml, #iot {
-  color: var(--coal);
-}
+/*#ai, #bct, #ml, #iot {}*/
 /*News End*/
 
 }/*media 768px*/
