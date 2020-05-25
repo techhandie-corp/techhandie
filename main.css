@@ -23,7 +23,8 @@
 
 @font-face {
   font-family: 'Handel Gothic';
-  src: url("fonts/Handel-Gothic.ttf") format('truetype');
+  src: url("fonts/Handel-Gothic.ttf") format('truetype');1328
+
 }
 
 @font-face {
@@ -1189,7 +1190,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #techassist .subtitle {
-  font-family: "Volkhov", cursive;
+  font-family: "Volkhov", serif;
   color: var(--coal);
   font-size: 1.35em;
   font-style: normal !important;
@@ -1260,7 +1261,7 @@ div.col-md-10.col-md-offset-2 {
   color: var(--coal);
   /* #7B7B7B */
   margin-top: 40px;
-  font-family: 'Volkhov', cursive;
+  font-family: 'Volkhov', serif;
   font-size: 2em;
   font-weight:600;
   font-style: normal;
@@ -1326,6 +1327,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #global-header .block p {
+  font-family: "Volkhov", serif;
   color: black;
   font-size: 1.5em;
   font-weight: 500;
