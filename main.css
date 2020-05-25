@@ -1819,5 +1819,11 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 /*Modal End*/
 
+/*History Start*/
+#history .block p {
+  text-align: left;
+}
+/*History End*/
+
 
 }/*media 768px*/
