@@ -1252,7 +1252,7 @@ div.col-md-10.col-md-offset-2 {
   margin: 50px 0 40px 0;
 }
 
-#news .block h3 a {
+#news .block h3 .underline {
   color: var(--coal);
   /* #7B7B7B */
   margin-top: 40px;
@@ -1261,6 +1261,7 @@ div.col-md-10.col-md-offset-2 {
   font-weight: bold;
   text-align: justify;
   font-style: normal;
+  text-decoration: underline;
 }
 
 #news ul {
