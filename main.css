@@ -1840,7 +1840,7 @@ ul li a:hover+.hidden, .hidden:hover {
   margin: 0;
 }
 
-ul li, li a {
+#ai, #bct, #ml, #iot {
   color: var(--coal);
 }
 /*News End*/
