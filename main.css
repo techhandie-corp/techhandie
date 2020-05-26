@@ -1837,7 +1837,7 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 
 li.news-bullet {
-  color: var(--coal);
+  color: var(--coal) !important;
 }
 
 #news ul.bullet2 {
