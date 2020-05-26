@@ -1836,6 +1836,10 @@ ul li a:hover+.hidden, .hidden:hover {
   margin: 0;
 }
 
+li.news-bullet {
+  color: var(--coal);
+}
+
 #news ul.bullet2 {
   color: var(--coal);
   font-family: 'Roboto', sans-serif;
