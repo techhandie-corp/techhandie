@@ -44,6 +44,7 @@
   --dusk: #666666;
   --grey: #555555;
   --light-grey: #eaeaea;
+  --mango: #ffcd48;
   --medium-light-grey: #e6e6e6;
   --midnite: #4a4656;
   --obsidian: #0d0d26;
@@ -1249,22 +1250,20 @@ div.col-md-10.col-md-offset-2 {
   border-top: 2px solid black;
 }
 
-#news .block {
-  text-transform: none;
-  color: var(--coal);
-  font-family: 'Belleza', serif;
-  line-height: 27px;
-  margin: 50px 0 40px 0;
+li a {color: #e9f6fb;}
+
+li .fas {
+  color: var(--mango);
+  margin-right: 12px;
+  font-size: 0.85em;
 }
 
-#news .block h3 .underline {
-  color: var(--coal);
-  /* #7B7B7B */
-  margin-top: 40px;
-  font-family: 'Volkhov', serif;
-  font-size: 2em;
-  font-weight:600;
-  font-style: normal;
+.b-item {padding: 20px 0 0 0;}
+
+#news ul.bullet {
+  list-style: none;
+  font-style: oblique;
+  text-align: justify;
 }
 
 #news ul {
@@ -1277,6 +1276,37 @@ div.col-md-10.col-md-offset-2 {
   list-style: square;
   margin: 0 0 0 30%;
 }
+
+#list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header"
+    "list";
+}
+
+#heading {
+  grid-area: "header";
+  grid-row: 1/2;
+  grid-column: 1/2;
+  font-family:'Volkhov';
+  font-size: 2em;
+  color: lemonchiffon;
+}
+
+#items {
+  grid-area: 'list';
+  grid-row: 2/3;
+  grid-column: 1/2;
+  color: lemonchiffon;
+  font-family: 'Belleza';
+  font-size: 1.75em;
+  font-weight: 500;
+  margin: 0 0 0 36%;
+}
+
+
 
 /*-- News End --*/
 
@@ -1832,26 +1862,28 @@ ul li a:hover+.hidden, .hidden:hover {
 /*History End*/
 
 /*News Start*/
-#news .block {
-  margin: 0;
+#news ul.bullet {
+  margin-left: 0;
+  margin-right: 0;
+  text-align:left;
 }
 
-li.news-bullet {
-  color: var(--coal) !important;
+.title {
+  font-size: 1.75em;
+  text-align:left;
+  margin: 0 0 0 15px;
 }
 
-#news ul.bullet2 {
-  color: var(--coal);
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.25em;
-  font-weight: 500;
-  padding: 15 0 20 0;
-  text-align: justify;
-  list-style: square;
-  margin: 0;
+#heading {
+  font-size: 1.5em;
+  text-align:left;
+  margin: 0 0 0 15px;
 }
 
-/*#ai, #bct, #ml, #iot {}*/
+#items {
+  font-size: 1.5em;
+  margin: 0 0 0 -15px;
+}
 /*News End*/
 
 }/*media 768px*/
