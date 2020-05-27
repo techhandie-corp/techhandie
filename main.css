@@ -1250,7 +1250,7 @@ div.col-md-10.col-md-offset-2 {
   border-top: 2px solid black;
 }
 
-li a {color: #e9f6fb;}
+li a {color: var(--cottonblue);}/*e9f6fb*/
 
 li .fas {
   color: var(--mango);
@@ -1258,7 +1258,7 @@ li .fas {
   font-size: 0.85em;
 }
 
-.b-item {padding: 20px 0 0 0;}
+.b-item {padding: 0;}
 
 #news ul.bullet {
   list-style: none;
