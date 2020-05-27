@@ -1257,12 +1257,12 @@ div.col-md-10.col-md-offset-2 {
   font-weight: 500;
   padding: 15 0 20 0;
   text-align: justify;
-  margin: 0 0 0 15%;
+  margin: 0 0 0 30%;
 }
 
 .b-item {padding: 0;}
 
-.b-item a {color: var(--grey);}/*e9f6fb*/
+.b-item a {color: var(--obsidian);}/*e9f6fb*/
 
 .b-item .fas {
   color: var(--midnite);/*var(--mango);*/
