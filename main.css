@@ -1872,13 +1872,6 @@ ul li a:hover+.hidden, .hidden:hover {
 #news {
   position:relative;
 }
-#news ul.bullet {
-  margin-left: 0;
-  margin-right: 0;
-  text-align:left;
-  position: absolute;
-  z-index: 999999;
-}
 
 .title {
   font-size: 1.75em;
@@ -1894,7 +1887,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
 #items {
   font-size: 1.5em;
-  margin: 0 0 0 -15px;
+  margin: 0 0 0 -30px;
 }
 
 .b-item {padding: 0;}
