@@ -1257,7 +1257,7 @@ div.col-md-10.col-md-offset-2 {
   font-weight: 500;
   padding: 20px 0;
   text-align: justify;
-  margin: 0 0 0 30%;
+  margin: 0 0 0 37%;
 }
 
 #news .b-item {padding: 0;}
@@ -1289,6 +1289,7 @@ div.col-md-10.col-md-offset-2 {
   font-family:'Volkhov';
   font-size: 2.5em;
   color: var(--charcoal);
+  margin: 25px 0 0 0;
 }
 
 #news #items .b-item.one {
