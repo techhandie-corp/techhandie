@@ -1885,6 +1885,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
 #items {
   font-size: 1.125em;
+  text-align:left;
   margin: 0 0 0 5%;
 }
 
