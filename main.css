@@ -1251,11 +1251,11 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #news #items {
-  color: lemonchiffon;/*var(--coal);*/
+  color: var(--obsidian);/*var(--coal);lemonchiffon*/
   font-family: 'Belleza';/*'Roboto', sans-serif;*/
   font-size: 1.5em;/*1.25em;*/
   font-weight: 500;
-  padding: 15px 0 20px 0;
+  padding: 20px 0;
   text-align: justify;
   margin: 0 0 0 30%;
 }
