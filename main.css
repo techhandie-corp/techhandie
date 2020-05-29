@@ -1900,4 +1900,22 @@ ul li a:hover+.hidden, .hidden:hover {
 
 /*News End*/
 
+/*Projects*/
+#projects img {
+  width: 50%;
+  height: 50%;
+}
+
+#projects p,#projects p.just {
+  font-size: 1em;
+  text-align: left;
+}
+
+#projects .project-name {
+  font-size: 1.25em;
+}
+
+
+
+
 }/*media 768px*/
