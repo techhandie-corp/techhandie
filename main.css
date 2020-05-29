@@ -1927,5 +1927,16 @@ ul li a:hover+.hidden, .hidden:hover {
 
 /*Projects*/
 
+/*Reqinfo*/
+#req-contact-form form .form-group .form-control {
+  width: 95%;
+}
+
+#req-contact-form form .form-group {
+  margin-left: -30px;
+}
+
+
+/**/
 
 }/*media 768px*/
