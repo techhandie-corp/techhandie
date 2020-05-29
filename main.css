@@ -1901,6 +1901,16 @@ ul li a:hover+.hidden, .hidden:hover {
 /*News End*/
 
 /*Projects*/
+
+#projects h2.weighty.center {
+  margin-left: -130px;
+  font-size: 2em;
+}
+
+#projects .projects-subtitle {
+  margin-left: 0;
+}
+
 #projects img {
   width: 50%;
   height: 50%;
