@@ -865,6 +865,10 @@ div.col-md-10.col-md-offset-2 {
   padding: 100px 0;
 }
 
+#projects a {
+  color: snow;
+}
+
 #projects img {
   border-radius: 50px;
 }
