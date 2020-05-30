@@ -1958,13 +1958,14 @@ ul li a:hover+.hidden, .hidden:hover {
 /*TechAssist*/
 #techassist h2.title {
   text-align: left;
-  font-size
+  font-size: 1.25em;
 }
 
 
 #techassist .subtitle {
   text-align: left;
   font-size: 1em;
+  line-height: 1.5;
 }
 
 #techassist .techassist-item p {
