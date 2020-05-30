@@ -1936,7 +1936,17 @@ ul li a:hover+.hidden, .hidden:hover {
   margin-left: -30px;
 }
 
+/*ReqInfo*/
 
-/**/
+/*Services Start*/
+#service .subtitle {
+  text-align: left;
+}
+
+#service .service-item p {
+  text-align: left;
+}
+/*Services End*/
+
 
 }/*media 768px*/
