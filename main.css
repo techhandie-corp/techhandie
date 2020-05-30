@@ -1955,14 +1955,28 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Services End*/
 
 /*TechAssist*/
+#techassist .title {
+  tet-align: left;
+}
+
+
 #techassist .subtitle {
   text-align: left;
 }
 
-#techassist .techassist-item {
+#techassist .techassist-item p {
   font-size: 1em;
   line-height: 1.5;
 }
+
+#techassist .techassist-item i {
+  font-size: 2em;
+}
+
+#techassist .techassist-item h4 {
+  font-size: 1.25em;
+}
+
 
 /**/
 
