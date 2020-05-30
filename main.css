@@ -1955,7 +1955,7 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Services End*/
 
 /*TechAssist*/
-#techassist .title {
+#techassist h2.title {
   tet-align: left;
 }
 
