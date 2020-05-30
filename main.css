@@ -1179,6 +1179,7 @@ div.col-md-10.col-md-offset-2 {
   background: var(--water);
   text-align: center;
   padding: 80px 0;
+
 }
 
 #techassist span.italics {
@@ -1952,6 +1953,18 @@ ul li a:hover+.hidden, .hidden:hover {
   text-align: left;
 }
 /*Services End*/
+
+/*TechAssist*/
+#techassist .subtitle {
+  text-align: left;
+}
+
+#techassist .techassist-item {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/**/
 
 
 }/*media 768px*/
