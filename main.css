@@ -1206,7 +1206,7 @@ div.col-md-10.col-md-offset-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #techassist .techassist-item {
@@ -1218,7 +1218,7 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #techassist .techassist-item i {
-  font-size: 3.75em;
+  font-size: 3em;
   /*60px*/
   color: var(--midnite);
 }
