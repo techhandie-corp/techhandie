@@ -1202,6 +1202,14 @@ div.col-md-10.col-md-offset-2 {
   font-style: normal !important;
 }
 
+#techassist .tech-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
 #techassist .techassist-item {
   padding-bottom: 30px;
 }
