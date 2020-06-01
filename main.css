@@ -1531,7 +1531,7 @@ div.col-md-10.col-md-offset-2 {
   opacity: 0.6;
 }
 
-#thank-you .row .no-gutters {
+#thank-you .row.no-gutters {
   height: auto;
 }
 
@@ -1542,7 +1542,7 @@ div.col-md-10.col-md-offset-2 {
   padding-bottom: 40px;
   height: 400px;
   width: 100%;
-  margin: auto 0% auto 63.55%;
+  margin: auto 0% auto 33%;/*63.55%*/
 }
 
 #thank-you .block h2 {
