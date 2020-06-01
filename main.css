@@ -1994,6 +1994,11 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Thank You Start*/
 #thank-you .block {
   margin-left: 5%;
+  text-align: left;
+}
+
+#thank-you-heading {
+  font-size: 2.5;
 }
 /*Thank You End*/
 
