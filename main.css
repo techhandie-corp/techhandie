@@ -1989,7 +1989,13 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 
 
-/**/
+/*Techassist End*/
+
+/*Thank You Start*/
+#thank-you .block {
+  margin-left: 5%;
+}
+/*Thank You End*/
 
 
 }/*media 768px*/
