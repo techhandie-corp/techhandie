@@ -1010,6 +1010,11 @@ div.col-md-10.col-md-offset-2 {
 
 /*-- Projects End --*/
 
+/*Landing Page Start*/
+#landing-body {
+  background-image: url("images\shift-868980_1920.jpg");
+}
+/*Landng Page End*/
 
 /*-- Service Start --*/
 #service {
@@ -1883,6 +1888,18 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 /*History End*/
 
+/*Landing Page Start*/
+#landing {
+
+}
+
+.land-container {
+
+}
+
+
+/*Landing Page End*/
+
 /*News Start*/
 #news {
   position:relative;
@@ -1936,7 +1953,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
 /*Projects*/
 
-/*Reqinfo*/
+/*Reqinfo Start*/
 #req-contact-form form .form-group .form-control {
   width: 95%;
 }
@@ -1945,7 +1962,7 @@ ul li a:hover+.hidden, .hidden:hover {
   margin-left: -30px;
 }
 
-/*ReqInfo*/
+/*ReqInfo End*/
 
 /*Services Start*/
 #service .title {
