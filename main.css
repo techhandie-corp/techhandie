@@ -1022,7 +1022,7 @@ div.col-md-10.col-md-offset-2 {
 
 }
 
-#landing .landing-container {
+.landing-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-areas:
@@ -1982,7 +1982,7 @@ ul li a:hover+.hidden, .hidden:hover {
   background-position: 70%;
 }
 
-#landing .landing-container {
+.landing-container {
   display: grid;
   grid-template-columns: auto;
   grid-template-areas:
@@ -1997,6 +1997,7 @@ ul li a:hover+.hidden, .hidden:hover {
   "contact"
   "mantra";
   margin-left: 20px;
+  color: white;
 }
 
 .land-title {
