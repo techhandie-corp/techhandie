@@ -1027,11 +1027,78 @@ div.col-md-10.col-md-offset-2 {
   grid-template-areas:
   "heading heading heading heading"
   "title title title title"
-  "subtitle subtitle subtitle subtitle"
-  "list list list list"
+  "subtitle1 subtitle1 subtitle1 subtitle1"
+  "subtitle2 subtitle2 subtitle2 subtitle2"
+  "list"
+  "list"
+  "list"
+  "list"
   "contact contact"
   "mantra mantra mantra mantra";
 }
+
+.land-title {
+  grid-area: heading;
+  grid-row: 1/2;
+  grid-column: 1/5;
+}
+
+.land-subtitle1 {
+  grid-area: title;
+  grid-row: 2/3;
+  grid-column: 1/5;
+}
+
+.land-subtitle2 {
+  grid-area: subtitle1;
+  grid-row: 3/4;
+  grid-column: 1/5;
+}
+
+.land-state {
+  grid-area: subtitle2;
+  grid-row: 4/5;
+  grid-column: 1/5;
+}
+
+.list1 {
+  grid-area: list;
+  grid-row: 5/6;
+  grid-column: 1/5;
+}
+
+.list2 {
+  grid-area: list;
+  grid-row: 6/7;
+  grid-column: 1/5;
+}
+
+.list3 {
+  grid-area: list;
+  grid-row: 7/8;
+  grid-column: 1/5;
+}
+
+.list4 {
+  grid-area: list;
+  grid-row: 8/9;
+  grid-column: 1/5;
+}
+
+.land-phone {
+  grid-area: contact;
+  grid-row: 9/10;
+  grid-column: 1/5;
+}
+
+.land-motto {
+  grid-area: mantra;
+  grid-row: 10/11;
+  grid-column: 1/5;
+}
+
+
+
 
 
 /*Landng Page End*/
@@ -1913,7 +1980,80 @@ ul li a:hover+.hidden, .hidden:hover {
   background-position: 70%;
 }
 
-.land-container {}
+#landing .landing-container {
+  display: grid;
+  grid-template-areas:
+  "heading"
+  "title"
+  "subtitle1"
+  "subtitle2"
+  "list"
+  "list"
+  "list"
+  "list"
+  "contact"
+  "mantra";
+}
+
+.land-title {
+  grid-area: heading;
+  grid-row: 1/2;
+  grid-column: 1/5;
+}
+
+.land-subtitle1 {
+  grid-area: title;
+  grid-row: 2/3;
+  grid-column: 1/5;
+}
+
+.land-subtitle2 {
+  grid-area: subtitle1;
+  grid-row: 3/4;
+  grid-column: 1/5;
+}
+
+.land-state {
+  grid-area: subtitle2;
+  grid-row: 4/5;
+  grid-column: 1/5;
+}
+
+.list1 {
+  grid-area: list;
+  grid-row: 5/6;
+  grid-column: 1/5;
+}
+
+.list2 {
+  grid-area: list;
+  grid-row: 6/7;
+  grid-column: 1/5;
+}
+
+.list3 {
+  grid-area: list;
+  grid-row: 7/8;
+  grid-column: 1/5;
+}
+
+.list4 {
+  grid-area: list;
+  grid-row: 8/9;
+  grid-column: 1/5;
+}
+
+.land-phone {
+  grid-area: contact;
+  grid-row: 9/10;
+  grid-column: 1/5;
+}
+
+.land-motto {
+  grid-area: mantra;
+  grid-row: 10/11;
+  grid-column: 1/5;
+}
 
 
 /*Landing Page End*/
