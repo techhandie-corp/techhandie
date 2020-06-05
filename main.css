@@ -1020,7 +1020,7 @@ div.col-md-10.col-md-offset-2 {
 
 }
 
-.landing-container {
+#landing .landing-container {
   width: 100%;
   height: 750px;
 }
