@@ -1996,7 +1996,7 @@ ul li a:hover+.hidden, .hidden:hover {
   color: white;
 }
 
-.land-link {
+a.landing-link {
   color: papayawhip;
   margin: 0 0 0 10px;
 }
