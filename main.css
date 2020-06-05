@@ -1013,7 +1013,7 @@ div.col-md-10.col-md-offset-2 {
 /*Landing Page Start*/
 #landing {
   background-image: url("images/shift-868980_1920.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* background-position: 10% 0%; */
@@ -1905,9 +1905,7 @@ ul li a:hover+.hidden, .hidden:hover {
   background-position: left top;
 }
 
-.land-container {
-
-}
+.land-container {}
 
 
 /*Landing Page End*/
