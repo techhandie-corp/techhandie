@@ -1996,6 +1996,7 @@ ul li a:hover+.hidden, .hidden:hover {
   "list"
   "contact"
   "mantra";
+  margin-left: 20px;
 }
 
 .land-title {
