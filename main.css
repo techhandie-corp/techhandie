@@ -1024,6 +1024,7 @@ div.col-md-10.col-md-offset-2 {
 
 #landing .landing-container {
   display: grid;
+  grid-template-columns: auto auto auto auto;
   grid-template-areas:
   "heading heading heading heading"
   "title title title title"
@@ -1035,6 +1036,7 @@ div.col-md-10.col-md-offset-2 {
   "list"
   "contact contact"
   "mantra mantra mantra mantra";
+  color: white;
 }
 
 .land-title {
@@ -1982,6 +1984,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
 #landing .landing-container {
   display: grid;
+  grid-template-columns: auto;
   grid-template-areas:
   "heading"
   "title"
