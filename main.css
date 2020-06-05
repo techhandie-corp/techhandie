@@ -1902,7 +1902,7 @@ ul li a:hover+.hidden, .hidden:hover {
 
 /*Landing Page Start*/
 #landing {
-  background-position: top;
+  background-position: left top;
 }
 
 .land-container {
