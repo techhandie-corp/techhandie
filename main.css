@@ -1011,6 +1011,10 @@ div.col-md-10.col-md-offset-2 {
 /*-- Projects End --*/
 
 /*Landing Page Start*/
+#landing-body {
+  background: black;
+}
+
 #landing {
   background-image: url("images/shift-868980_1920.jpg");
   background-size: cover;
@@ -1988,20 +1992,33 @@ ul li a:hover+.hidden, .hidden:hover {
   "list-5"
   "l-contact"
   "mantra";
-  margin-left: 20px;
+  margin: 40px 0 0 20px;
   color: white;
+}
+
+.listgroup a {color: papayawhip;}
+
+.list-group {
+  padding: 0 0 20px 0;
+  font-size:1.2em;
 }
 
 .land-title {
   grid-area: l-title;
   grid-row: 1/2;
   grid-column: 1/2;
+  margin: 0 0 10px 0;
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
 .land-subtitle {
   grid-area: l-subtitle;
   grid-row: 2/3;
   grid-column: 1/2;
+  margin: 0 0 10px 0;
+  font-size: 1.125em;
+  font-style: pblique;
 }
 
 .list1 {
@@ -2038,6 +2055,7 @@ ul li a:hover+.hidden, .hidden:hover {
   grid-area: l-contact;
   grid-row: 8/9;
   grid-column: 1/2;
+  margin: 20px 0;
 }
 
 .land-motto {
