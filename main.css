@@ -1992,11 +1992,14 @@ ul li a:hover+.hidden, .hidden:hover {
   "list-5"
   "l-contact"
   "mantra";
-  margin: 40px 0 0 20px;
+  margin: 100px 0 0 20px;
   color: white;
 }
 
-.listgroup a {color: papayawhip;}
+.land-link {
+  color: papayawhip;
+  margin: 0 0 0 10px;
+}
 
 .list-group {
   padding: 0 0 20px 0;
