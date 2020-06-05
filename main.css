@@ -1026,76 +1026,69 @@ div.col-md-10.col-md-offset-2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-areas:
-  "heading heading heading heading"
-  "title title title title"
-  "subtitle1 subtitle1 subtitle1 subtitle1"
-  "subtitle2 subtitle2 subtitle2 subtitle2"
-  "list"
-  "list"
-  "list"
-  "list"
-  "contact contact"
+  "l-title l-title l-title l-title"
+  "l-subtitle l-subtitle l-subtitle l-subtitle"
+  "list-1"
+  "list-2"
+  "list-3"
+  "list-4"
+  "list-5"
+  "l-contactl- contact"
   "mantra mantra mantra mantra";
   color: white;
 }
 
 .land-title {
-  grid-area: heading;
+  grid-area: l-title;
   grid-row: 1/2;
   grid-column: 1/5;
 }
 
-.land-subtitle1 {
-  grid-area: title;
+.land-subtitle {
+  grid-area: l-subtitle;
   grid-row: 2/3;
   grid-column: 1/5;
 }
 
-.land-subtitle2 {
-  grid-area: subtitle1;
-  grid-row: 3/4;
-  grid-column: 1/5;
-}
-
-.land-state {
-  grid-area: subtitle2;
-  grid-row: 4/5;
-  grid-column: 1/5;
-}
-
 .list1 {
-  grid-area: list;
-  grid-row: 5/6;
-  grid-column: 1/5;
+  grid-area: list-1;
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
 
 .list2 {
-  grid-area: list;
-  grid-row: 6/7;
-  grid-column: 1/5;
+  grid-area: list-2;
+  grid-row: 4/5;
+  grid-column: 1/2;
 }
 
 .list3 {
-  grid-area: list;
-  grid-row: 7/8;
-  grid-column: 1/5;
+  grid-area: list-3;
+  grid-row: 5/6;
+  grid-column: 1/2;
 }
 
 .list4 {
-  grid-area: list;
-  grid-row: 8/9;
-  grid-column: 1/5;
+  grid-area: list-4;
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+
+.list5 {
+  grid-area: list-5;
+  grid-row: 7/8;
+  grid-column: 1/2;
 }
 
 .land-phone {
-  grid-area: contact;
-  grid-row: 9/10;
-  grid-column: 1/5;
+  grid-area: l-contact;
+  grid-row: 8/9;
+  grid-column: 3/4;
 }
 
 .land-motto {
   grid-area: mantra;
-  grid-row: 10/11;
+  grid-row: 9/10;
   grid-column: 1/5;
 }
 
@@ -1986,78 +1979,71 @@ ul li a:hover+.hidden, .hidden:hover {
   display: grid;
   grid-template-columns: auto;
   grid-template-areas:
-  "heading"
-  "title"
-  "subtitle1"
-  "subtitle2"
-  "list"
-  "list"
-  "list"
-  "list"
-  "contact"
+  "l-title"
+  "l-subtitle"
+  "list-1"
+  "list-2"
+  "list-3"
+  "list-4"
+  "list-5"
+  "l-contact"
   "mantra";
   margin-left: 20px;
   color: white;
 }
 
 .land-title {
-  grid-area: heading;
+  grid-area: l-title;
   grid-row: 1/2;
-  grid-column: 1/5;
+  grid-column: 1/2;
 }
 
-.land-subtitle1 {
-  grid-area: title;
+.land-subtitle {
+  grid-area: l-subtitle;
   grid-row: 2/3;
-  grid-column: 1/5;
-}
-
-.land-subtitle2 {
-  grid-area: subtitle1;
-  grid-row: 3/4;
-  grid-column: 1/5;
-}
-
-.land-state {
-  grid-area: subtitle2;
-  grid-row: 4/5;
-  grid-column: 1/5;
+  grid-column: 1/2;
 }
 
 .list1 {
-  grid-area: list;
-  grid-row: 5/6;
-  grid-column: 1/5;
+  grid-area: list-1;
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
 
 .list2 {
-  grid-area: list;
-  grid-row: 6/7;
-  grid-column: 1/5;
+  grid-area: list-2;
+  grid-row: 4/5;
+  grid-column: 1/2;
 }
 
 .list3 {
-  grid-area: list;
-  grid-row: 7/8;
-  grid-column: 1/5;
+  grid-area: list-3;
+  grid-row: 5/6;
+  grid-column: 1/2;
 }
 
 .list4 {
-  grid-area: list;
-  grid-row: 8/9;
-  grid-column: 1/5;
+  grid-area: list-4;
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+
+.list5 {
+  grid-area: list-5;
+  grid-row: 7/8;
+  grid-column: 1/2;
 }
 
 .land-phone {
-  grid-area: contact;
-  grid-row: 9/10;
-  grid-column: 1/5;
+  grid-area: l-contact;
+  grid-row: 8/9;
+  grid-column: 1/2;
 }
 
 .land-motto {
   grid-area: mantra;
-  grid-row: 10/11;
-  grid-column: 1/5;
+  grid-row: 9/10;
+  grid-column: 1/2;
 }
 
 
