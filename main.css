@@ -1023,7 +1023,14 @@ div.col-md-10.col-md-offset-2 {
 }
 
 #landing .landing-container {
-
+  display: grid;
+  grid-template-areas:
+  "heading heading heading heading"
+  "title title title title"
+  "subtitle subtitle subtitle subtitle"
+  "list list list list"
+  "contact contact"
+  "mantra mantra mantra mantra";
 }
 
 
