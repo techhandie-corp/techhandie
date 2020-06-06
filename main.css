@@ -2011,8 +2011,9 @@ a.landing-link {
   grid-row: 1/2;
   grid-column: 1/2;
   margin: 0 0 10px 0;
-  font-size: 1.125em;
+  font-size: 1.175em;
   font-weight: 500;
+  margin-left: -12px;
 }
 
 .land-subtitle {
@@ -2021,7 +2022,7 @@ a.landing-link {
   grid-column: 1/2;
   margin: 0 0 10px 0;
   font-size: 1.125em;
-  font-style: pblique;
+  font-style: oblique;
 }
 
 .list1 {
@@ -2059,12 +2060,15 @@ a.landing-link {
   grid-row: 8/9;
   grid-column: 1/2;
   margin: 20px 0;
+  font-size: 1.2em;
 }
 
 .land-motto {
   grid-area: mantra;
   grid-row: 9/10;
   grid-column: 1/2;
+  font-size: 1.125em;
+  font-style: oblique;
 }
 
 
