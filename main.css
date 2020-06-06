@@ -2164,13 +2164,14 @@ a.landing-link {
 
 #techassist .subtitle {
   text-align: left;
-  font-size: 1.14em;
+  font-size: 1.14em;s
   line-height: 1.5;
 }
 
 #techassist .techassist-item p {
   font-size: 1em;
   line-height: 1.5;
+  text-align: left;
 }
 
 #techassist .techassist-item i {
