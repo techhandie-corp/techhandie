@@ -1977,6 +1977,7 @@ ul li a:hover+.hidden, .hidden:hover {
 /*Landing Page Start*/
 #landing {
   background-position: 70%;
+  height: 600px;
 }
 
 .landing-container {
@@ -1997,13 +1998,14 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 
 a.landing-link {
-  color: papayawhip;
+  color: var(--cottonblue);
   margin: 0 0 0 10px;
 }
 
 .list-group {
   padding: 0 0 20px 0;
   font-size:1.2em;
+  margin-left: 10px;
 }
 
 .land-title {
@@ -2020,7 +2022,7 @@ a.landing-link {
   grid-area: l-subtitle;
   grid-row: 2/3;
   grid-column: 1/2;
-  margin: 0 0 10px 0;
+  margin: 0;
   font-size: 1.125em;
   font-style: oblique;
 }
