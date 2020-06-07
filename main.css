@@ -1040,6 +1040,7 @@ div.col-md-10.col-md-offset-2 {
   "l-contactl- contact"
   "mantra mantra mantra mantra";
   color: white;
+  margin: 40px 0 0 40px;
 }
 
 a.landing-link {
@@ -1104,12 +1105,16 @@ a.landing-link {
   grid-area: l-contact;
   grid-row: 8/9;
   grid-column: 3/5;
+  font-size: 2em;
+  margin: 40px 0;
 }
 
 .land-motto {
   grid-area: mantra;
   grid-row: 9/10;
   grid-column: 1/5;
+  font-size: 1.75em;
+  font-style: oblique;
 }
 
 
