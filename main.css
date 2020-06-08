@@ -2097,6 +2097,7 @@ a.landing-link {
   grid-column: 1/2;
   font-size: 1.125em;
   font-style: oblique;
+  text-align: left;
 }
 
 
