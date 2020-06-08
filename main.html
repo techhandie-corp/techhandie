@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>TechHandie Corporation</title>
+	<title>Main - TechHandie Corporation</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -37,9 +37,13 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+	<!--Swup Library-->
+	<script defer src="node_modules\swup\dist\swup.min.js"></script><!--defer ensures swup loads after html-->
+	<script defer src="script.js"></script><!--creates Swup class instances-->
+
 </head>
 
-<body id="landing-body">
+<body>
 
 	<div id="site-container">
 
@@ -103,17 +107,20 @@
 		<!--Header End-->
 
 		<!-- Content Start -->
-		<section id="landing">
-			<div class="landing-container">
-				<div class="land-title">TechHandie puts you in the driver's seat</div>
-				<div class="land-subtitle">with ...</div><!--Small & Mid-size Businesses | Non-profits-->
-					<div class="list-group list1"><span class="landing-item"><i class="fas fa-hand-point-right"></i><a class="landing-link" href="https://techhandie.com/services#design">actionable websites</a></span></div>
-					<div class="list-group list2"><span class="landing-item"><i class="fas fa-hand-point-right"></i><a class="landing-link" href="https://techhandie.com/services#ecommerce">ecommerce solutions</a></span></div>
-					<div class="list-group list3"><span class="landing-item"><i class="fas fa-hand-point-right"></i><a class="landing-link" href="https://techhandie.com/techassist#seo">seo marketability</a></span></div>
-					<div class="list-group list4"><span class="landing-item"><i class="fas fa-hand-point-right"></i><a class="landing-link" href="https://techhandie.com/techassist#book">electronic bookkeeping</a></span></div>
-					<div class="list-group list5"><span class="landing-item"><i class="fas fa-hand-point-right"></i><a class="landing-link" href="https://techhandie.com/techassist#report">adhoc reporting</a></span></div>
-				<div class="land-phone">Call 201-817-9827 | <a class="landing-link" href="https://techhandie.com/reqinfo">Request info</a></div>
-				<div class="land-motto">"Fit the technology to your business"</div>
+		<section id="swup" class="content transition-fade">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-2">
+						<div class="block">
+							<h2>"Fit the technology to your business"</h2>
+							<!--<h3><i>Mantra</i></h3>-->
+							<br>
+							<p>The focus is business - your business</p>
+							<p>Understanding your business and vision</p>
+							<p>Not with a ‘one size fits all’ or ‘the latest is the greatest’ approach, but by taking the time to understand your business and what technologies will provide the right fit.</p>
+						</div><!-- block -->
+					</div><!-- md10-2 -->
+				</div><!-- row -->
 			</div><!-- container -->
 		</section>
 		<!-- Content End -->
@@ -124,8 +131,8 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<div id="block">
-							<h5 class="modal-title" id="exampleModalLabel">Get Started Today!</h5>
-							<h4 class="instruct">Complete & Send</h4>
+							<h5 class="modal-title" id="exampleModalLabel">Need Information</h5>
+							<h4 class="instruct">Please complete and send</h4>
 						</div><!--block-->
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">×</span>
@@ -208,7 +215,7 @@
 		$(document).ready(function() {
 			setTimeout(function() {
 				$("#exampleModal").modal('show');
-			}, 20000); //90sec or 1.5min delay
+			}, 40000); //90sec or 1.5min delay
 		});
 	</script>
 

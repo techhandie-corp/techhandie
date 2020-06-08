@@ -88,6 +88,19 @@
   text-decoration: solid var(--coal) 4px;
 }
 
+/*page transition in 5000ms*/
+.transition-fade {
+  opacity: 1;
+  transition: 5000ms;
+}
+
+/*page transition fade animation*/
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+
+
 /**********************/
 #site-container {
   width: 100vw;
@@ -368,7 +381,7 @@ h1.weighty {
   color: #120337;
 }
 
-#content {
+#swup.content {
   background-image: url("images/Brooklyn-Bridge-Under-Construction-1883.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -378,7 +391,7 @@ h1.weighty {
   z-index:-1;
 }
 
-#content:before {
+#swup.content:before {
   content: "";
   position: absolute;
   left: 0;
@@ -392,11 +405,11 @@ h1.weighty {
   opacity: 0.5;
 }
 
-#content .block {
+#swup.content .block {
   color: var(--obsidian);
 }
 
-#content .block p {
+#swup.content .block p {
   color: vaar(--obsidian);
   font-size: 23px;
   line-height: 40px;
@@ -409,7 +422,7 @@ div.col-md-10.col-md-offset-2 {
   margin: auto 0% auto 5%;
 }
 
-#content .block h2 {
+#swup.content .block h2 {
   font-weight: 600;
   color: var(--obsidian);
 }
@@ -1015,7 +1028,7 @@ div.col-md-10.col-md-offset-2 {
   background: #000d10;
 }
 
-#landing {
+#swup.landing {
   background-image: url("images/shift-868980_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2001,7 +2014,7 @@ ul li a:hover+.hidden, .hidden:hover {
 /*History End*/
 
 /*Landing Page Start*/
-#landing {
+#swup.landing {
   background-position: 70%;
   height: 575px;
 }
