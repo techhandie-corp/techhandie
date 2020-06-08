@@ -1136,12 +1136,12 @@ a.landing-link {
 }
 
 #service i {
-  font-size: 35px;
+  font-size: 2.1875em;
   color: var(--midnite);
 }
 
 #service .fa-phone {
-  font-size: 3.0625em;
+  font-size: 2.1875em;
   /*30px;*/
 }
 
