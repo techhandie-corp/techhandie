@@ -1,5 +1,5 @@
 # TechHandie Corporation website
-* the official company site
+####the official company site
 ### Github Repo: techhandie
 ### Development URL: https://www.techhandie.com/
 #### Local path: C:\Users\Kenneth\Documents\GitHub\techhandie
