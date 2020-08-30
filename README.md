@@ -11,3 +11,6 @@ input form-control for fields
 
 ### Contact form
 id c-contact-form
+
+###Projects
+<code style="font-size:1.25rem;color:darkorchid;">[Under the Hood](https://www.kayceejjay.com/kensShop "Ken's Shop")</code>
