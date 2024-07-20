@@ -1,164 +1,312 @@
 <!DOCTYPE html>
 <html class="no-js">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>History</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>History</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-touch-icon-152x152.png"
+    />
 
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <!--Canonical URL -->
+    <!--<link rel="canonical" href="{{ page.url | prepend: site.url }}"/>-->
 
-	<!--Canonical URL -->
-	<!--<link rel="canonical" href="{{ page.url | prepend: site.url }}"/>-->
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="main.css" type="text/css" />
 
-	<!-- External Stylesheet -->
-	<link rel="stylesheet" href="main.css" type="text/css">
+    <!-- SEO Tag Setup -->
+    <!--{% seo %}-->
 
-	<!-- SEO Tag Setup -->
-	<!--{% seo %}-->
+    <!--Font-Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
 
-	<!--Font-Awesome-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="site-container">
+      <!--Header Start-->
+      <header>
+        <div id="navbar">
+          <div id="brand">
+            <a href="https://www.techhandie.com/main">TechHandie Corporation</a>
+          </div>
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+          <nav>
+            <ul id="nav">
+              <li><a href="https://www.techhandie.com/news">News</a></li>
+              <li>
+                <a href="https://www.techhandie.com/services">Services</a>
+                <ul>
+                  <li>
+                    <a href="https://www.techhandie.com/services#develop"
+                      >Development</a
+                    >
+                    <ul>
+                      <li>
+                        <a href="https://www.techhandie.com/services#design"
+                          >Web Design</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.techhandie.com/services#ecommerce"
+                          >Ecommerce Solutions</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://www.techhandie.com/techassist"
+                      >Technical Assistance</a
+                    >
+                    <ul>
+                      <li>
+                        <a href="https://www.techhandie.com/techassist#report"
+                          >Data Analysis</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.techhandie.com/techassist#seo"
+                          >Search Engine Optimization</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://www.techhandie.com/reqinfo"
+                      >Request Information</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="https://www.techhandie.com/projects">Projects</a>
+                <ul>
+                  <li>
+                    <a href="https://www.techhandie.com/projects#juicedbyj"
+                      >Juiced by J</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.techhandie.com/projects#cornerstone"
+                      >Cornerstone CDC</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.techhandie.com/projects#trbca"
+                      >TRBCA</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.techhandie.com/projects#kayman"
+                      >The Kayman</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.kayceejjay.com/kensShop/">Portfolio</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="https://www.techhandie.com/history">History</a></li>
+              <li><a href="https://www.techhandie.com/contact">Contact</a></li>
+            </ul>
+            <!-- nav -->
+          </nav>
+        </div>
+        <!--navbar-->
+        <section id="mobile">
+          <input type="checkbox" id="show-menu" role="button" />
+          <label for="show-menu" class="show-menu"
+            ><i class="fas fa-bars"></i>&nbsp;&nbsp;<span class="brand"
+              >TechHandie Corporation</span
+            ></label
+          >
+          <ul id="menu">
+            <li><a href="https://www.techhandie.com/index">Home</a></li>
+            <li><a href="https://www.techhandie.com/history">History</a></li>
+            <li><a href="https://www.techhandie.com/services">Services</a></li>
+            <li>
+              <a href="https://www.techhandie.com/techassist"
+                >Technical Assistance</a
+              >
+            </li>
+            <li><a href="https://www.techhandie.com/projects">Projects</a></li>
+            <li><a href="https://www.techhandie.com/news">News</a></li>
+            <li><a href="https://www.techhandie.com/contact">Contact Us</a></li>
+          </ul>
+        </section>
+        <!--mobile-->
+      </header>
+      <!--Header End-->
 
-</head>
-<body>
+      <!-- Content Start -->
+      <section id="history">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <div class="block">
+                <div class="section-title">
+                  <h2>The Journey</h2>
+                  <ul class="bullet1">
+                    <li>
+                      Worked in the healthcare industry in account receivable
+                      and revenue cycle management
+                    </li>
+                    <li>
+                      Possess a MBA degree with a concentration in
+                      Entrepreneurial Studies
+                    </li>
+                    <li>Trained in full stack development</li>
+                  </ul>
 
-  <div id="site-container">
+                  <p>
+                    Throughout my career there has always been some unforeseen
+                    challenge, some inevitable response to change that presented
+                    itself: a challenge that taxed the systems and processes in
+                    place; a challenge that was beyond the scope of the
+                    available technology. My response, Innovate. Go outside the
+                    conventional, the established way of thinking and doing
+                    things: build alliances, ferret underutilized resources, and
+                    reconfigure existing technology, to address the need and
+                    achieve the desired outcome.
+                  </p>
 
-		<!--Header Start-->
-		<header>
-			<div id="navbar">
-				<div id="brand"><a href="https://www.techhandie.com/main">TechHandie Corporation</a></div>
+                  <h2>The Purpose</h2>
+                  <p>
+                    I volunteer my time and expertise in running a nonprofit
+                    that serves the community through entrepreneurship,
+                    partnership, and education. It has been a 12 year labor of
+                    love. Here I “cut my teeth” in web design and development.
+                    It was not planned that way. I did it simply because
+                    something needed to be done and technology presented the
+                    most cost effective way to do it. Technology helped us to
+                    compete and “do much with little”, while not losing sight of
+                    our core values and business objectives.
+                  </p>
 
-				<nav>
-					<ul id="nav">
-						<li><a href="https://www.techhandie.com/news">News</a></li>
-						<li><a href="https://www.techhandie.com/services">Services</a>
-							<ul>
-								<li><a href="https://www.techhandie.com/services#develop">Development</a>
-									<ul>
-										<li><a href="https://www.techhandie.com/services#design">Web Design</a></li>
-										<li><a href="https://www.techhandie.com/services#ecommerce">Ecommerce Solutions</a></li>
-									</ul>
-								</li>
-								<li><a href="https://www.techhandie.com/techassist">Technical Assistance</a>
-									<ul>
-										<li><a href="https://www.techhandie.com/techassist#report">Adhoc Reporting</a></li>
-										<li><a href="https://www.techhandie.com/techassist#book">Bookkeeping</a></li>
-										<li><a href="https://www.techhandie.com/techassist#seo">Search Engine Optimization</a></li>
-										<li><a href="https://www.techhandie.com/techassist#promotion">Marketing Materials</a></li>
-									</ul>
-								</li>
-								<li><a href="https://www.techhandie.com/reqinfo">Request Information</a></li>
-							</ul>
-						</li>
-						<li><a href="https://www.techhandie.com/projects">Projects</a>
-							<ul>
-								<li><a href="https://www.techhandie.com/projects#juicedbyj">Juiced by J</a></li>
-								<li><a href="https://www.techhandie.com/projects#cornerstone">Cornerstone CDC</a></li>
-								<li><a href="https://www.techhandie.com/projects#trbca">TRBCA</a></li>
-								<li><a href="https://www.techhandie.com/projects#kayman">The Kayman</a></li>
-								<li><a href="https://www.kayceejjay.com/kensShop/">Portfolio</a></li>
-							</ul>
-						</li>
-						<li><a href="https://www.techhandie.com/history">History</a></li>
-						<li><a href="https://www.techhandie.com/contact">Contact</a></li>
-					</ul><!-- nav -->
-				</nav>
+                  <p>
+                    Collectively, these experiences have been the impetus and
+                    genesis of the TechHandie Corporation. TechHandie
+                    Corporation is purposed to serve the small business and
+                    non-profit communities through the coupling of business
+                    acumen and technology.
+                  </p>
 
-			</div>
-			<!--navbar-->
-			<section id="mobile">
-				<input type="checkbox" id="show-menu" role="button" />
-				<label for="show-menu" class="show-menu"><i class="fas fa-bars"></i>&nbsp;&nbsp;<span class="brand">TechHandie Corporation</span></label>
-				<ul id="menu">
-					<li><a href="https://www.techhandie.com/index">Home</a></li>
-					<li><a href="https://www.techhandie.com/history">History</a></li>
-					<li><a href="https://www.techhandie.com/services">Services</a></li>
-					<li><a href="https://www.techhandie.com/techassist">Technical Assistance</a></li>
-					<li><a href="https://www.techhandie.com/projects">Projects</a></li>
-					<li><a href="https://www.techhandie.com/news">News</a></li>
-					<li><a href="https://www.techhandie.com/contact">Contact Us</a></li>
-				</ul>
-			</section><!--mobile-->
-		</header>
-		<!--Header End-->
+                  <h2>TechHandie is founded on this principle</h2>
+                  <p>
+                    <span
+                      ><strong
+                        >Business is the driver. Technology is the
+                        inspiration.</strong
+                      ></span
+                    >
+                  </p>
+                  <p>
+                    Understand the business and its vision. Understand the
+                    problem or challenge. Develop a custom web based
+                    solution(s).
+                  </p>
 
-	<!-- Content Start -->
-		<section id="history">
-		  <div class="container">
-			<div class="row">
-			  <div class="col-md-7 col-sm-12">
-				<div class="block">
-				  <div class="section-title">
-					<h2>The Journey</h2>
-					  <ul class="bullet1">
-						  <li>Worked in the  healthcare industry in account receivable and revenue cycle management</li>
-						  <li>Possess a MBA degree with a concentration in Entrepreneurial Studies</li>
-						  <li>Trained in full stack development</li>
-					  </ul>
+                  <div class="signoff">
+                    <p>Kenneth Jones<span> - Founder</span></p>
+                  </div>
+                  <!-- signoff -->
+                </div>
+                <!-- section-title -->
+              </div>
+              <!-- block -->
+            </div>
+            <!-- md7-sm12 -->
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </section>
 
-					  <p>Throughout my career there has always been some unforeseen challenge, some inevitable response to change that presented itself: a challenge that taxed the systems and processes in place; a challenge that was beyond the scope of the available technology. My response, Innovate. Go outside the conventional, the established way of thinking and doing things: build alliances, ferret underutilized resources, and reconfigure existing technology, to address the need and achieve the desired outcome.</p>
+      <!-- Footer Start -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-manu">
+                <ul>
+                  <li>
+                    <a href="https://www.techhandie.com/history">About Us</a>
+                  </li>
+                  <li>
+                    <a href="https://www.techhandie.com/contact">Contact us</a>
+                  </li>
+                  <li><a href="https://www.techhandie.com/news">News</a></li>
+                </ul>
+              </div>
+              <p>
+                Copyright &copy; 2020
+                <a href="https://www.techhandie.com/main"
+                  >&nbsp;|&nbsp;TechHandie Corporation</a
+                >&nbsp;|&nbsp;All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--sitecontainer-->
 
-					  <h2>The Purpose</h2>
-					  <p>I volunteer my time and expertise in running a nonprofit that serves the community through entrepreneurship, partnership, and education. It has been a 12 year labor of love. Here I “cut my teeth” in web design and development. It was not planned that way. I did it simply because something needed to be done and technology presented the most cost effective way to do it. Technology helped us to compete and “do much with little”, while not losing sight of our core values and business objectives.</p>
-
-					  <p>Collectively, these experiences have been the impetus and genesis of the TechHandie Corporation. TechHandie Corporation is purposed to serve the small business and non-profit communities through the coupling of business acumen and technology.</p>
-
-					  <h2>TechHandie is founded on this  principle</h2>
-					  <p><span><strong>Business is the driver. Technology is the inspiration.</strong></span></p>
-					  <p>Understand the business and its vision. Understand the problem or challenge. Develop a  custom web based solution(s).</p>
-
-					  <div class="signoff"><p>Kenneth Jones<span> - Founder</span></p></div><!-- signoff -->
-				  </div><!-- section-title -->
-				</div><!-- block -->
-			  </div><!-- md7-sm12 -->
-			</div><!-- row -->
-		  </div><!-- container -->
-		</section>
-
-	<!-- Footer Start -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="footer-manu">
-							<ul>
-								<li><a href="https://www.techhandie.com/history">About Us</a></li>
-								<li><a href="https://www.techhandie.com/contact">Contact us</a></li>
-								<li><a href="https://www.techhandie.com/news">News</a></li>
-							</ul>
-						</div>
-						<p>Copyright &copy; 2020 <a href="https://www.techhandie.com/main">&nbsp;|&nbsp;TechHandie Corporation</a>&nbsp;|&nbsp;All rights reserved.</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-	</div><!--sitecontainer-->
-
-
-
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
