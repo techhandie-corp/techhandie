@@ -2,10 +2,11 @@
 	body {color:indigo;}
 </style>
 
-#<div style="text-align:center">PROJECT STATUS</div>
-###Name: TechHandie Corporation
-###URL: <a href="https://www.techhandie.com/main">TechHandie Corporation</a>
-###Repository: <a href="https://github.com/techhandie-corp/techhandie.git">techhandie</a>
+<div style="text-align:center">PROJECT STATUS</div>
+### Name: TechHandie Corporation
+### URL: <a href="https://www.techhandie.com/main">TechHandie Corporation</a>
+### Repository: <a href="https://github.com/techhandie-corp/techhandie.git">techhandie</a>
+<br />
 
 <hr>
 <h2>To Do</h2>
