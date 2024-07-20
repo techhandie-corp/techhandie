@@ -2,13 +2,10 @@
 	body {color:indigo;}
 </style>
 
-<div style="text-align:center">PROJECT STATUS</div>
-### Name: TechHandie Corporation
-### URL: <a href="https://www.techhandie.com/main">TechHandie Corporation</a>
-### Repository: <a href="https://github.com/techhandie-corp/techhandie.git">techhandie</a>
-<br />
-
-<hr>
+<div style="text-align:center; font-size: 2rem;">PROJECT STATUS</div>
+<h2>Name:&nbsp;&nbsp;<span style="color:papayawhip">TechHandie Corporation</span></h2>
+<h2>URL:&nbsp;&nbsp;<a href="https://www.techhandie.com/main">TechHandie Corporation</a></h2>
+<h2>Repository:&nbsp;&nbsp;<a href="https://github.com/techhandie-corp/techhandie.git">techhandie</a></h2>
 <h2>To Do</h2>
 
 - [x] <p style="font-size:1.25em;">Setup News & Thankyou pages</p>
